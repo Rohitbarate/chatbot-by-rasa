@@ -96,3 +96,1356 @@ rules:
   steps:
   - intent: nic
   - action: utter_nic
+
+- rule: Respond to questions about the vision of NCER
+  steps:
+  - intent: about_ncer_vision
+  - action: utter_about_ncer_vision
+
+- rule: Respond to questions about NCER's mission statements
+  steps:
+  - intent: mission_statements
+  - action: utter_mission_statements
+
+- rule: Respond to questions about EOMS policy at NCER
+  steps:
+  - intent: eoms_policy
+  - action: utter_eoms_policy
+
+- rule: Respond to questions about NCER's short-term goals
+  steps:
+  - intent: short_term_goals
+  - action: utter_short_term_goals
+
+- rule: Respond to questions about short-term goals related to teaching and learning at NCER
+  steps:
+  - intent: continual_improvements
+  - action: utter_continual_improvements
+
+- rule: Respond to questions about NCER's contribution to career growth through scientific and technical skills
+  steps:
+  - intent: scientific_and_technical_skills
+  - action: utter_scientific_and_technical_skills
+
+- rule: Respond to questions about short-term goals related to staff at NCER
+  steps:
+  - intent: staff_competencies
+  - action: utter_staff_competencies
+
+- rule: Respond to questions about short-term goals related to compliance and social responsibilities at NCER
+  steps:
+  - intent: compliance_and_social_responsibilities
+  - action: utter_compliance_and_social_responsibilities
+
+- rule: Respond to questions about the vision of EOMS at NCER
+  steps:
+  - intent: eoms_vision
+  - action: utter_eoms_vision
+
+- rule: Respond to questions about the mission of EOMS at NCER
+  steps:
+  - intent: eoms_mission
+  - action: utter_eoms_mission
+
+- rule: Respond to questions about the basic objective of RTI at NCER
+  steps:
+  - intent: rti_objective
+  - action: utter_rti_objective
+
+- rule: Respond to questions about roles and responsibilities related to RTI at NCER
+  steps:
+  - intent: rti_roles_and_responsibilities
+  - action: utter_rti_roles_and_responsibilities
+
+- rule: Respond to questions about core values of NCER
+  steps:
+  - intent: core_values
+  - action: utter_core_values
+
+- rule: Respond to questions about environmental sustainability at NCER
+  steps:
+  - intent: environmental_sustainability
+  - action: utter_environmental_sustainability
+
+- rule: Respond to questions about unity at NCER
+  steps:
+  - intent: unity
+  - action: utter_unity
+
+- rule: Respond to questions about responsibility and reliability at NCER
+  steps:
+  - intent: responsibility_reliability
+  - action: utter_responsibility_reliability
+
+- rule: Respond to questions about commitment at NCER
+  steps:
+  - intent: commitment
+  - action: utter_commitment
+
+- rule: Respond to questions about competency at NCER
+  steps:
+  - intent: competency
+  - action: utter_competency
+
+- rule: Respond to questions about self-esteem and gratitude at NCER
+  steps:
+  - intent: self_esteem_gratitude
+  - action: utter_self_esteem_gratitude
+
+- rule: Respond to questions about excellence at NCER
+  steps:
+  - intent: excellence
+  - action: utter_excellence
+
+- rule: Respond to questions about integrity at NCER
+  steps:
+  - intent: integrity
+  - action: utter_integrity
+
+- rule: Respond to questions about quality at NCER
+  steps:
+  - intent: quality
+  - action: utter_quality
+
+- rule: Respond to questions about gender equality at NCER
+  steps:
+  - intent: gender_equality
+  - action: utter_gender_equality
+
+- rule: Respond to questions about academic review meetings frequency at NCER
+  steps:
+  - intent: strategic_plan_monitoring
+  - action: utter_academic_review_meetings_frequency
+
+- rule: Respond to questions about alumni meetings frequency at NCER
+  steps:
+  - intent: alumni_meeting_frequency
+  - action: utter_alumni_meetings_frequency
+
+- rule: Respond to questions about Governing Body meetings frequency at NCER
+  steps:
+  - intent: governing_body_meeting_frequency
+  - action: utter_gb_meetings_frequency
+
+- rule: Respond to questions about semester audit frequency at NCER
+  steps:
+  - intent: semester_audit
+  - action: utter_semester_audit_frequency
+
+- rule: Respond to questions about weekly HOD meetings frequency at NCER
+  steps:
+  - intent: weekly_hod_meetings
+  - action: utter_weekly_hod_meetings_frequency
+
+- rule: Respond to questions about parent meetings frequency at NCER
+  steps:
+  - intent: parent_meeting_frequency
+  - action: utter_parent_meetings_frequency
+
+- rule: Respond to questions about departmental students association meetings frequency at NCER
+  steps:
+  - intent: departmental_students_association_meeting
+  - action: utter_departmental_students_association_meetings_frequency
+
+- rule: Respond to questions about purchase section meetings frequency at NCER
+  steps:
+  - intent: purchase_section_meeting
+  - action: utter_purchase_section_meetings_frequency
+
+- rule: Respond to questions about departmental meetings frequency at NCER
+  steps:
+  - intent: departmental_meetings_frequency
+  - action: utter_departmental_meetings_frequency
+
+- rule: Respond to questions about monitoring activities at NCER
+  steps:
+  - intent: activities_monitoring
+  - action: utter_activities_monitoring
+
+- rule: Say 'long_term_goals' anytime the user asks about the accreditation goals of NCER
+  steps:
+  - intent: long_term_goals
+  - action: utter_long_term_goals
+
+- rule: Say 'academic_growth' anytime the user asks about the long-term goals related to academics at NCER
+  steps:
+  - intent: academic_growth
+  - action: utter_academic_growth
+
+- rule: Say 'ipr_culture' anytime the user inquires about how NCER aims to promote an IPR culture
+  steps:
+  - intent: ipr_culture
+  - action: utter_ipr_culture
+
+- rule: Say 'faculty_research' anytime the user asks about the long-term goals related to faculty research at NCER
+  steps:
+  - intent: faculty_research
+  - action: utter_faculty_research
+
+- rule: Say 'industry_collaboration' anytime the user inquires about the aim of building strong Industry Institute collaborations at NCER
+  steps:
+  - intent: industry_collaboration
+  - action: utter_industry_collaboration
+
+- rule: Say 'entrepreneurship' anytime the user asks about the percentage of entrepreneurs NCER aims to create in the long term
+  steps:
+  - intent: entrepreneurship
+  - action: utter_entrepreneurship
+
+- rule: Say 'nirf_ranking' anytime the user asks about the year NCER aims to be in the list of top 200 institutes in NIRF ranking
+  steps:
+  - intent: nirf_ranking
+  - action: utter_nirf_ranking
+
+- rule: Say 'revenue_generation' anytime the user inquires about how NCER plans to earn revenue in the long term
+  steps:
+  - intent: revenue_generation
+  - action: utter_revenue_generation
+
+- rule: Say 'innovation_center' anytime the user asks about what NCER plans to establish in the long term related to innovation
+  steps:
+  - intent: innovation_center
+  - action: utter_innovation_center
+
+- rule: Say 'faculty_training' anytime the user asks about the skill development goal for faculties in the long term
+  steps:
+  - intent: faculty_training
+  - action: utter_faculty_training
+
+- rule: Say 'short_term_goals' anytime the user asks about the primary short-term goal of NCER related to education
+  steps:
+  - intent: short_term_goals
+  - action: utter_short_term_goals
+
+- rule: Say 'placement_percentage' anytime the user inquires about the short-term target for placement percentage at NCER
+  steps:
+  - intent: placement_percentage
+  - action: utter_placement_percentage
+
+- rule: Say 'phds_per_department' anytime the user asks about how many PhDs per department NCER aims to have in the short term
+  steps:
+  - intent: phds_per_department
+  - action: utter_phds_per_department
+
+- rule: Say 'research_papers' anytime the user inquires about the publication goal for faculties in the short term
+  steps:
+  - intent: research_papers
+  - action: utter_research_papers
+
+- rule: Say 'innovation_promotion' anytime the user asks about one of the short-term goals related to students at NCER
+  steps:
+  - intent: innovation_promotion
+  - action: utter_innovation_promotion
+
+- rule: Say 'research_funds' anytime the user asks from where NCER plans to fetch funds in the short term
+  steps:
+  - intent: research_funds
+  - action: utter_research_funds
+
+- rule: Say 'centre_for_excellence' anytime the user inquires about what NCER plans to create at the program-wide level in the short term
+  steps:
+  - intent: centre_for_excellence
+  - action: utter_centre_for_excellence
+
+- rule: Say 'faculty_development' anytime the user asks about the type of activities NCER aims to organize for faculty development in the short term
+  steps:
+  - intent: faculty_development
+  - action: utter_faculty_development
+
+- rule: Say 'factual_question' anytime the user challenges
+  steps:
+  - intent: factual_question
+  - action: utter_factual_question
+
+- rule: Say 'founder_question' anytime the user challenges
+  steps:
+  - intent: founder_question
+  - action: utter_founder_question
+
+- rule: Say 'founder_role_question' anytime the user challenges
+  steps:
+  - intent: founder_role_question
+  - action: utter_founder_role_question
+
+- rule: Say 'key_figure_question' anytime the user challenges
+  steps:
+  - intent: key_figure_question
+  - action: utter_key_figure_question
+
+- rule: Say 'basic_information' anytime the user challenges
+  steps:
+  - intent: basic_information
+  - action: utter_basic_information
+
+- rule: Say 'roles_and_responsibilities' anytime the user challenges
+  steps:
+  - intent: roles_and_responsibilities
+  - action: utter_roles_and_responsibilities
+
+- rule: Say 'additional_information' anytime the user challenges
+  steps:
+  - intent: additional_information
+  - action: utter_additional_information
+
+- rule: Say 'basic_questions' anytime the user challenges
+  steps:
+  - intent: basic_questions
+  - action: utter_basic_questions
+
+- rule: Say 'about_individual_members' anytime the user challenges
+  steps:
+  - intent: about_individual_members
+  - action: utter_about_individual_members
+
+- rule: Say 'understanding_functions' anytime the user challenges
+  steps:
+  - intent: understanding_functions
+  - action: utter_understanding_functions
+
+- rule: Say 'analyzing_relationships' anytime the user challenges
+  steps:
+  - intent: analyzing_relationships
+  - action: utter_analyzing_relationships
+
+- rule: Say 'evaluating_effectiveness' anytime the user challenges
+  steps:
+  - intent: evaluating_effectiveness
+  - action: utter_evaluating_effectiveness
+
+- rule: Say 'Adaptation' anytime the user challenges
+  steps:
+  - intent: Adaptation
+  - action: utter_Adaptation
+
+- rule: Say 'Engagement' anytime the user challenges
+  steps:
+  - intent: Engagement
+  - action: utter_Engagement
+
+- rule: Say 'Community Impact' anytime the user challenges
+  steps:
+  - intent: Community Impact
+  - action: utter_Community_Impact
+
+- rule: Say 'Long-Term Planning' anytime the user challenges
+  steps:
+  - intent: Long-Term Planning
+  - action: utter_Long_Term_Planning
+
+- rule: Say 'Evaluation' anytime the user challenges
+  steps:
+  - intent: Evaluation
+  - action: utter_Evaluation
+
+- rule: Say 'Financial' anytime the user challenges
+  steps:
+  - intent: Financial
+  - action: utter_Financial
+
+- rule: Say 'Health and Safety' anytime the user challenges
+  steps:
+  - intent: Health and Safety
+  - action: utter_Health_and_Safety
+
+- rule: Say 'Networking' anytime the user challenges
+  steps:
+  - intent: Networking
+  - action: utter_Networking
+
+- rule: Say 'Silly' anytime the user challenges
+  steps:
+  - intent: Silly
+  - action: utter_Silly
+
+- rule: Say 'Advanced' anytime the user challenges
+  steps:
+  - intent: Advanced
+  - action: utter_Advanced
+
+- rule: Say 'General' anytime the user challenges
+  steps:
+  - intent: General
+  - action: utter_General
+
+- rule: Say 'Open-Ended' anytime the user challenges
+  steps:
+  - intent: Open-Ended
+  - action: utter_Open_Ended
+
+- rule: Say 'Hypothetical' anytime the user challenges
+  steps:
+  - intent: Hypothetical
+  - action: utter_Hypothetical
+
+- rule: Say 'Controversial' anytime the user challenges
+  steps:
+  - intent: Controversial
+  - action: utter_Controversial
+
+- rule: Say 'Clarification' anytime the user challenges
+  steps:
+  - intent: Clarification
+  - action: utter_Clarification
+
+- rule: Say 'Hypothetical' anytime the user challenges
+  steps:
+  - intent: Hypothetical
+  - action: utter_Hypothetical_2
+
+- rule: Say 'Ethical' anytime the user challenges
+  steps:
+  - intent: Ethical
+  - action: utter_Ethical
+
+- rule: Say 'Technical' anytime the user challenges
+  steps:
+  - intent: Technical
+  - action: utter_Technical
+
+- rule: Say 'Comparative' anytime the user challenges
+  steps:
+  - intent: Comparative
+  - action: utter_Comparative
+
+- rule: Say 'analytical_question' anytime the user challenges
+  steps:
+  - intent: analytical_question
+  - action: respond_analytical_question
+
+- rule: Say 'procedural_question' anytime the user challenges
+  steps:
+  - intent: procedural_question
+  - action: respond_procedural_question
+
+- rule: Say 'causal_question' anytime the user challenges
+  steps:
+  - intent: causal_question
+  - action: respond_causal_question
+
+- rule: Say 'predictive_question' anytime the user challenges
+  steps:
+  - intent: predictive_question
+  - action: respond_predictive_question
+
+- rule: Say 'evaluation_question' anytime the user challenges
+  steps:
+  - intent: evaluation_question
+  - action: respond_evaluation_question
+
+- rule: Say 'financial_question' anytime the user challenges
+  steps:
+  - intent: financial_question
+  - action: respond_financial_question
+
+- rule: Say 'health_and_safety_question' anytime the user challenges
+  steps:
+  - intent: health_and_safety_question
+  - action: respond_health_and_safety_question
+
+- rule: Say 'networking_question' anytime the user challenges
+  steps:
+  - intent: networking_question
+  - action: respond_networking_question
+
+- rule: Say 'adaptation_question' anytime the user challenges
+  steps:
+  - intent: adaptation_question
+  - action: respond_adaptation_question
+
+- rule: Say 'engagement_question' anytime the user challenges
+  steps:
+  - intent: engagement_question
+  - action: respond_engagement_question
+
+- rule: Say 'community_impact_question' anytime the user challenges
+  steps:
+  - intent: community_impact_question
+  - action: respond_community_impact_question
+
+- rule: Say 'long_term_planning_question' anytime the user challenges
+  steps:
+  - intent: long_term_planning_question
+  - action: respond_long_term_planning_question
+
+- rule: Say 'resource_allocation_question' anytime the user challenges
+  steps:
+  - intent: resource_allocation_question
+  - action: respond_resource_allocation_question
+
+- rule: Say 'international_opportunities_question' anytime the user challenges
+  steps:
+  - intent: international_opportunities_question
+  - action: respond_international_opportunities_question
+
+- rule: Say 'evaluation_methodology_question' anytime the user challenges
+  steps:
+  - intent: evaluation_methodology_question
+  - action: respond_evaluation_methodology_question
+
+- rule: Say 'industry_partnerships_question' anytime the user challenges
+  steps:
+  - intent: industry_partnerships_question
+  - action: respond_industry_partnerships_question
+
+- rule: Say 'alumni_involvement_question' anytime the user challenges
+  steps:
+  - intent: alumni_involvement_question
+  - action: respond_alumni_involvement_question
+
+- rule: Say 'support_for_specialized_fields_question' anytime the user challenges
+  steps:
+  - intent: support_for_specialized_fields_question
+  - action: respond_support_for_specialized_fields_question
+
+- rule: Say 'measuring_student_progress_question' anytime the user challenges
+  steps:
+  - intent: measuring_student_progress_question
+  - action: respond_measuring_student_progress_question
+
+- rule: Say 'mentorship_programs_question' anytime the user challenges
+  steps:
+  - intent: mentorship_programs_question
+  - action: respond_mentorship_programs_question
+
+- rule: Say 'personal_branding_question' anytime the user challenges
+  steps:
+  - intent: personal_branding_question
+  - action: respond_personal_branding_question
+
+- rule: Say 'recognizing_achievement_question' anytime the user challenges
+  steps:
+  - intent: recognizing_achievement_question
+  - action: respond_recognizing_achievement_question
+
+- rule: Say 'student_feedback_incorporation_question' anytime the user challenges
+  steps:
+  - intent: student_feedback_incorporation_question
+  - action: respond_student_feedback_incorporation_question
+
+- rule: Say 'legal_and_ethical_compliance_question' anytime the user challenges
+  steps:
+  - intent: legal_and_ethical_compliance_question
+  - action: respond_legal_and_ethical_compliance_question
+
+- rule: Say 'industry_exposure_question' anytime the user challenges
+  steps:
+  - intent: industry_exposure_question
+  - action: respond_industry_exposure_question
+
+- rule: Say 'peer_learning_question' anytime the user challenges
+  steps:
+  - intent: peer_learning_question
+  - action: respond_peer_learning_question
+
+- rule: Say 'personalized_career_counseling_question' anytime the user challenges
+  steps:
+  - intent: personalized_career_counseling_question
+  - action: respond_personalized_career_counseling_question
+
+- rule: Say 'industry_trends_question' anytime the user challenges
+  steps:
+  - intent: industry_trends_question
+  - action: respond_industry_trends_question
+
+- rule: Say 'alumni_success_stories_question' anytime the user challenges
+  steps:
+  - intent: alumni_success_stories_question
+  - action: respond_alumni_success_stories_question
+
+- rule: Say 'entrepreneurship_support_question' anytime the user challenges
+  steps:
+  - intent: entrepreneurship_support_question
+  - action: respond_entrepreneurship_support_question
+
+- rule: Say 'cross_cultural_communication_question' anytime the user challenges
+  steps:
+  - intent: cross_cultural_communication_question
+  - action: respond_cross_cultural_communication_question
+
+- rule: Say 'alumni_engagement_question' anytime the user challenges
+  steps:
+  - intent: alumni_engagement_question
+  - action: respond_alumni_engagement_question
+
+- rule: Say 'industry_relevant_skill_development_question' anytime the user challenges
+  steps:
+  - intent: industry_relevant_skill_development_question
+  - action: respond_industry_relevant_skill_development_question
+
+- rule: Say 'customized_track_question' anytime the user challenges
+  steps:
+  - intent: customized_track_question
+  - action: respond_customized_track_question
+
+- rule: Say 'leadership_development_question' anytime the user challenges
+  steps:
+  - intent: leadership_development_question
+  - action: respond_leadership_development_question
+
+- rule: Say 'pcet_tnp' anytime the user asks about colleges and MOUs under PCET's Training and Placement Cell
+  steps:
+  - intent: pcet_tnp
+  - action: utter_pcet_tnp
+
+- rule: Say 'ncer_2022_batch' when the user inquires about the highest package and offers for the NCER 2022 batch
+  steps:
+  - intent: ncer_2022_batch
+  - action: utter_ncer_2022_batch
+
+- rule: Say 'placement_stats' in response to questions about placement in specific companies and offers above a certain salary for the 2022 batch
+  steps:
+  - intent: placement_stats
+  - action: utter_placement_stats
+
+- rule: Say 'advanced_placement' when there are questions about eligibility and offers for the Computer branch and companies with the highest placements
+  steps:
+  - intent: advanced_placement
+  - action: utter_advanced_placement
+
+- rule: Say 'pcet_records' when the user asks about PCET's placement records and total offers for the 2022 batch
+  steps:
+  - intent: pcet_records
+  - action: utter_pcet_records
+
+- rule: Say 'more_tnp' when the user inquires about the number of branches in PCET's Training and Placement Cell and total companies visited for placements
+  steps:
+  - intent: more_tnp
+  - action: utter_more_tnp
+
+- rule: Say 'mechanical_placement' when there are questions about placements in the Mechanical branch and the highest package for the NCER 2022 batch
+  steps:
+  - intent: mechanical_placement
+  - action: utter_mechanical_placement
+
+- rule: Say 'medium_placement' in response to questions about offers in a specific salary range and the total number of offers for the 2022 batch
+  steps:
+  - intent: medium_placement
+  - action: utter_medium_placement
+
+- rule: Say 'entc_ratio' when there are questions about the ratio of eligible students to total placements in the EnTC branch and placement highlights for the 2022 batch
+  steps:
+  - intent: entc_ratio
+  - action: utter_entc_ratio
+
+- rule: Say 'silly_placement' when the user asks about the branch with the lowest number of eligible students for placements and offers below a specific salary for the 2022 batch
+  steps:
+  - intent: silly_placement
+  - action: utter_silly_placement
+
+- rule: Say 'entc_eligible' in response to questions about the number of eligible students from the EnTC branch and placements in specific companies
+  steps:
+  - intent: entc_eligible
+  - action: utter_entc_eligible
+
+- rule: Say 'advanced_computer_science' when there are questions about the number of Computer Science students with multiple offers and details about the highest package and offering company for the NCER 2022 batch
+  steps:
+  - intent: advanced_computer_science
+  - action: utter_advanced_computer_science
+
+- rule: Say 'dean_info' anytime the user asks about the Dean of Industry Institute Interaction
+  steps:
+  - intent: dean_info
+  - action: utter_dean_info
+
+- rule: Say 'contact_dean' when asked for the contact details of Prof. Shitalkumar Rawandale
+  steps:
+  - intent: contact_dean
+  - action: utter_contact_dean
+
+- rule: Say 'tp_department_role' in response to queries about the role of the Training and Placement Department
+  steps:
+  - intent: tp_department_role
+  - action: utter_tp_department_role
+
+- rule: Respond with 'tpo_info' when asked about the Training and Placement Officer at the institute
+  steps:
+  - intent: tpo_info
+  - action: utter_tpo_info
+
+- rule: When asked about the benefits for prospective employers, say 'employer_benefit'
+  steps:
+  - intent: employer_benefit
+  - action: utter_employer_benefit
+
+- rule: Mention 'ncer_advantages' in response to queries about the advantages NCER enjoys in connecting with companies
+  steps:
+  - intent: ncer_advantages
+  - action: utter_ncer_advantages
+
+- rule: Respond with 'employability_ensurance' when asked about how the Training and Placement Department ensures employability
+  steps:
+  - intent: employability_ensurance
+  - action: utter_employability_ensurance
+
+- rule: Say 'student_volunteers_role' in response to questions about the role of student volunteers in the T&P Cell
+  steps:
+  - intent: student_volunteers_role
+  - action: utter_student_volunteers_role
+
+- rule: When asked about support, respond with 'tp_department_support'
+  steps:
+  - intent: tp_department_support
+  - action: utter_tp_department_support
+
+- rule: Mention 'tpo_contact_info' when asked for the contact information of Prof. Rushikesh Pande, the Training and Placement Officer
+  steps:
+  - intent: tpo_contact_info
+  - action: utter_tpo_contact_info
+
+- rule: Respond with 'tp_cell_objective' when asked about the primary objective of the T&P Cell at NCER
+  steps:
+  - intent: tp_cell_objective
+  - action: utter_tp_cell_objective
+
+- rule: Say 'recruitment_drive_success' in response to questions about how the institute ensures the success of recruitment drives
+  steps:
+  - intent: recruitment_drive_success
+  - action: utter_recruitment_drive_success
+
+- rule: Mention 'ncer_alumni' when asked about what sets the alumni of NCER apart in the industry
+  steps:
+  - intent: ncer_alumni
+  - action: utter_ncer_alumni
+
+- rule: Respond with 'tp_department_commitment' when asked about the commitment of the Training and Placement Department
+  steps:
+  - intent: tp_department_commitment
+  - action: utter_tp_department_commitment
+
+- rule: Say 'industry_demand_fulfillment' in response to questions about how the institute caters to the increasing demand for skilled technicians
+  steps:
+  - intent: industry_demand_fulfillment
+  - action: utter_industry_demand_fulfillment
+
+- rule: Respond with 'tp_cell_skills' when asked about the key skills that student volunteers of the T&P Cell develop
+  steps:
+  - intent: tp_cell_skills
+  - action: utter_tp_cell_skills
+
+- rule: Mention 'ncer_advantages_placement' when asked about the unique advantages NCER enjoys in the placement process
+  steps:
+  - intent: ncer_advantages_placement
+  - action: utter_ncer_advantages_placement
+
+- rule: Say 'tp_department_engagement' in response to queries about how the Training and Placement Department engages with prospective employers
+  steps:
+  - intent: tp_department_engagement
+  - action: utter_tp_department_engagement
+
+- rule: Respond with 'tpo_primary_role' when asked about the primary role of the TPO at the institute
+  steps:
+  - intent: tpo_primary_role
+  - action: utter_tpo_primary_role
+
+- rule: Say 'customized_program_success' in response to queries about how the institute ensures the success of its customized training programs
+  steps:
+  - intent: customized_program_success
+  - action: utter_customized_program_success
+
+- rule: Mention 'tp_cell_impact' when asked about the impact of the T&P Cell on the career paths of student volunteers
+  steps:
+  - intent: tp_cell_impact
+  - action: utter_tp_cell_impact
+
+- rule: Respond with 'alumni_growth_support' when asked about how the T&P Department supports the professional growth of its alumni
+  steps:
+  - intent: alumni_growth_support
+  - action: utter_alumni_growth_support
+
+- rule: Say 'employer_opportunities' when asked about the opportunities the institute offers to prospective employers during the recruitment process
+  steps:
+  - intent: employer_opportunities
+  - action: utter_employer_opportunities
+
+- rule: Respond with 'tp_department_adaptation' when asked about how the T&P Department adapts to the changing demands of the industrial sector
+  steps:
+  - intent: tp_department_adaptation
+  - action: utter_tp_department_adaptation
+
+- rule: Mention 'tp_cell_significance' when asked about the significance of the role played by the T&P Cell in the institute's success
+  steps:
+  - intent: tp_cell_significance
+  - action: utter_tp_cell_significance
+
+- rule: Respond to greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Respond to goodbyes
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Handle PCET TNP questions
+  steps:
+  - intent: pcet_tnp
+  - action: utter_pcet_tnp
+
+- rule: Handle NCER 2022 batch questions
+  steps:
+  - intent: ncer_2022_batch
+  - action: utter_ncer_2022_batch
+
+- rule: Handle placement stats questions
+  steps:
+  - intent: placement_stats
+  - action: utter_placement_stats
+
+- rule: Handle advanced placement questions
+  steps:
+  - intent: advanced_placement
+  - action: utter_advanced_placement
+
+- rule: Handle PCET records questions
+  steps:
+  - intent: pcet_records
+  - action: utter_pcet_records
+
+- rule: Handle more TNP questions
+  steps:
+  - intent: more_tnp
+  - action: utter_more_tnp
+
+- rule: Handle mechanical placement questions
+  steps:
+  - intent: mechanical_placement
+  - action: utter_mechanical_placement
+
+- rule: Handle medium placement questions
+  steps:
+  - intent: medium_placement
+  - action: utter_medium_placement
+
+- rule: Handle EnTC ratio questions
+  steps:
+  - intent: entc_ratio
+  - action: utter_entc_ratio
+
+- rule: Handle silly placement questions
+  steps:
+  - intent: silly_placement
+  - action: utter_silly_placement
+
+- rule: Handle EnTC eligible questions
+  steps:
+  - intent: entc_eligible
+  - action: utter_entc_eligible
+
+- rule: Handle advanced computer science questions
+  steps:
+    - intent: advanced_computer_science
+    - action: utter_advanced_computer_science
+
+- rule: Respond to Industry Interaction Intent
+  steps:
+    - intent: industry_interaction
+    - action: utter_industry_interaction
+
+- rule: Respond to Industry Interaction Info Intent
+  steps:
+    - intent: industry_interaction_info
+    - action: utter_industry_interaction_info
+
+- rule: Respond to MoU Information Intent
+  steps:
+    - intent: mou_information
+    - action: utter_mou_information
+
+- rule: Respond to Industry Engagement Stats Intent
+  steps:
+    - intent: industry_engagement_stats
+    - action: utter_industry_engagement_stats
+
+- rule: Respond to IIIC Advisory Body Intent
+  steps:
+    - intent: iiic_advisory_body
+    - action: utter_iiic_advisory_body
+
+- rule: Respond to Expert Sessions Intent
+  steps:
+    - intent: expert_sessions
+    - action: utter_expert_sessions
+
+- rule: Respond to Engineering Admission Intent
+  steps:
+    - intent: engineering_admission
+    - action: utter_engineering_admission
+
+- rule: Respond to Courses Offered Intent
+  steps:
+    - intent: courses_offered
+    - action: utter_courses_offered
+- rule: Respond to Fee Structure Intent
+  steps:
+    - intent: fee_structure
+    - action: utter_fee_structure
+
+- rule: Respond to B.Voc. Program Intent
+  steps:
+    - intent: b_voc_program
+    - action: utter_b_voc_program
+
+- rule: Respond to College Info Intent
+  steps:
+    - intent: college_info
+    - action: utter_college_info
+
+- rule: Respond to Founder Intent
+  steps:
+    - intent: founder
+    - action: utter_founder
+- rule: Respond to PCET Overview Intent
+  steps:
+    - intent: pcet_overview
+    - action: utter_pcet_overview
+
+- rule: Respond to International Relations Intent
+  steps:
+    - intent: international_relations
+    - action: utter_international_relations
+
+- rule: Respond to PCET Awards Intent
+  steps:
+    - intent: pcet_awards
+    - action: utter_pcet_awards
+
+- rule: Respond to Placement Achievements Intent
+  steps:
+    - intent: placement_achievements
+    - action: utter_placement_achievements
+
+- rule: Respond to Placements Info Intent
+  steps:
+    - intent: placements_info
+    - action: utter_placements_info
+
+- rule: Respond to PCET Info Intent
+  steps:
+    - action: utter_pcet_info
+    - intent: pcet_info
+
+- rule: Respond to Why Choose PCET Intent
+  steps:
+    - intent: why_choose_pcet
+    - action: utter_why_choose_pcet
+
+- rule: Respond to Infrastructure Info Intent
+  steps:
+    - intent: infrastructure_info
+    - action: utter_infrastructure_info
+
+- rule: Respond to Advantages of PCU Intent
+  steps:
+    - intent: advantages_of_pcu
+    - action: utter_advantages_of_pcu
+
+- rule: Respond to academic awards information
+  steps:
+    - intent: academic_awards
+    - action: utter_academic_awards
+
+- rule: Respond to training and placement statistics
+  steps:
+  - intent: training_placement_stats
+  - action: utter_training_placement_stats
+
+- rule: Respond to research and innovation information
+  steps:
+  - intent: research_innovation
+  - action: utter_research_innovation
+
+- rule: Respond to extracurricular activities information
+  steps:
+  - intent: extracurricular_activities
+  - action: utter_extracurricular_activities
+
+- rule: Respond to academic features
+  steps:
+  - intent: academic_features
+  - action: utter_academic_features
+
+- rule: Respond to project-based learning
+  steps:
+  - intent: project_based_learning
+  - action: utter_project_based_learning
+
+- rule: Respond to faculty qualifications
+  steps:
+  - intent: faculty_qualifications
+  - action: utter_faculty_qualifications
+
+- rule: Respond to industry collaborations
+  steps:
+  - intent: industry_collaborations
+  - action: utter_industry_collaborations
+
+- rule: Respond to placement achievements
+  steps:
+  - intent: placement_achievements
+  - action: utter_placement_achievements
+
+- rule: Respond to international placements
+  steps:
+  - intent: international_placements
+  - action: utter_international_placements
+- rule: Respond to eligibility criteria for first year
+  steps:
+  - intent: eligibility_first_year
+  - action: utter_eligibility_first_year
+- rule: Respond to students_recruited_last_year
+  steps:
+  - intent: students_recruited_last_year
+  - action: utter_students_recruited_last_year
+
+- rule: Respond to top_emerging_bschool
+  steps:
+  - intent: top_emerging_bschool
+  - action: utter_top_emerging_bschool
+
+- rule: Respond to about_pbs
+  steps:
+  - intent: about_pbs
+  - action: utter_about_pbs
+
+- rule: Respond to pbs_advantage
+  steps:
+  - intent: pbs_advantage
+  - action: utter_pbs_advantage
+
+- rule: Respond to strong_alumni_network
+  steps:
+  - intent: strong_alumni_network
+  - action: utter_strong_alumni_network
+
+- rule: Respond to pgdm_admission_process
+  steps:
+  - intent: pgdm_admission_process
+  - action: utter_pgdm_admission_process
+
+- rule: Respond to about_sbpatil_institute
+  steps:
+  - intent: about_sbpatil_institute
+  - action: utter_about_sbpatil_institute
+
+- rule: Respond to sbpim_features
+  steps:
+  - intent: sbpim_features
+  - action: utter_sbpim_features
+
+- rule: Respond to sbpim_accreditations
+  steps:
+  - intent: sbpim_accreditations
+  - action: utter_sbpim_accreditations
+
+- rule: Respond to sbpim_rankings
+  steps:
+  - intent: sbpim_rankings
+  - action: utter_sbpim_rankings
+
+- rule: Respond to sbpim_publications
+  steps:
+  - intent: sbpim_publications
+  - action: utter_sbpim_publications
+
+- rule: Respond to sbpim_events
+  steps:
+  - intent: sbpim_events
+  - action: utter_sbpim_events
+
+- rule: Respond to sbpim_training_programs
+  steps:
+  - intent: sbpim_training_programs
+  - action: utter_sbpim_training_programs
+
+- rule: Respond to mba_program_details
+  steps:
+  - intent: mba_program_details
+  - action: utter_mba_program_details
+
+- rule: Respond to eligibility criteria for direct second year
+  steps:
+  - intent: eligibility_direct_second_year
+  - action: utter_eligibility_direct_second_year
+
+- rule: Provide information about diploma courses and intake
+  steps:
+  - intent: diploma_courses_intake
+  - action: utter_diploma_courses_intake
+- rule: Respond to academic_programs
+  steps:
+  - intent: academic_programs
+  - action: utter_academic_programs
+- rule: Respond to academics_discipline
+  steps:
+  - intent: academics_discipline
+  - action: utter_academics_discipline
+
+- rule: Respond to top_results
+  steps:
+  - intent: top_results
+  - action: utter_top_results
+
+- rule: Respond to university_subject_toppers
+  steps:
+  - intent: university_subject_toppers
+  - action: utter_university_subject_toppers
+
+- rule: Respond to library_facilities
+  steps:
+  - intent: library_facilities
+  - action: utter_library_facilities
+
+- rule: Respond to erp_system
+  steps:
+  - intent: erp_system
+  - action: utter_erp_system
+
+- rule: Respond to infrastructure_facilities
+  steps:
+  - intent: infrastructure_facilities
+  - action: utter_infrastructure_facilities
+
+- rule: Respond to placements
+  steps:
+  - intent: placements
+  - action: utter_placements
+
+- rule: Respond to major_companies
+  steps:
+  - intent: major_companies
+  - action: utter_major_companies
+
+- rule: Respond to skill_ync_prosap_courses
+  steps:
+  - intent: skill_ync_prosap_courses
+  - action: utter_skill_ync_prosap_courses
+
+- rule: Respond to average_salary
+  steps:
+  - intent: average_salary
+  - action: utter_average_salary
+
+- rule: Respond to research_innovations
+  steps:
+  - intent: research_innovations
+  - action: utter_research_innovations
+
+- rule: Respond to conferences_publications
+  steps:
+  - intent: conferences_publications
+  - action: utter_conferences_publications
+
+- rule: Respond to patents
+  steps:
+  - intent: patents
+  - action: utter_patents
+
+- rule: Respond to awards
+  steps:
+  - intent: awards
+  - action: utter_awards
+
+- rule: Respond to advanced_laboratories
+  steps:
+  - intent: advanced_laboratories
+  - action: utter_advanced_laboratories
+
+- rule: Respond to training_centers
+  steps:
+  - intent: training_centers
+  - action: utter_training_centers
+
+- rule: Respond to motivation_for_research
+  steps:
+  - intent: motivation_for_research
+  - action: utter_motivation_for_research
+
+- rule: Respond to student_development
+  steps:
+  - intent: student_development
+  - action: utter_student_development
+
+- rule: Respond to facilities_available
+  steps:
+  - intent: facilities_available
+  - action: utter_facilities_available
+
+- rule: Respond to alumni_connect
+  steps:
+  - intent: alumni_connect
+  - action: utter_alumni_connect
+
+- rule: Respond to foreign_languages_training
+  steps:
+  - intent: foreign_languages_training
+  - action: utter_foreign_languages_training
+
+- rule: Respond to excellence_centers
+  steps:
+  - intent: excellence_centers
+  - action: utter_excellence_centers
+
+- rule: Respond to contact_details
+  steps:
+  - intent: contact_details
+  - action: utter_contact_details
+
+- rule: Respond to infrastructure_amenities
+  steps:
+  - intent: infrastructure_amenities
+  - action: utter_infrastructure_amenities
+
+- rule: Respond to core_values
+  steps:
+  - intent: core_values
+  - action: utter_core_values
+
+- rule: Respond to admission_details
+  steps:
+  - intent: admission_details
+  - action: utter_admission_details
+
+- rule: Respond to awards won by Pimpri Chinchwad Polytechnic
+  steps:
+  - intent: awards_pcp
+  - action: utter_awards_pcp
+
+- rule: Provide information about features of Pimpri Chinchwad Polytechnic
+  steps:
+  - intent: features_pcp
+  - action: utter_features_pcp
+
+- rule: Provide information about major recruiters of PCP
+  steps:
+  - intent: major_recruiters_pcp
+  - action: utter_major_recruiters_pcp
+
+- rule: Respond to activities and achievements of Pimpri Chinchwad Polytechnic
+  steps:
+  - intent: activities_achievements_pcp
+  - action: utter_activities_achievements_pcp
+
+- rule: Respond to Supreme Court order on ragging
+  steps:
+  - intent: supreme_court_order_ragging
+  - action: utter_supreme_court_order_ragging
+
+- rule: Respond to entrepreneurship_activities
+  steps:
+  - intent: entrepreneurship_activities
+  - action: utter_entrepreneurship_activities
+
+- rule: Respond to about_sbpcsc
+  steps:
+  - intent: about_sbpcsc
+  - action: utter_about_sbpcsc
+
+- rule: Respond to sbpcsc_objectives
+  steps:
+  - intent: sbpcsc_objectives
+  - action: utter_sbpcsc_objectives
+
+- rule: Respond to sbpcsc_contacts
+  steps:
+  - intent: sbpcsc_contacts
+  - action: utter_sbpcsc_contacts
+
+- rule: Respond to sbpcsc_approach
+  steps:
+  - intent: sbpcsc_approach
+  - action: utter_sbpcsc_approach
+
+- rule: Respond to sbpcsc_integration
+  steps:
+  - intent: sbpcsc_integration
+  - action: utter_sbpcsc_integration
+
+- rule: Respond to pcacs_info
+  steps:
+  - intent: pcacs_info
+  - action: utter_pcacs_info
+
+- rule: Respond to pcacs_affiliation
+  steps:
+  - intent: pcacs_affiliation
+  - action: utter_pcacs_affiliation
+
+- rule: Respond to pcacs_courses
+  steps:
+  - intent: pcacs_courses
+  - action: utter_pcacs_courses
+
+- rule: Respond to pcacs_features
+  steps:
+  - intent: pcacs_features
+  - action: utter_pcacs_features
+
+- rule: Respond to pcacs_international_exposure
+  steps:
+  - intent: pcacs_international_exposure
+  - action: utter_pcacs_international_exposure
+- rule: Respond to bvoc_supply_chain_management
+  steps:
+  - intent: bvoc_supply_chain_management
+  - action: utter_bvoc_supply_chain_management
+
+- rule: Respond to sbpim_recruiters
+  steps:
+  - intent: sbpim_recruiters
+  - action: utter_sbpim_recruiters
+
+- rule: Respond to sbpcoad_vision
+  steps:
+  - intent: sbpcoad_vision
+  - action: utter_sbpcoad_vision
+
+- rule: Respond to technical_clubs
+  steps:
+  - intent: technical_clubs
+  - action: utter_technical_clubs
+
+- rule: Respond to students_clubs
+  steps:
+  - intent: students_clubs
+  - action: utter_students_clubs
+
+- rule: Respond to 3d_printing_center
+  steps:
+  - intent: 3d_printing_center
+  - action: utter_3d_printing_center
+
+- rule: Respond to iit_sponsored_lab
+  steps:
+  - intent: iit_sponsored_lab
+  - action: utter_iit_sponsored_lab
+
+- rule: Respond to online_certifications
+  steps:
+  - intent: online_certifications
+  - action: utter_online_certifications
+
+- rule: Respond to visionary_learning_community
+  steps:
+  - intent: visionary_learning_community
+  - action: utter_visionary_learning_community
+
+- rule: Respond to community_radio_station
+  steps:
+  - intent: community_radio_station
+  - action: utter_community_radio_station
+
+- rule: Respond to institution_innovation_cell
+  steps:
+  - intent: institution_innovation_cell
+  - action: utter_institution_innovation_cell
+
+- rule: Respond to sports_facilities
+  steps:
+  - intent: sports_facilities
+  - action: utter_sports_facilities
+
+- rule: Respond to sports_achievements
+  steps:
+  - intent: sports_achievements
+  - action: utter_sports_achievements
