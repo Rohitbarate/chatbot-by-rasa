@@ -9,3 +9,4 @@ venv/*
 # Rasa
 models/
 data/debug_data.json
+.rasa

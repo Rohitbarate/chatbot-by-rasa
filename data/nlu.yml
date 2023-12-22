@@ -105,7 +105,7 @@ nlu:
       - Tell me about NCER
       - Information about NCER
 
-   - intent: dean_desk
+  - intent: dean_desk
     examples: |
       - Dean Desk
       - Office of the Dean
