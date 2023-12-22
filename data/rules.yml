@@ -1,0 +1,98 @@
+version: "3.1"
+
+rules:
+
+- rule: Say 'goodbye' anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'about trust' anytime the user says trust
+  steps:
+  - intent: about_trust
+  - action: utter_about_trust
+
+- rule: Say 'about ncer' anytime the user says ncer or college
+  steps:
+  - intent: about_ncer
+  - action: utter_about_ncer
+
+- rule: Say 'about dean_desk' anytime the user says dean desk
+  steps:
+  - intent: dean_desk
+  - action: utter_dean_desk
+
+- rule: Say 'about first_year_engineering' anytime the user says first year
+  steps:
+  - intent: first_year_engineering
+  - action: utter_first_year_engineering
+
+- rule: Say 'about computer_science_engineering' anytime the user says computer science or cse
+  steps:
+  - intent: computer_science_engineering
+  - action: utter_computer_science_engineering
+
+- rule: Say 'about AI' anytime the user says cse ai
+  steps:
+  - intent: cse_ai
+  - action: utter_cse_ai
+
+- rule: Say 'about naac' anytime the user says naac
+  steps:
+  - intent: naac
+  - action: utter_naac
+
+- rule: Say 'about iqac' anytime the user says iqac
+  steps:
+  - intent: iqac
+  - action: utter_iqac
+
+- rule: Say 'about ssr' anytime the user says ssr
+  steps:
+  - intent: ssr
+  - action: utter_ssr
+
+- rule: Say 'about best_practice' anytime the user says best practice
+  steps:
+  - intent: best_practice
+  - action: utter_best_practice
+
+- rule: Say 'about institutional_distinctiveness' anytime the user says institutional distinctiveness
+  steps:
+  - intent: institutional_distinctiveness
+  - action: utter_institutional_distinctiveness
+
+- rule: Say 'about green_audit' anytime the user says green audit
+  steps:
+  - intent: green_audit
+  - action: utter_green_audit
+
+- rule: Say 'about energy_audit' anytime the user says energy audit
+  steps:
+  - intent: energy_audit
+  - action: utter_energy_audit
+
+- rule: Say 'about environmental_audit' anytime the user says environmental audit
+  steps:
+  - intent: environmental_audit
+  - action: utter_environmental_audit
+
+- rule: Say 'about feedback' anytime the user says feedback
+  steps:
+  - intent: feedback
+  - action: utter_feedback
+
+- rule: Say 'about ip_understanding' anytime the user says ip understanding
+  steps:
+  - intent: ip_understanding
+  - action: utter_ip_understanding
+
+- rule: Say 'about nic' anytime the user says nic
+  steps:
+  - intent: nic
+  - action: utter_nic

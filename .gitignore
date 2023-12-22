@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+venv/*
+*.log
+*.swp
+*~
+
+# Rasa
+models/
+data/debug_data.json

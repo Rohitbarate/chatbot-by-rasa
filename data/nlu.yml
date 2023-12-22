@@ -1,0 +1,282 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremely sad
+      - so sad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: about_trust
+    examples: |
+      - About Trust
+      - Tell me about the Trust
+      - What is the Trust about?
+      - Trust information
+
+  - intent: about_ncer
+    examples: |
+      - NCER
+      - About NCER
+      - What is NCER?
+      - Tell me about NCER
+      - Information about NCER
+
+   - intent: dean_desk
+    examples: |
+      - Dean Desk
+      - Office of the Dean
+      - Dean's message
+      - Who is the Dean?
+      - What role does the Dean play in the college?
+      - Can I know more about the Dean's responsibilities?
+      - Is there a message from the Dean for students?
+      - Could you elaborate on the Dean's involvement in academic affairs?
+      - How does the Dean contribute to student development?
+
+  - intent: first_year_engineering
+    examples: |
+      - First Year Engineering
+      - About First Year
+      - Information on FYE
+      - What subjects are covered in the first year?
+      - Can you explain the curriculum for first-year engineering?
+      - How are practicals conducted in the first year?
+      - What opportunities are available for first-year students?
+      - What projects do first-year engineering students work on?
+      - How does the first year prepare students for subsequent years?
+
+  - intent: computer_science_engineering
+    examples: |
+      - Computer Science & Engineering
+      - CSE Department
+      - About Computer Science Engineering
+      - What subjects are taught in CSE?
+      - Can you describe the CSE curriculum?
+      - How does CSE prepare students for industry?
+      - What specializations are available in CSE?
+      - Are there any notable projects from the CSE department?
+      - What extracurricular activities are offered by the CSE department?
+
+  - intent: cse_ai
+    examples: |
+      - AI in CSE
+      - About CSE with AI specialization
+      - What is the AI specialization in CSE?
+      - Can you explain the AI curriculum?
+      - How does the AI specialization benefit students?
+      - What career paths can students pursue after AI specialization?
+      - Are there any industry collaborations in AI at the college?
+    
+  - intent: naac
+    examples: |
+      - NAAC
+      - National Assessment and Accreditation Council
+      - About NAAC
+      - What does NAAC evaluate?
+      - Can you explain the significance of NAAC accreditation?
+      - How does NAAC impact the college's quality?
+      - What is the process for NAAC accreditation?
+      - What are the criteria evaluated by NAAC?
+
+  - intent: iqac
+    examples: |
+      - IQAC
+      - Internal Quality Assurance Cell
+      - About IQAC
+      - What is the role of IQAC?
+      - How does IQAC contribute to college improvement?
+      - Can you explain IQAC's activities?
+      - What measures does IQAC suggest for improvement?
+      - How does IQAC collect feedback?
+
+  - intent: iiqa
+    examples: |
+      - IIQA
+      - Institutional Information for Quality Assessment
+      - About IIQA
+      - What information does IIQA provide?
+      - How is IIQA related to accreditation?
+      - Can you explain the importance of IIQA data?
+      - What does IIQA assessment involve?
+      - How does IIQA impact the college's evaluation?
+
+  - intent: ssr
+    examples: |
+      - SSR
+      - Self Study Report
+      - About SSR
+      - What does the SSR document contain?
+      - How does SSR contribute to college evaluation?
+      - Can you explain the preparation process for SSR?
+      - What is the significance of an honest SSR?
+      - How does SSR benefit the institution?
+
+  - intent: best_practice
+    examples: |
+      - Best Practices
+      - Institutional Best Practices
+      - About Best Practices
+      - What are the best practices implemented at the institution?
+      - Can you explain the institutional best practices?
+      - Examples of best practices at the institution
+      - Share details about successful practices here
+      - Tell me more about the noteworthy practices
+
+  - intent: institutional_distinctiveness
+    examples: |
+      - Institutional Distinctiveness
+      - Distinctive Features
+      - About Distinctiveness
+      - What makes this institution unique?
+      - Can you highlight the distinctive features?
+      - What sets this institution apart from others?
+      - Describe the special attributes of the institution
+      - What are the standout characteristics?
+
+  - intent: green_audit
+    examples: |
+      - Green Audit
+      - Environmental Audit
+      - About Green Audit
+      - Explain the process of a green audit
+      - What does the environmental audit cover?
+      - How does the institution conduct green audits?
+      - Details about environmental auditing procedures
+      - Share insights into the environmental assessment process
+
+  - intent: energy_audit
+    examples: |
+      - Energy Audit
+      - About Energy Audit
+      - Explain the purpose of energy audits
+      - How does the institution perform energy audits?
+      - Details about energy consumption assessment
+      - What are the goals of energy audits?
+      - Share insights into energy usage assessment
+
+  - intent: environmental_audit
+    examples: |
+      - Environmental Audit
+      - About Environmental Audit
+      - What does the environmental audit entail?
+      - How does the institution conduct environmental audits?
+      - Details about the environmental compliance assessment
+      - Explain the importance of environmental audits
+      - Share insights into the institution's environmental evaluations
+
+  - intent: feedback
+    examples: |
+      - Feedback
+      - Student Feedback
+      - About Feedback Mechanism
+      - How does the institution gather feedback from students?
+      - Explain the process of collecting student feedback
+      - Details about the student feedback system
+      - What actions are taken based on student feedback?
+      - Can you elaborate on the feedback mechanism?
+
+  - intent: ip_understanding
+    examples: |
+      - IP Understanding
+      - Intellectual Property Understanding
+      - About IP Understanding
+      - How does the institution educate about intellectual property rights?
+      - Explain the significance of intellectual property understanding
+      - Details about intellectual property education at the institution
+      - Share insights into handling intellectual property rights
+      - What efforts are made to promote understanding of IP?
+
+  - intent: nic
+    examples: |
+      - NIC
+      - National Innovation Council
+      - About NIC
+      - What initiatives are undertaken by the National Innovation Council?
+      - Explain the objectives of the National Innovation Council
+      - Details about the innovation council's role in educational institutions
+      - Share insights into the council's activities
+      - How does the institution participate in NIC initiatives?

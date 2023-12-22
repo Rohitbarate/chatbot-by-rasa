@@ -1,0 +1,124 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rohit."
+
+  utter_about_trust:
+  - text: "Pimpri Chinchwad Education Trust (PCET) is committed to a legacy of providing quality education and holistic development. Established with a vision to empower generations, we are dedicated to academic excellence, character building, and community engagement."
+  - text: "At PCET, we prioritize fostering an inclusive learning environment where students are encouraged to excel academically, nurture critical thinking, and embrace innovation."
+  - text: "Guided by the principles of integrity, innovation, and inclusivity, PCET endeavors to nurture talent and prepare individuals to become global citizens contributing positively to society's growth and development."
+
+  utter_about_ncer:
+  - text: "NCER, known as Nutan college of Engineering and research, has a rich history spanning over a century with affiliations to a prestigious educational society in Maharashtra. It is an institute that prides itself on setting long-term goals like NIRF rankings and short-term goals focusing on educational excellence and universal human values."
+  - text: "The institute offers various educational programs, aiming to achieve accreditations and facilitate academic growth. With a strong emphasis on innovation and research, NCER tries to foster partnerships with industry, ensuring students are well-prepared to meet the demands of the workforce."
+  - text: "Guided by its hundred-year-old legacy, NCER is devoted to advancing the economic and educational standards of its community. Establishing a polytechnic and launching a four-year engineering college are among the many steps taken by the institute to empower students with knowledge and skills for their future careers."
+
+  utter_dean_desk:
+  - text: "Welcome to the Dean's Desk! As the administrative head, the Dean oversees the academic and operational aspects of the college. Our goal is to provide a conducive learning environment and foster academic excellence."
+  - text: "At the Office of the Dean, we are committed to facilitating a vibrant educational experience. The Dean's team works closely with faculty, staff, and students to ensure a well-rounded academic journey."
+  - text: "Message from the Dean: Our mission is to inspire and empower students to excel in their chosen fields. We aim to cultivate innovation, critical thinking, and leadership skills among our students."
+
+  utter_first_year_engineering:
+  - text: "Our First Year Engineering program provides a strong foundation in engineering principles. Students explore various disciplines, laying the groundwork for specialized studies in subsequent years."
+  - text: "In the FYE department, students engage in a comprehensive curriculum designed to introduce fundamental concepts in engineering. Practical labs and projects enhance learning and application of theoretical knowledge."
+  - text: "Overview of First Year Engineering: The program focuses on nurturing analytical thinking, problem-solving skills, and fostering a passion for innovation among students."
+
+  utter_computer_science_engineering:
+  - text: "The Computer Science & Engineering department is at the forefront of technological advancements. Our curriculum covers a wide array of topics including algorithms, software engineering, and database systems."
+  - text: "In CSE, students engage in hands-on learning, exploring the latest technologies and industry trends. Our faculty comprises experienced professionals dedicated to shaping future tech leaders."
+  - text: "Overview of Computer Science & Engineering: We strive to equip students with the knowledge and skills needed to thrive in the ever-evolving field of computer science."
+
+  utter_cse_ai:
+  - text: "The Computer Science Engineering program with Artificial Intelligence specialization focuses on cutting-edge AI technologies. Students delve into machine learning, neural networks, and natural language processing."
+  - text: "In CSE with AI, students explore advanced AI concepts and their practical applications. Our program prepares individuals for careers in AI research, data analysis, and AI-driven software development."
+  - text: "Overview of Computer Science Engg with AI: We aim to produce AI experts who can leverage technology to address complex challenges across various industries."
+
+  utter_naac:
+  - text: "NAAC, the National Assessment and Accreditation Council, is an autonomous body that assesses and accredits higher education institutions in India. Its primary goal is to assess and ensure quality in higher education."
+  - text: "The NAAC accreditation process evaluates various aspects of an institution, including teaching-learning practices, infrastructure, research, and overall performance."
+  - text: "NAAC accreditation is crucial as it signifies an institution's commitment to quality education and continuous improvement."
+
+  utter_iqac:
+  - text: "The Internal Quality Assurance Cell (IQAC) is a significant institutional body responsible for developing and maintaining quality benchmarks in education. It focuses on continuous improvement and quality enhancement."
+  - text: "IQAC monitors and suggests measures for institutional functioning, fostering a quality culture and devising mechanisms for feedback collection and analysis."
+  - text: "IQAC plays a pivotal role in ensuring adherence to quality benchmarks set by accrediting bodies like NAAC."
+
+  utter_iiqa:
+  - text: "IIQA refers to Institutional Information for Quality Assessment. It involves providing comprehensive data and information to accrediting bodies like NAAC for assessment purposes."
+  - text: "IIQA encompasses various parameters related to an institution's infrastructure, teaching-learning methods, research activities, and student-centric initiatives."
+  - text: "Accurate and detailed IIQA submissions are vital for a thorough assessment of an institution's capabilities and overall performance."
+
+  utter_ssr:
+  - text: "The Self Study Report (SSR) is a comprehensive document prepared by institutions undergoing NAAC assessment. It includes an institution's self-assessment, strengths, weaknesses, and plans for improvement."
+  - text: "SSR reflects an institution's evaluation of its performance, highlighting achievements and areas needing enhancement."
+  - text: "Thorough and honest SSRs contribute significantly to the accreditation process by providing insights into an institution's functioning and areas for development."
+
+  utter_best_practice:
+  - text: "Institutional Best Practices refer to exemplary initiatives or methodologies adopted by an institution that yield significant positive outcomes."
+  - text: "Identifying, documenting, and sharing best practices within an institution contributes to overall improvement and sets benchmarks for others to follow."
+  - text: "Encouraging and implementing best practices fosters an environment of innovation and excellence within an institution."
+
+  utter_institutional_distinctiveness:
+  - text: "Institutional Distinctiveness highlights the unique characteristics and strengths of an educational institution."
+  - text: "It encompasses the special features, strengths, and contributions that set an institution apart from others."
+  - text: "Emphasizing and leveraging institutional distinctiveness contributes to a unique identity and helps in achieving recognition and excellence."
+
+  utter_green_audit:
+  - text: "Green Audit or Environmental Audit evaluates an institution's impact on the environment, focusing on sustainability practices and ecological conservation measures."
+  - text: "It involves assessing energy consumption, waste management, biodiversity preservation, and implementation of eco-friendly initiatives."
+  - text: "Conducting and adhering to green audits promotes environmentally responsible practices within the institution."
+
+  utter_energy_audit:
+  - text: "Energy Audit involves a systematic examination of an institution's energy consumption patterns, identifying areas for optimization and conservation."
+  - text: "The goal is to enhance energy efficiency, reduce wastage, and promote the use of renewable energy sources where feasible."
+  - text: "Implementing recommendations from energy audits contributes to cost savings and environmental sustainability."
+
+  utter_environmental_audit:
+  - text: "Environmental Audit evaluates an institution's compliance with environmental regulations and its impact on the surrounding ecosystem."
+  - text: "It assesses pollution levels, waste management practices, and adherence to environmental laws and policies."
+  - text: "Conducting regular environmental audits ensures regulatory compliance and promotes responsible environmental stewardship."
+
+  utter_feedback:
+  - text:  "Feedback mechanisms are crucial for continuous improvement. They involve gathering input from stakeholders, especially students, regarding various aspects of the institution."
+  - text: "Analyzing feedback helps identify strengths and areas needing improvement, enabling the institution to take proactive measures."
+  - text: "Implementing an effective feedback mechanism fosters a culture of transparency, accountability, and responsiveness within the institution."
+
+  utter_ip_understanding:
+  - text:  "IP Understanding refers to an institution's comprehension and handling of intellectual property rights and their significance."
+  - text: "It involves educating students and faculty about intellectual property, patents, copyrights, and their role in innovation and research."
+  - text: "Promoting IP understanding encourages innovation, protects intellectual creations, and fosters a culture of respect for intellectual property."
+
+  utter_nic:
+  - text: "The National Innovation Council (NIC) is an initiative aimed at fostering a culture of innovation and entrepreneurship in educational institutions."
+  - text: "NIC encourages creativity, innovation, and the development of solutions to address societal challenges."
+  - text: "Participation in NIC initiatives promotes collaborative innovation, knowledge sharing, and entrepreneurship among students and faculty."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
