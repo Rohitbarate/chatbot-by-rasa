@@ -1487,11 +1487,11 @@ nlu:
       - Tell me about the Central Training Placement Cell.
       - Which companies visit for campus recruitment?
 
-  - intent: major_companies
-    examples: |
-      - Can you list some of the major companies that visit for placements?
-      - Tell me about the companies like TCS, Wipro, and Infosys.
-      - Which prominent companies recruit from the campus?
+  # - intent: major_companies
+  #   examples: |
+  #     - Can you list some of the major companies that visit for placements?
+  #     - Tell me about the companies like TCS, Wipro, and Infosys.
+  #     - Which prominent companies recruit from the campus?
 
   - intent: skill_ync_prosap_courses
     examples: |

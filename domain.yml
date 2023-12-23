@@ -10,201 +10,7 @@ intents:
   - bot_challenge
   - Adaptation
   - Engagement
-  - Community Impact
-  - Long-Term Planning
-  - Evaluation
-  - Financial
-  - Health and Safety
-  - Networking
-  - Silly
-  - Advanced
-  - General
-  - Open-Ended
-  - Hypothetical
-  - Controversial
-  - Clarification
-  - Hypothetical
-  - Ethical
-  - Technical
-  - Comparative
-  - dean_info
-  - contact_dean
-  - tp_department_role
-  - tpo_info
-  - employer_benefit
-  - ncer_advantages
-  - employability_ensurance
-  - student_volunteers_role
-  - tp_department_support
-  - tpo_contact_info
-  - tp_cell_objective
-  - recruitment_drive_success
-  - ncer_alumni
-  - tp_department_commitment
-  - industry_demand_fulfillment
-  - tp_cell_skills
-  - ncer_advantages_placement
-  - tp_department_engagement
-  - tpo_primary_role
-  - customized_program_success
-  - tp_cell_impact
-  - alumni_growth_support
-  - employer_opportunities
-  - tp_department_adaptation
-  - tp_cell_significance
-  - pcet_tnp
-  - ncer_2022_batch
-  - placement_stats
-  - advanced_placement
-  - pcet_records
-  - more_tnp
-  - mechanical_placement
-  - medium_placement
-  - entc_ratio
-  - silly_placement
-  - entc_eligible
-  - advanced_computer_science
-  - industry_interaction
-  - industry_interaction_info
-  - mou_information
-  - industry_engagement_stats
-  - iiic_advisory_body
-  - expert_sessions
-  - engineering_admission
-  - courses_offered
-  - fee_structure
-  - b_voc_program
-  - students_recruited_last_year
-  - top_emerging_bschool
-  - entrepreneurship_activities
-  - about_sbpcsc
-  - sbpcsc_objectives
-  - sbpcsc_contacts
-  - sbpcsc_approach
-  - sbpcsc_integration
-  - bvoc_supply_chain_management
-  - sbpim_recruiters
-  - sbpcoad_vision
-  - about_pbs
-  - pbs_advantage
-  - strong_alumni_network
-  - pgdm_admission_process
-  - about_sbpatil_institute
-  - sbpim_features
-  - sbpim_accreditations
-  - sbpim_rankings
-  - sbpim_publications
-  - sbpim_events
-  - sbpim_training_programs
-  - mba_program_details
-  - college_info
-  - pcacs_info
-  - pcacs_affiliation
-  - pcacs_courses
-  - pcacs_features
-  - pcacs_international_exposure
-  - founder
-  - eligibility_first_year
-  - eligibility_direct_second_year
-  - diploma_courses_intake
-  - awards_pcp
-  - academic_programs
-  - contact_details
-  - school_info
-  - core_values
-  - infrastructure
-  - admissions_info
-  - science_labs
-  - sports_facilities
-  - transportation_info
-  - online_fee_payment
-  - admissions_grade_xi_xii
-  - nmiet_info
-  - features_pcp
-  - major_recruiters_pcp
-  - activities_achievements_pcp
-  - supreme_court_order_ragging
-  - academic_awards
-  - training_placement_stats
-  - research_innovation
-  - extracurricular_activities
-  - pcet_overview
-  - academics_discipline
-  - top_institutes_result
-  - university_subject_toppers
-  - library_facilities
-  - erp_system
-  - auditorium_seminar_hall
-  - educational_model_pillars
-  - placements
-  - major_recruiting_companies
-  - skill_sync_training
-  - average_salary
-  - research_innovations
-  - international_national_conferences
-  - research_papers_books
-  - patents
-  - sae_member_collegiate_club
-  - college_location
-  - satellite_communication_lab
-  - siemens_training_center
-  - motivation_research
-  - earn_learn_scheme
-  - nss
-  - students_development_cell
-  - engineering_admissions_facilitation
-  - hostel_facility
-  - patent_copyrights_registration
-  - internship_training
-  - job_oriented_courses
-  - transport_facility
-  - canteen_mess_facility
-  - admission_foreign_universities
-  - infrastructure_facilities
-  - smart_class_tutorial_rooms
-  - qualified_faculties
-  - vibrant_campus_life
-  - excellent_research_facilities
-  - central_t_and_p_cell
-  - historical_education_trust
-  - campus_credential_program
-  - highest_package
-  - foreign_languages_training
-  - alumni_connect
-  - isnec_quadbike_competition
-  - well_equipped_labs
-  - department_emagazine_publication
-  - ieee_membership
-  - excellence_centers
-  - international_relations
-  - pcet_awards
-  - placement_achievements
-  - placements_info
-  - technical_clubs
-  - students_clubs
-  - 3d_printing_center
-  - iit_sponsored_lab
-  - online_certifications
-  - visionary_learning_community
-  - community_radio_station
-  - institution_innovation_cell
-  - sports_facilities
-  - sports_achievements
-  - pcet_info
-  - why_choose_pcet
-  - infrastructure_info
-  - advantages_of_pcu
-  - global_outreach_info
-  - admission_info
-  - summer_internship_info
-  - student_exchange_info
-  - exchange_program_info
-  - investment_banking_info
-  - digital_marketing_info
-  - supply_chain_management_info
-  - mba_info
-  - mba_specializations_info
-  - liberal_arts_info
+
 
 responses:
   utter_greet:
@@ -522,45 +328,60 @@ responses:
   - text: "The committee's composition and focus might be adjusted over time to address emerging trends and issues in engineering education."
 
   utter_Adaptation:
-    - text: "The campus offers customized tracks or modules tailored to diverse academic backgrounds and career aspirations, ensuring inclusivity."
-    - text: "The campus may offer customized tracks or modules within the training program, tailored to the diverse academic backgrounds and career aspirations of the students to ensure relevance and inclusivity."
+  - text: "The campus offers customized tracks or modules tailored to diverse academic backgrounds and career aspirations, ensuring inclusivity."
+  - text: "The campus may offer customized tracks or modules within the training program, tailored to the diverse academic backgrounds and career aspirations of the students to ensure relevance and inclusivity."
+
   utter_Engagement:
-    - text: "The campus employs interactive learning methods, gamification, and incentives to foster sustained student engagement throughout the training program."
+  - text: "The campus employs interactive learning methods, gamification, and incentives to foster sustained student engagement throughout the training program."
+
   utter_Community_Impact:
-    - text: "The campus tracks success stories of employed students, showcasing contributions to the local workforce and economic development."
+  - text: "The campus tracks success stories of employed students, showcasing contributions to the local workforce and economic development."
+
   utter_Long-Term_Planning:
-    - text: "The campus offers access to alumni networks, career counseling, and ongoing professional development resources to support long-term career trajectories."
+  - text: "The campus offers access to alumni networks, career counseling, and ongoing professional development resources to support long-term career trajectories."
+
   utter_Evaluation:
-    - text: "The campus conducts regular surveys, gathers feedback, and analyzes placement outcomes to continuously enhance the effectiveness of training programs."
+  - text: "The campus conducts regular surveys, gathers feedback, and analyzes placement outcomes to continuously enhance the effectiveness of training programs."
+
   utter_Financial:
-    - text: "The campus provides information on associated costs and outlines available financial assistance or scholarship opportunities for students in need."
+  - text: "The campus provides information on associated costs and outlines available financial assistance or scholarship opportunities for students in need."
+
   utter_Health_and_Safety:
-    - text: "The campus implements health guidelines, provides protective equipment, and offers virtual alternatives to ensure student well-being."
+  - text: "The campus implements health guidelines, provides protective equipment, and offers virtual alternatives to ensure student well-being."
+
   utter_Networking:
-    - text: "The campus offers career fairs, networking events, and online platforms for students to expand their professional networks."
+  - text: "The campus offers career fairs, networking events, and online platforms for students to expand their professional networks."
+
   utter_Silly:
-    - text: "While comfort is important, it's recommended to dress appropriately for the sessions to make a good impression."
+  - text: "While comfort is important, it's recommended to dress appropriately for the sessions to make a good impression."
+
   utter_Advanced:
-    - text: "Industry experts provide insights and practical knowledge, enhancing students' technical skills through hands-on projects and real-world applications."
+  - text: "Industry experts provide insights and practical knowledge, enhancing students' technical skills through hands-on projects and real-world applications."
+
   utter_General:
-    - text: "Placement Orientation prepares students for upcoming campus interviews, providing guidance on aptitude tests, technical interviews, and HR interviews."
+  - text: "Placement Orientation prepares students for upcoming campus interviews, providing guidance on aptitude tests, technical interviews, and HR interviews."
+
   utter_Open-Ended:
-    - text: "Mock aptitude tests simulate actual assessments, providing practice and feedback to enhance students' performance and confidence during placements."
+  - text: "Mock aptitude tests simulate actual assessments, providing practice and feedback to enhance students' performance and confidence during placements."
 
   utter_Controversial:
-    - text: "Mock aptitude tests are designed to build confidence and readiness, though students should manage their time and stress effectively during preparation."
+  - text: "Mock aptitude tests are designed to build confidence and readiness, though students should manage their time and stress effectively during preparation."
+
   utter_Clarification:
-    - text: "The Personality Test helps students gain self-awareness and understand their strengths and areas of improvement for personal and professional development."
+  - text: "The Personality Test helps students gain self-awareness and understand their strengths and areas of improvement for personal and professional development."
+
   utter_Hypothetical:
-    - text: "The campus usually provides recordings of these sessions for students who can't attend in person, ensuring access to valuable insights."
-    - text: "While attending scheduled training is important, students can seek additional resources like workshops or online courses to enhance their soft skills."
+  - text: "The campus usually provides recordings of these sessions for students who can't attend in person, ensuring access to valuable insights."
+  - text: "While attending scheduled training is important, students can seek additional resources like workshops or online courses to enhance their soft skills."
 
   utter_Ethical:
-    - text: "The college has a transparent process, often based on merit and student interest, ensuring equal opportunities for all eligible students."
+  - text: "The college has a transparent process, often based on merit and student interest, ensuring equal opportunities for all eligible students."
+
   utter_Technical:
-    - text: "The technical training covers domains relevant to different engineering disciplines, providing specific skill development tailored to students' fields of study."
+  - text: "The technical training covers domains relevant to different engineering disciplines, providing specific skill development tailored to students' fields of study."
+
   utter_Comparative:
-    - text: "PCET-NUTAN's training includes a comprehensive approach, integrating technical skill development, soft skills training, industry mentorship, and practical work opportunities."
+  - text: "PCET-NUTAN's training includes a comprehensive approach, integrating technical skill development, soft skills training, industry mentorship, and practical work opportunities."
 
   utter_analytical_question:
   - text: "The mock aptitude tests are designed to evaluate students' analytical skills, time management, and problem-solving abilities, providing valuable feedback to enhance their performance in the actual placement tests."
@@ -865,20 +686,20 @@ responses:
   - text: "These specializations provide a focused curriculum to prepare students for leadership roles in their chosen fields."
 
   utter_academic_programs:
-    - text: "Pimpri Chinchwad College of Arts, Commerce and Science (PCACS) offers various academic programs, including Bachelor of Arts (B.A), Bachelor of Science (B.Sc), and Bachelor of Commerce (B.Com). These programs have different specializations such as Economics, Politics, Psychology, Microbiology, Chemistry, Statistics, Cost & Works Accounting, Marketing Management, and more."
+  - text: "Pimpri Chinchwad College of Arts, Commerce and Science (PCACS) offers various academic programs, including Bachelor of Arts (B.A), Bachelor of Science (B.Sc), and Bachelor of Commerce (B.Com). These programs have different specializations such as Economics, Politics, Psychology, Microbiology, Chemistry, Statistics, Cost & Works Accounting, Marketing Management, and more."
 
   utter_contact_details:
-    - text: "You can contact Pimpri Chinchwad College of Arts, Commerce and Science (PCACS) at the following address: Opposite of S.B. Patil Public School, S. No. 110, Gate No.1, Ravet, Pune - 412101. Mobile No: 9665333344 / 9767199039. Email: enquiry@pcacspune.com."
+  - text: "You can contact Pimpri Chinchwad College of Arts, Commerce and Science (PCACS) at the following address: Opposite of S.B. Patil Public School, S. No. 110, Gate No.1, Ravet, Pune - 412101. Mobile No: 9665333344 / 9767199039. Email: enquiry@pcacspune.com."
 
   utter_infrastructure_amenities:
-    - text: "S.B. Patil Public School has a well-equipped infrastructure and various amenities, including Science Labs (Physics, Chemistry, and Biology), Social Science Lab, Innovation Lab, Robotics Labs, Computer and IT Labs, Fine Art/Creativity Room, Classrooms with E-Learning, Math Lab, Language Lab, Library and Reading Zone, Multipurpose Hall and Auditorium, Indoor and Outdoor Sports facilities, Synthetic Playground, Brunch/Lunch Facility, Bus Transportation, CCTV and Security Vigil, and more."
+  - text: "S.B. Patil Public School has a well-equipped infrastructure and various amenities, including Science Labs (Physics, Chemistry, and Biology), Social Science Lab, Innovation Lab, Robotics Labs, Computer and IT Labs, Fine Art/Creativity Room, Classrooms with E-Learning, Math Lab, Language Lab, Library and Reading Zone, Multipurpose Hall and Auditorium, Indoor and Outdoor Sports facilities, Synthetic Playground, Brunch/Lunch Facility, Bus Transportation, CCTV and Security Vigil, and more."
 
   utter_core_values:
-    - text: "S.B. Patil Public School follows the core values of 'RICHEST,' which stands for Respect, Integrity, Compassion, Humility, Empathy, Simplicity, and Trust. These values aim to nurture and enrich young minds, instilling a strong moral character and preparing them to become good human beings."
-    - text: "one of the core values of NCER is transparency."
+  - text: "S.B. Patil Public School follows the core values of 'RICHEST,' which stands for Respect, Integrity, Compassion, Humility, Empathy, Simplicity, and Trust. These values aim to nurture and enrich young minds, instilling a strong moral character and preparing them to become good human beings."
+  - text: "one of the core values of NCER is transparency."
 
   utter_admission_details:
-    - text: "Admissions are open for Grade XI and XII (Science and Commerce) at S.B. Patil Public School. The school provides an ERP System, Nutan Maharashtra Institute of Engineering & Technology (NMIET), Talegaon Dabhade, Pune, affiliated with Savitribai Phule Pune University (SPPU) and approved by AICTE. For admission inquiries, you can visit the school's website or contact them at nmiettalegaon@gmail.com or 02114-231666 / 7423080910 / 9270252277."
+  - text: "Admissions are open for Grade XI and XII (Science and Commerce) at S.B. Patil Public School. The school provides an ERP System, Nutan Maharashtra Institute of Engineering & Technology (NMIET), Talegaon Dabhade, Pune, affiliated with Savitribai Phule Pune University (SPPU) and approved by AICTE. For admission inquiries, you can visit the school's website or contact them at nmiettalegaon@gmail.com or 02114-231666 / 7423080910 / 9270252277."
 
   utter_liberal_arts_info:
   - text: "SCHOOL OF LIBERAL ARTS"
@@ -903,189 +724,191 @@ responses:
   - text: "- 5 industrial projects were completed."
   - text: "- 60 Faculty Development Programs (FDPs) and workshops were organized."
   - text: "Notable faculty members on industry boards include Dr. Aparna Pande, Prof. M K Shaikh, and Prof. Milind Ovhal."
+  
   utter_about_sbpcsc:
-    - text: "S.B. Patil College of Science & Commerce is a progressive, student-centered, co-educational, and private college committed to providing quality education. It is run by Pimpri Chinchwad Education Trust (PCET), a trusted brand in education since 1990."
+  - text: "S.B. Patil College of Science & Commerce is a progressive, student-centered, co-educational, and private college committed to providing quality education. It is run by Pimpri Chinchwad Education Trust (PCET), a trusted brand in education since 1990."
+
   utter_academics_discipline:
-    - text: "We maintain strict academic discipline in all departments to ensure a conducive learning environment for our students."
+  - text: "We maintain strict academic discipline in all departments to ensure a conducive learning environment for our students."
 
   utter_top_institutes_result:
-    - text: "ur first-year results consistently place us among the top institutes in Savitribai Phule Pune University (SPPU), with outstanding achievements."
+  - text: "ur first-year results consistently place us among the top institutes in Savitribai Phule Pune University (SPPU), with outstanding achievements."
 
   utter_university_subject_toppers:
-    - text: "Many of our students have scored top marks in SPPU examinations, emerging as subject toppers in the university."
+  - text: "Many of our students have scored top marks in SPPU examinations, emerging as subject toppers in the university."
 
   utter_library_facilities:
-    - text: "We have a central college library and a digital library, providing extensive resources for academic studies."
+  - text: "We have a central college library and a digital library, providing extensive resources for academic studies."
 
   utter_erp_system:
-    - text: "We utilize an ERP system for seamless communication and information management for both students and staff."
+  - text: "We utilize an ERP system for seamless communication and information management for both students and staff."
 
   utter_auditorium_seminar_hall:
-    - text: "ur campus features a smart auditorium and seminar hall for various academic and extracurricular activities."
+  - text: "ur campus features a smart auditorium and seminar hall for various academic and extracurricular activities."
 
   utter_educational_model_pillars:
-    - text: "ur educational model stands on three pillars: highly qualified faculties, excellent infrastructure facilities, and a strong focus on academics."
+  - text: "ur educational model stands on three pillars: highly qualified faculties, excellent infrastructure facilities, and a strong focus on academics."
 
   utter_placements:
-    - text: "Placements are conducted through the Central Training Placement Cell of PCET-NUTAN, with major companies like TCS, Wipro, Infosys, and more participating in campus recruitment."
+  - text: "Placements are conducted through the Central Training Placement Cell of PCET-NUTAN, with major companies like TCS, Wipro, Infosys, and more participating in campus recruitment."
 
   utter_major_recruiting_companies:
-    - text: "Notable companies like TCS, Wipro, Infosys, Persistent, Capgemini, and many others participate in our campus recruitment drives."
+  - text: "Notable companies like TCS, Wipro, Infosys, Persistent, Capgemini, and many others participate in our campus recruitment drives."
 
   utter_skill_sync_training:
-    - text: "We offer SKILL-LYNC PROSAP courses training for students to enhance their skills and stay industry-relevant."
+  - text: "We offer SKILL-LYNC PROSAP courses training for students to enhance their skills and stay industry-relevant."
   utter_technical_clubs:
-    - text: "All departments have technical clubs like MESA of Mechanical, ESA of E&TC, and CESA of the Computer Department, SAIT of IT Department."
+  - text: "All departments have technical clubs like MESA of Mechanical, ESA of E&TC, and CESA of the Computer Department, SAIT of IT Department."
 
   utter_students_clubs:
-    - text: "Various student clubs such as Coding Club, Professional Society Membership, Art Circle, Speaker’s Forum, Creativity Corner, Hobby Club, Open Mike Club, and Reader’s Club promote diverse interests among students."
+  - text: "Various student clubs such as Coding Club, Professional Society Membership, Art Circle, Speaker’s Forum, Creativity Corner, Hobby Club, Open Mike Club, and Reader’s Club promote diverse interests among students."
 
   utter_3d_printing_center:
-    - text: "We have a '3D Printing Center of Excellence' where students can explore and innovate in the field of 3D printing."
+  - text: "We have a '3D Printing Center of Excellence' where students can explore and innovate in the field of 3D printing."
 
   utter_iit_sponsored_lab:
-    - text: "ur institute has an IIT-sponsored 'E-Yantra Laboratory' dedicated to robotics, providing students with hands-on experience in this field."
+  - text: "ur institute has an IIT-sponsored 'E-Yantra Laboratory' dedicated to robotics, providing students with hands-on experience in this field."
 
   utter_online_certifications:
-    - text: "We offer an Online Certifications Courses Center where students can pursue various certifications to enhance their skills."
+  - text: "We offer an Online Certifications Courses Center where students can pursue various certifications to enhance their skills."
 
   utter_visionary_learning_community:
-    - text: "ur institute is part of the Visionary Learning Community of India (VLC), an initiative of Japanese (Japan International Cooperation Agency-JICA)-CII-NMIET."
+  - text: "ur institute is part of the Visionary Learning Community of India (VLC), an initiative of Japanese (Japan International Cooperation Agency-JICA)-CII-NMIET."
 
   utter_community_radio_station:
-    - text: "We have a Community Radio Station called 'NUTAN CRS,' providing a platform for students to engage with radio broadcasting."
+  - text: "We have a Community Radio Station called 'NUTAN CRS,' providing a platform for students to engage with radio broadcasting."
 
   utter_institution_innovation_cell:
-    - text: "ur institute has an Institution Innovation Cell (IIC) sanctioned by AICTE, fostering innovation and entrepreneurship among students."
+  - text: "ur institute has an Institution Innovation Cell (IIC) sanctioned by AICTE, fostering innovation and entrepreneurship among students."
 
   utter_sports_facilities:
-    - text: "ur campus offers a range of sports facilities, including football, gym, basketball court, volleyball court, table tennis, carrom, cricket, powerlifting, and more."
+  - text: "ur campus offers a range of sports facilities, including football, gym, basketball court, volleyball court, table tennis, carrom, cricket, powerlifting, and more."
 
   utter_sports_achievements:
-    - text: "Students have actively participated and achieved top ranks in international, national, and university-level sports championships."
+  - text: "Students have actively participated and achieved top ranks in international, national, and university-level sports championships."
 
   utter_average_salary:
-    - text: "The average salary for the 2022-23 batch students is 5.09 LPA, showcasing the success of our placement efforts."
+  - text: "The average salary for the 2022-23 batch students is 5.09 LPA, showcasing the success of our placement efforts."
 
   utter_research_innovations:
-    - text: "Faculty and students actively engage in research and innovations, participating in international and national conferences, publishing research papers, obtaining copyrights, writing books, and filing patents."
+  - text: "Faculty and students actively engage in research and innovations, participating in international and national conferences, publishing research papers, obtaining copyrights, writing books, and filing patents."
 
   utter_international_national_conferences:
-    - text: "ur faculty and students actively participate in both international and national conferences, contributing to the academic community."
+  - text: "ur faculty and students actively participate in both international and national conferences, contributing to the academic community."
 
   utter_research_papers_books:
-    - text: "ur institute has a rich research culture, with more than 300 research papers published, 10 books authored, and 100 copyrights obtained by faculty and students."
+  - text: "ur institute has a rich research culture, with more than 300 research papers published, 10 books authored, and 100 copyrights obtained by faculty and students."
 
   utter_patents:
-    - text: "ur commitment to innovation is evident with 30 patents filed and granted by our faculty and students."
+  - text: "ur commitment to innovation is evident with 30 patents filed and granted by our faculty and students."
 
   utter_sae_member_collegiate_club:
-    - text: "We take pride in being an SAE member and having a Collegiate Club in the institute, fostering a passion for automotive engineering."
+  - text: "We take pride in being an SAE member and having a Collegiate Club in the institute, fostering a passion for automotive engineering."
 
   utter_college_location:
-    - text: "Situated near MIDC, our college benefits from its strategic location with easy accessibility."
+  - text: "Situated near MIDC, our college benefits from its strategic location with easy accessibility."
 
   utter_satellite_communication_lab:
-    - text: "We boast an Advanced Satellite Communication Laboratory, the first of its kind in Maharashtra, funded by AICTE, New Delhi."
+  - text: "We boast an Advanced Satellite Communication Laboratory, the first of its kind in Maharashtra, funded by AICTE, New Delhi."
 
   utter_siemens_training_center:
-    - text: "ur institute is a Siemens Corporate Authorized Training Center for CAD/CAM/CAE, providing professional training."
+  - text: "ur institute is a Siemens Corporate Authorized Training Center for CAD/CAM/CAE, providing professional training."
 
   utter_motivation_research:
-    - text: "We actively motivate research and innovation, providing research grants for innovative projects."
+  - text: "We actively motivate research and innovation, providing research grants for innovative projects."
 
   utter_earn_learn_scheme:
-    - text: "Students have the opportunity to participate in the Earn & Learn Scheme by SPPU, gaining practical experience while studying."
+  - text: "Students have the opportunity to participate in the Earn & Learn Scheme by SPPU, gaining practical experience while studying."
 
   utter_nss:
-    - text: "ur institute hosts the National Service Scheme (NSS), encouraging students to engage in social service activities."
+  - text: "ur institute hosts the National Service Scheme (NSS), encouraging students to engage in social service activities."
 
   utter_students_development_cell:
-    - text: "A dedicated Students' Development Cell focuses on the overall development of students, providing guidance and support."
+  - text: "A dedicated Students' Development Cell focuses on the overall development of students, providing guidance and support."
 
   utter_engineering_admissions_facilitation:
-    - text: "We have a Facilitation Center for Engineering Admissions, assisting students through the admission process."
+  - text: "We have a Facilitation Center for Engineering Admissions, assisting students through the admission process."
 
   utter_hostel_facility:
-    - text: "Boys and girls hostel facilities are available on the college campus for the convenience of students."
+  - text: "Boys and girls hostel facilities are available on the college campus for the convenience of students."
 
   utter_patent_copyrights_registration:
-    - text: "ur institute has a Patent & Copyrights Registration Cell to facilitate the protection of intellectual property."
+  - text: "ur institute has a Patent & Copyrights Registration Cell to facilitate the protection of intellectual property."
 
   utter_internship_training:
-    - text: "Internship training opportunities are provided to students, enhancing their practical skills and industry exposure."
+  - text: "Internship training opportunities are provided to students, enhancing their practical skills and industry exposure."
 
   utter_job_oriented_courses:
-    - text: "We offer job-oriented courses to prepare students for specific careers in the industry."
+  - text: "We offer job-oriented courses to prepare students for specific careers in the industry."
 
   utter_transport_facility:
-    - text: "Transport facilities are available to ensure easy commuting for students."
+  - text: "Transport facilities are available to ensure easy commuting for students."
 
   utter_canteen_mess_facility:
-    - text: "A canteen and mess facility is provided, offering a variety of food options for students."
+  - text: "A canteen and mess facility is provided, offering a variety of food options for students."
 
   utter_admission_foreign_universities:
-    - text: "Many of our students have successfully gained admission to foreign universities for higher studies in their respective fields."
+  - text: "Many of our students have successfully gained admission to foreign universities for higher studies in their respective fields."
 
   utter_infrastructure_facilities:
-    - text: "We take pride in offering excellent infrastructure facilities with dedicated 300 MBPS high-speed internet leased line for effective teaching and learning."
+  - text: "We take pride in offering excellent infrastructure facilities with dedicated 300 MBPS high-speed internet leased line for effective teaching and learning."
 
   utter_smart_class_tutorial_rooms:
-    - text: "Smart classrooms and tutorial rooms equipped with advanced IT infrastructure support academic and placement training activities."
+  - text: "Smart classrooms and tutorial rooms equipped with advanced IT infrastructure support academic and placement training activities."
 
   utter_qualified_faculties:
-    - text: "ur faculties are well-qualified, with Ph.D. and M.E qualifications as per AICTE and SPPU norms."
+  - text: "ur faculties are well-qualified, with Ph.D. and M.E qualifications as per AICTE and SPPU norms."
 
   utter_vibrant_campus_life:
-    - text: "Experience a vibrant campus life with a range of extracurricular activities, sports, and cultural events."
+  - text: "Experience a vibrant campus life with a range of extracurricular activities, sports, and cultural events."
 
   utter_excellent_research_facilities:
-    - text: "We provide excellent research facilities with well-equipped labs and advanced IT infrastructure."
+  - text: "We provide excellent research facilities with well-equipped labs and advanced IT infrastructure."
 
   utter_central_t_and_p_cell:
-    - text: "ur institute has the best Central Training and Placement Cell (T&P Cell), ensuring successful placement opportunities for students."
+  - text: "ur institute has the best Central Training and Placement Cell (T&P Cell), ensuring successful placement opportunities for students."
 
   utter_historical_education_trust:
-    - text: "We are proud to be associated with a historical education trust, reflecting our commitment to education excellence."
+  - text: "We are proud to be associated with a historical education trust, reflecting our commitment to education excellence."
 
   utter_campus_credential_program:
-    - text: "We conduct an exclusive and exhaustive preparation program named 'Campus Credential' for third-year students, spanning 20 days."
+  - text: "We conduct an exclusive and exhaustive preparation program named 'Campus Credential' for third-year students, spanning 20 days."
 
   utter_highest_package:
-    - text: "The highest package for the 2022-23 batch is an impressive 15 LPA, showcasing the success of our placement efforts."
+  - text: "The highest package for the 2022-23 batch is an impressive 15 LPA, showcasing the success of our placement efforts."
 
   utter_foreign_languages_training:
-    - text: "Students have the opportunity to receive training in foreign languages like Japanese and German, enhancing their prospects for abroad placements."
+  - text: "Students have the opportunity to receive training in foreign languages like Japanese and German, enhancing their prospects for abroad placements."
 
   utter_alumni_connect:
-    - text: "Alumni connect is maintained through the 'Alma connect Portal' by the Alumni Association, fostering a strong bond with our former students."
+  - text: "Alumni connect is maintained through the 'Alma connect Portal' by the Alumni Association, fostering a strong bond with our former students."
 
   utter_isnec_quadbike_competition:
-    - text: "ur Mechanical Department actively participates in the ISNEE Quadbike competition every year, showcasing their engineering prowess."
+  - text: "ur Mechanical Department actively participates in the ISNEE Quadbike competition every year, showcasing their engineering prowess."
 
   utter_well_equipped_labs:
-    - text: "ur labs are well-equipped with advanced IT infrastructure, providing a conducive environment for research and practical learning."
+  - text: "ur labs are well-equipped with advanced IT infrastructure, providing a conducive environment for research and practical learning."
 
   utter_department_emagazine_publication:
-    - text: "Students contribute to the academic community through the publication of department E-Magazines, showcasing their creativity and knowledge."
+  - text: "Students contribute to the academic community through the publication of department E-Magazines, showcasing their creativity and knowledge."
 
   utter_ieee_membership:
-    - text: "ur institute proudly holds memberships in professional bodies like IEEE International Student Branch, fostering a culture of continuous learning."
+  - text: "ur institute proudly holds memberships in professional bodies like IEEE International Student Branch, fostering a culture of continuous learning."
 
   utter_excellence_centers:
-    - text: "We host several excellence centers in collaboration with industry partners, focusing on areas such as Data Science, Artificial Intelligence, Information Security, Digital Forensic, Microsoft Certification, Data Analysis, and Learning Hub."
+  - text: "We host several excellence centers in collaboration with industry partners, focusing on areas such as Data Science, Artificial Intelligence, Information Security, Digital Forensic, Microsoft Certification, Data Analysis, and Learning Hub."
 
   utter_sbpcsc_objectives:
-    - text: "The objectives of S.B. Patil College of Science & Commerce include providing integrated coaching for JEE/NEET/CET exams, offering synchronized course plans for boards and competitive exams preparation under one roof, and creating a stress-free learning experience."
+  - text: "The objectives of S.B. Patil College of Science & Commerce include providing integrated coaching for JEE/NEET/CET exams, offering synchronized course plans for boards and competitive exams preparation under one roof, and creating a stress-free learning experience."
 
   utter_sbpcsc_contacts:
-    - text: "Contact details for S.B. Patil College of Science & Commerce (SBPCSC) are as follows: Email: shpc.science@gmail.com, Index No.: 11.16.066, U-DISE-No: 27252001412, Contacts: 9665333344 / 9767199039."
+  - text: "Contact details for S.B. Patil College of Science & Commerce (SBPCSC) are as follows: Email: shpc.science@gmail.com, Index No.: 11.16.066, U-DISE-No: 27252001412, Contacts: 9665333344 / 9767199039."
 
   utter_sbpcsc_approach:
-    - text: "SBPCSC follows an integrated approach to education, providing excellent coaching from board to NT-JEE (advanced) / NEET / CET levels. The aim is to raise the competency level of students layer by layer, ensuring they receive quality education within the college itself."
+  - text: "SBPCSC follows an integrated approach to education, providing excellent coaching from board to NT-JEE (advanced) / NEET / CET levels. The aim is to raise the competency level of students layer by layer, ensuring they receive quality education within the college itself."
 
   utter_sbpcsc_integration:
-    - text: "The integrated approach at SBPCSC aims to have a synchronized course plan for boards and competitive exams preparation under one roof. This approach saves time, avoids duplication of efforts, and provides students with a stress-free learning experience."
+  - text: "The integrated approach at SBPCSC aims to have a synchronized course plan for boards and competitive exams preparation under one roof. This approach saves time, avoids duplication of efforts, and provides students with a stress-free learning experience."
 
   utter_iiic_advisory_body:
   - text: "The Industry-Institute Interaction Cell (IIIC) is guided by an advisory body and coordinated by dedicated individuals. Here are the key members:"
@@ -1105,19 +928,19 @@ responses:
   - text: "These individuals play crucial roles in fostering collaboration between the institute and industries."
 
   utter_pcacs_info:
-    - text: "Pimpri Chinchwad College of Arts, Commerce and Science (PCACS) is committed to academic excellence, co-curricular, and extracurricular performance. It aims to provide the best facilities and an environment suitable for students to nurture themselves, make progress in life, and choose the right career path."
+  - text: "Pimpri Chinchwad College of Arts, Commerce and Science (PCACS) is committed to academic excellence, co-curricular, and extracurricular performance. It aims to provide the best facilities and an environment suitable for students to nurture themselves, make progress in life, and choose the right career path."
 
   utter_pcacs_affiliation:
-    - text: "PCACS is affiliated with Savitribai Phule Pune University and recognized by the Government of Maharashtra. The college offers Bachelor's degree programs in B.A., B.Com., and B.Sc."
+  - text: "PCACS is affiliated with Savitribai Phule Pune University and recognized by the Government of Maharashtra. The college offers Bachelor's degree programs in B.A., B.Com., and B.Sc."
 
   utter_pcacs_courses:
-    - text: "PCACS offers a variety of Bachelor's degree programs in Arts, Commerce, and Science. The programs include B.A., B.Com., and B.Sc."
+  - text: "PCACS offers a variety of Bachelor's degree programs in Arts, Commerce, and Science. The programs include B.A., B.Com., and B.Sc."
 
   utter_pcacs_features:
-    - text: "Unique features of PCACS Commerce Academy include international exposure opportunities for each student, interactive doubt-solving sessions, precise study materials for exams like IAS, CA, CS, CMA, collaboration with leading international universities, and an excellent placement legacy with 100% placement assistance."
+  - text: "Unique features of PCACS Commerce Academy include international exposure opportunities for each student, interactive doubt-solving sessions, precise study materials for exams like IAS, CA, CS, CMA, collaboration with leading international universities, and an excellent placement legacy with 100% placement assistance."
 
   utter_pcacs_international_exposure:
-    - text: "PCACS provides international exposure opportunities to each student and has collaborations with leading 22 international universities. This exposure enhances the overall academic experience and prepares students for global opportunities."
+  - text: "PCACS provides international exposure opportunities to each student and has collaborations with leading 22 international universities. This exposure enhances the overall academic experience and prepares students for global opportunities."
 
   utter_expert_sessions:
   - text: "Here are some recent expert sessions and online activities conducted at our institute:"
@@ -1150,7 +973,6 @@ responses:
   - text: "3. Mechanical Engineering (Intake: 60, DTE Choice Code: 641961210)"
   - text: "4. Electronics and Tele-communication Engineering (Intake: 60, DTE Choice Code: 641937010)"
   - text: "Eligibility: HSC Passed with physics & Mathematics with Chemistry / Biology / Biotech / Technical / Vocational @ 45% for Open & 40% for Reserve Category Students."
-  - text: ""
   - text: "We also offer the following Bachelor of Vocational (3 Years B.Voc. Degree Course) for the Academic Year 2022 – 2023:"
   - text: "1. Electronics manufacturing services (Intake: 30)"
   - text: "2. Automobile Servicing (Intake: 30)"
@@ -1158,37 +980,30 @@ responses:
   - text: "4. Welding Technology (Intake: 30)"
   - text: "5. Foundry Technology (Intake: 30)"
   - text: "Eligibility: HSC/10+2 Passed with Arts/Commerce/Science or equivalent course or any diploma Course (10+3) under MSBTE, Mumbai."
-  - text: ""
   - text: "For more information, you can contact us at 7424070809 / 7424060708."
 
   utter_fee_structure:
   - text: "Here is the fee structure for the academic year 2022-23:"
-  - text: ""
   - text: "(First Year Fee Structure)"
   - text: "pen Category:"
   - text: "Tuition Fees: Rs. 81,449.00"
   - text: "Development Fees: Rs. 8,551.00"
   - text: "Insurance: Rs. 701.00"
   - text: "Total: Rs. 90,701.00"
-  - text: ""
   - text: "ST/VJ/NT/SBC/TFWS Category:"
   - text: "Development Fees: Rs. 8,551.00"
   - text: "Insurance: Rs. 701.00"
   - text: "Total: Rs. 9,252.00"
-  - text: ""
   - text: "SC Category:"
   - text: "Insurance: Rs. 701.00"
   - text: "Total: Rs. 701.00"
-  - text: ""
   - text: "BC Category:"
   - text: "Tuition Fees: Rs. 40,725.00"
   - text: "Development Fees: Rs. 8,551.00"
   - text: "Insurance: Rs. 701.00"
   - text: "Total: Rs. 49,977.00"
-  - text: ""
   - text: "(Direct Second Year Fee Structure)"
   - text: "Similar breakdown as the First Year Fee Structure."
-  - text: ""
   - text: "(B. Voc. Fee Structure)"
   - text: "1. Graphics & Multimedia: Rs. 35,000/-"
   - text: "2. Electronics Manufacturing Services: Rs. 35,000/-"
@@ -1196,25 +1011,20 @@ responses:
   - text: "4. Automotive Mechatronics: Rs. 35,000/-"
   - text: "5. Foundry Technology: Rs. 35,000/-"
   - text: "6. Welding Technology: Rs. 35,000/-"
-  - text: ""
   - text: "(Hostel Fee for A.Y 2023-24)"
   - text: "ld Boys/Girls:"
   - text: "Hostel Fees: Rs. 41,000"
   - text: "Mess Fees: Rs. 45,100"
   - text: "Total Fees: Rs. 86,100"
-  - text: ""
   - text: "New Boys:"
   - text: "Hostel Fees: Rs. 49,500"
   - text: "Mess Fees: Rs. 45,100"
   - text: "Total Fees: Rs. 94,600"
-  - text: ""
   - text: "Room Contains for Each 3 Students (Both Old and New Boys):"
   - text: "3 Bed, 3 Table, 3 Chair"
   - text: "1 Fan, WiFi, Hot Water, Water Purifier, Small Wardrobe of 3 Compartments (No Mattress for Old Boys)"
   - text: "2 Fans, WiFi, Hot Water, Water Purifier, Big Size Wardrobe of 3 Compartments, 3 Mattresses (for New Boys)"
-  - text: ""
   - text: "Note: Mess & Breakfast is Compulsory with Hostel Admission."
-  - text: ""
   - text: "For Hostel Fee payments by RTGS/NEFT/Transfer:"
   - text: "Bank Name: AXIS BANK LTD."
   - text: "Branch Address: TALEGAON DABHADE, PUNE"
@@ -1222,7 +1032,6 @@ responses:
   - text: "Account No.: 917010054283349"
   - text: "IFSC Code: UTIB0002137"
   - text: "MICR Code: 411211036"
-  - text: ""
   - text: "Hostel Contact Details:"
   - text: "Ravi Dabhade: 9822402530 - Hostel I/c"
   - text: "Pradeep Shinde: 8855873500 - Hostel Admin"
@@ -1237,12 +1046,10 @@ responses:
   - text: "3) Electronics and Manufacturing Services - Intake: 30"
   - text: "4) Foundry Technology - Intake: 30"
   - text: "5) Welding Technology - Intake: 30"
-  - text: ""
   - text: "Duration and NSQF Level:"
   - text: "Diploma: 1 Year (NSQF Level 5)"
   - text: "Advanced Diploma: 2 Years (NSQF Level 6)"
   - text: "B.Voc Degree: 3 Years (NSQF Level 7)"
-  - text: ""
   - text: "Why choose B.Voc Program at Nutan College?"
   - text: "1. 100% On Job Training in the industry from day one."
   - text: "2. B.Voc Degree holder is eligible for state/central government examinations/jobs and higher studies."
@@ -1250,7 +1057,6 @@ responses:
   - text: "4. Multiple entry/exit options, ensuring flexibility in the education journey."
   - text: "5. Stipend during on-job training on merit basis."
   - text: "6. More than 140 companies connected with PCET & NMVPM for B.Voc."
-  - text: ""
   - text: "For specific details about the program, you can refer to the official college prospectus or contact the college administration."
 
   utter_college_info:
