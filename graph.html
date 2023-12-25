@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rasa Core Visualisation</title>
+    <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+    <script src="https://dagrejs.github.io/project/dagre/latest/dagre.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://dagrejs.github.io/project/graphlib-dot/v0.6.3/graphlib-dot.js"></script>
+</head>
+<body>
+<div id="errormsg" style="color: #b00"></div>
+<svg>
+    <style id="graph-style">
+        .node.invisible > rect {
+            display: none;
+        }
+
+        .node.start > rect {
+            fill: #7f7;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node.end > rect {
+            fill: #f77;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node:not(.active) > rect, .node:not(.active) > .label {
+            opacity: 0.4;
+        }
+
+        .edgePath:not(.active) path {
+            opacity: 0.4;
+        }
+
+        .node.ellipsis > rect {
+            fill: #CCC;
+        }
+
+        .node.intent > rect {
+            fill: #7ff;
+        }
+
+        .node.dashed > rect {
+            stroke-dasharray: 5;
+        }
+
+        text {
+            font-weight: 300;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serf, serif;
+            font-size: 14px;
+            color: #1f1d1d;
+        }
+
+        .node rect {
+            stroke: #444;
+            fill: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .edgePath path {
+            stroke: #333;
+            stroke-width: 1.5px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 0;
+            height: 100%;
+            width: 100%
+        }
+    </style>
+    <g></g>
+</svg>
+<script>
+
+  function serveGraph() {
+    let oldInputGraphValue;
+
+    const url = 'visualization.dot';
+    const refreshInterval = 500;
+
+    // trigger a refresh by fetching an updated graph
+    setInterval(function () {
+      fetch(url).then(r => r.text()).then(dot => {
+        document.getElementById('errormsg').innerHTML = '';
+        if (oldInputGraphValue === dot) return;
+
+        oldInputGraphValue = dot;
+        drawGraph(dot);
+      }).catch(err => {
+        document.getElementById('errormsg').innerHTML =
+          'Failed to update plot. (' + err.message + ')';
+      });
+    }, refreshInterval);
+  }
+
+  function drawGraph(graph) {
+    let g = graphlibDot.read(graph);
+    // Set margins, if not present
+    if (!g.graph().hasOwnProperty("marginx") &&
+      !g.graph().hasOwnProperty("marginy")) {
+      g.graph().marginx = 20;
+      g.graph().marginy = 20;
+    }
+    g.graph().transition = function (selection) {
+      return selection.transition().duration(300);
+    };
+    // Render the graph into svg g
+    d3.select("svg g").call(render, g);
+  }
+  // Set up zoom support
+  const svg = d3.select("svg"),
+    inner = d3.select("svg g"),
+    zoom = d3.zoom().on("zoom", function () {
+      inner.attr("transform", d3.event.transform);
+    });
+  svg.call(zoom);
+
+  // Create and configure the renderer
+  const render = dagreD3.render();
+
+  let isClient = false;
+  isClient = true;
+
+  if (isClient) {
+    // Mark all nodes and their edges as active
+    cssRules = document.getElementById('graph-style').sheet.cssRules;
+    cssRules[3].style.opacity = 1;
+    cssRules[4].style.opacity = 1;
+
+    let graph;
+    graph = `digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_greet];
+2 [class="", fontsize=12, label=utter_happy];
+4 [class="", fontsize=12, label=utter_cheer_up];
+5 [class="", fontsize=12, label=utter_did_that_help];
+10 [class="", fontsize=12, label=utter_goodbye];
+11 [class="", fontsize=12, label="..."];
+12 [class="", fontsize=12, label=utter_iqac];
+14 [class="", fontsize=12, label=utter_ssr];
+16 [class="", fontsize=12, label=utter_best_practice];
+18 [class="", fontsize=12, label=utter_institutional_distinctiveness];
+20 [class="", fontsize=12, label=utter_green_audit];
+22 [class="", fontsize=12, label=utter_energy_audit];
+24 [class="", fontsize=12, label=utter_environmental_audit];
+26 [class="", fontsize=12, label=utter_feedback];
+28 [class="", fontsize=12, label=utter_ip_understanding];
+30 [class="", fontsize=12, label=utter_nic];
+34 [class="", fontsize=12, label=utter_iamabot];
+36 [class="", fontsize=12, label=utter_about_trust];
+38 [class="", fontsize=12, label=utter_about_ncer];
+40 [class="", fontsize=12, label=utter_dean_desk];
+42 [class="", fontsize=12, label=utter_first_year_engineering];
+44 [class="", fontsize=12, label=utter_computer_science_engineering];
+46 [class="", fontsize=12, label=utter_cse_ai];
+48 [class="", fontsize=12, label=utter_naac];
+49 [class=intent, fillcolor=lightblue, label=moin, shape=rect, style=filled];
+50 [class=intent, fillcolor=lightblue, label=wonderful, shape=rect, style=filled];
+51 [class=intent, fillcolor=lightblue, label="so sad", shape=rect, style=filled];
+52 [class=intent, fillcolor=lightblue, label=correct, shape=rect, style=filled];
+53 [class=intent, fillcolor=lightblue, label="not really", shape=rect, style=filled];
+54 [class=intent, fillcolor=lightblue, label="How does IQAC collect feedback?", shape=rect, style=filled];
+55 [class=intent, fillcolor=lightblue, label="Self Study Report", shape=rect, style=filled];
+56 [class=intent, fillcolor=lightblue, label="About Best Practices", shape=rect, style=filled];
+57 [class=intent, fillcolor=lightblue, label="What makes this institution unique?", shape=rect, style=filled];
+58 [class=intent, fillcolor=lightblue, label="What does the environmental audit cover?", shape=rect, style=filled];
+59 [class=intent, fillcolor=lightblue, label="Share insights into energy usage assessment", shape=rect, style=filled];
+60 [class=intent, fillcolor=lightblue, label="What does the environmental audit entail?", shape=rect, style=filled];
+61 [class=intent, fillcolor=lightblue, label="How does the institution gather feedback from students?", shape=rect, style=filled];
+62 [class=intent, fillcolor=lightblue, label="Details about intellectual property education at the institution", shape=rect, style=filled];
+63 [class=intent, fillcolor=lightblue, label="How does the institution participate in NIC initiatives?", shape=rect, style=filled];
+64 [class=intent, fillcolor=lightblue, label="good night", shape=rect, style=filled];
+65 [class=intent, fillcolor=lightblue, label="are you a human?", shape=rect, style=filled];
+66 [class=intent, fillcolor=lightblue, label="About Trust", shape=rect, style=filled];
+67 [class=intent, fillcolor=lightblue, label="What is NCER?", shape=rect, style=filled];
+68 [class=intent, fillcolor=lightblue, label="Can I know more about the Dean's responsibilities?", shape=rect, style=filled];
+69 [class=intent, fillcolor=lightblue, label="Information on FYE", shape=rect, style=filled];
+70 [class=intent, fillcolor=lightblue, label="CSE Department", shape=rect, style=filled];
+71 [class=intent, fillcolor=lightblue, label="What career paths can students pursue after AI specialization?", shape=rect, style=filled];
+72 [class=intent, fillcolor=lightblue, label="What is the process for NAAC accreditation?", shape=rect, style=filled];
+0 -> 11  [class="", key=NONE, label=""];
+0 -> 49  [class="", key=0];
+1 -> 50  [class="", key=0];
+1 -> 51  [class="", key=0];
+2 -> "-1"  [class="", key=NONE, label=""];
+4 -> 5  [class="", key=NONE, label=""];
+5 -> 52  [class="", key=0];
+5 -> 53  [class="", key=0];
+10 -> "-1"  [class="", key=NONE, label=""];
+11 -> 54  [class="", key=0];
+11 -> 55  [class="", key=0];
+11 -> 56  [class="", key=0];
+11 -> 57  [class="", key=0];
+11 -> 58  [class="", key=0];
+11 -> 59  [class="", key=0];
+11 -> 60  [class="", key=0];
+11 -> 61  [class="", key=0];
+11 -> 62  [class="", key=0];
+11 -> 63  [class="", key=0];
+11 -> 64  [class="", key=0];
+11 -> 65  [class="", key=0];
+11 -> 66  [class="", key=0];
+11 -> 67  [class="", key=0];
+11 -> 68  [class="", key=0];
+11 -> 69  [class="", key=0];
+11 -> 70  [class="", key=0];
+11 -> 71  [class="", key=0];
+11 -> 72  [class="", key=0];
+12 -> "-1"  [class="", key=NONE, label=""];
+14 -> "-1"  [class="", key=NONE, label=""];
+16 -> "-1"  [class="", key=NONE, label=""];
+18 -> "-1"  [class="", key=NONE, label=""];
+20 -> "-1"  [class="", key=NONE, label=""];
+22 -> "-1"  [class="", key=NONE, label=""];
+24 -> "-1"  [class="", key=NONE, label=""];
+26 -> "-1"  [class="", key=NONE, label=""];
+28 -> "-1"  [class="", key=NONE, label=""];
+30 -> "-1"  [class="", key=NONE, label=""];
+34 -> "-1"  [class="", key=NONE, label=""];
+36 -> "-1"  [class="", key=NONE, label=""];
+38 -> "-1"  [class="", key=NONE, label=""];
+40 -> "-1"  [class="", key=NONE, label=""];
+42 -> "-1"  [class="", key=NONE, label=""];
+44 -> "-1"  [class="", key=NONE, label=""];
+46 -> "-1"  [class="", key=NONE, label=""];
+48 -> "-1"  [class="", key=NONE, label=""];
+49 -> 1  [class="", key=0];
+50 -> 2  [class="", key=0];
+51 -> 4  [class="", key=0];
+52 -> 2  [class="", key=0];
+53 -> 10  [class="", key=0];
+54 -> 12  [class="", key=0];
+55 -> 14  [class="", key=0];
+56 -> 16  [class="", key=0];
+57 -> 18  [class="", key=0];
+58 -> 20  [class="", key=0];
+59 -> 22  [class="", key=0];
+60 -> 24  [class="", key=0];
+61 -> 26  [class="", key=0];
+62 -> 28  [class="", key=0];
+63 -> 30  [class="", key=0];
+64 -> 10  [class="", key=0];
+65 -> 34  [class="", key=0];
+66 -> 36  [class="", key=0];
+67 -> 38  [class="", key=0];
+68 -> 40  [class="", key=0];
+69 -> 42  [class="", key=0];
+70 -> 44  [class="", key=0];
+71 -> 46  [class="", key=0];
+72 -> 48  [class="", key=0];
+}
+`;
+    drawGraph(graph);
+  } else {
+    serveGraph();
+  }
+
+
+</script>
+</body>
+</html>
