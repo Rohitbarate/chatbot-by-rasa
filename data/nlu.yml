@@ -280,3 +280,302 @@ nlu:
       - Details about the innovation council's role in educational institutions
       - Share insights into the council's activities
       - How does the institution participate in NIC initiatives?
+
+  - intent: contact_ncer
+    examples: |
+      - How can I contact Nutan College Of Engineering and Research?
+      - What are the contact details for NCER?
+      - I need to get in touch with NCER. What are the contact options?
+      - Can you provide information about contacting NCER?
+      - Tell me about the contact details of Nutan College Of Engineering and Research.
+
+  - intent: contact_ncer_details
+    examples: |
+      - What is the address of NCER?
+      - Tell me about the location of Nutan College Of Engineering and Research.
+      - Can you provide the address for NCER?
+      - Give me details about the location of NCER.
+
+  - intent: contact_ncer_numbers
+    examples: |
+      - What are the contact numbers for NCER?
+      - Give me the phone numbers for Nutan College Of Engineering and Research.
+      - Can I have the contact details, specifically phone numbers, for NCER?
+      - Tell me about the contact numbers of Nutan College Of Engineering and Research.
+
+  - intent: contact_ncer_office_phone
+    examples: |
+      - What is the office phone number for NCER?
+      - Tell me about the official phone number of Nutan College Of Engineering and Research.
+      - Can I have the office phone number for NCER?
+      - Give me details about the official phone number of Nutan College Of Engineering and Research.
+
+  - intent: contact_ncer_email
+    examples: |
+      - What are the email addresses for contacting NCER?
+      - Give me the email contact details for Nutan College Of Engineering and Research.
+      - Can I have the email addresses for contacting NCER?
+      - Tell me about the email contact details of Nutan College Of Engineering and Research.
+
+  - intent: contact_ncer_admission_coordinator
+    examples: |
+      - Who is the Admission Coordinator for the first year (FE) at NCER?
+      - Give me details about the Admission Coordinator for Direct Second Year (DSE) at Nutan College Of Engineering and Research.
+      - Can you provide information about the Admission Coordinator for BVoc at NCER?
+
+  - intent: more_info_ncer
+    examples: |
+      - Where can I find more information about NCER?
+      - Tell me about the official website of Nutan College Of Engineering and Research.
+      - Can you provide the link to the official website of NCER?
+      - Give me details about accessing more information about NCER.
+
+  - intent: specific_grant
+    examples: |
+      - Tell me about the grant mentioned in the PDF link.
+      - What are the details of the research funding with a total of Rs. 20.35 lakhs?
+      - Give me information about a specific grant from the list provided in the PDF.
+
+  - intent: grants
+    examples: |
+      - Can you provide information about the grants received by NCER?
+      - Tell me about the research grants at Nutan College of Engineering and Research.
+      - List the grants received from government and non-governmental organizations by NCER.
+      - How much research funding has NCER received till date?
+      - Give me details about a specific grant received by NCER.
+
+  - intent: copyrights
+    examples: |
+      - How many copyrights does NCER have?
+      - Tell me about the copyrights at Nutan College of Engineering and Research.
+      - List the copyrights obtained by NCER.
+      - Who are some of the creators of the copyrighted works at NCER?
+      - Give me details about a specific copyright from NCER.
+
+  - intent: specific_copyright
+    examples: |
+      - Tell me about the copyright with registration number 12345.
+      - Who is the creator of the copyrighted work 'Title of the Work'?
+      - Give me details about the copyright 'Another Title' registered on 15/01/2022.
+
+  - intent: patents
+    examples: |
+      - Can you provide information about the patents at NCER?
+      - Tell me about the patents published by NCER.
+      - List the patents at Nutan College of Engineering and Research.
+      - Who are some of the inventors of the patented technologies at NCER?
+      - Give me details about a specific patent from NCER.
+
+  - intent: specific_patent
+    examples: |
+      - Tell me about the patent with Application No 201821049608.
+      - Who is the inventor of the patent 'Co-passenger weight sensing automatic opening and closing footrest of the bike'?
+      - Give me details about the patent 'A compass attachment for drawing a circle' filed on 28/12/2018.
+
+  - intent: publications
+    examples: |
+      - Can you provide information about the paper publications at NCER?
+      - Tell me about the research papers published by NCER.
+      - List the paper publications at Nutan College of Engineering and Research.
+      - Who are some of the authors of the published papers at NCER?
+      - Give me details about specific paper publications from NCER.
+
+  - intent: specific_publication
+    examples: |
+      - Tell me about the paper titled 'Analysis Scheduled Safety Issues in Cloud Computing'.
+      - Who are the authors of the paper 'VIDEO-BASED HUMAN SILHOUETTE AND EXPRESSION IDENTIFICATION: A SURVEY'?
+      - Give me details about the paper on 'Mitigation of Flow Maldistribution in Parallel Microchannel Heat Sink'.
+
+  - intent: research_and_development
+    examples: |
+      - Tell me about the Research and Development activities at NCER.
+      - Who is the Research Dean at NCER?
+      - What is the vision of NCER in terms of Research and Development?
+      - Can you provide information about the R&D infrastructure at NCER?
+      - How does the Office of Dean Research support faculty members at NCER?
+
+  - intent: iic_and_innovation_policy
+    examples: |
+      - What is the Institute Innovation Cell (IIC) at NCER?
+      - Tell me about the National Innovation and Start-up Policy at NCER.
+      - How does NCER promote innovation and startups?
+      - Can you provide details about the activities organized by IIC at NCER?
+
+  - intent: research_policies
+    examples: |
+      - Where can I find the research policies of NCER?
+      - Tell me about the research policies at NCER.
+      - Can you share the link to the R&D policy document at NCER?
+
+  - intent: alumni_benefits
+    examples: |
+      - What are the benefits for NCER alumni?
+      - How can alumni benefit from the alumni network?
+      - Tell me about the advantages for current students through the alumni network.
+      - How do faculty and admin staff benefit from interactions with alumni?
+
+  - intent: alumni_meet
+    examples: |
+      - Tell me about the First Alumni Meet at NCER.
+      - What was the purpose of organizing the alumni meet?
+      - How many students participated in the alumni meet?
+      - Who organized the alumni meet at NCER?
+      - Can you share highlights from the alumni meet?
+
+  - intent: alumni_feedback
+    examples: |
+      - What feedback was received from alumni after the meet?
+      - Did alumni express their views about NCER during the meet?
+      - How did the alumni feel about the event?
+      - Were there any specific memories shared by the alumni?
+      - What were the key takeaways from the alumni feedback?
+
+  - intent: nss
+    examples: |
+      - Tell me about the NSS at NCER
+      - Describe the vision of NSS
+      - What is the mission of NSS?
+      - What are the broad objectives of NSS?
+      - Who is the NSS Programme Officer at NCER?
+
+  - intent: nss_activities
+    examples: |
+      - What activities does NSS organize at NCER?
+      - Tell me about recent NSS events
+      - Describe the role of NSS in community development
+      - How can students participate in NSS activities?
+      - Are there any upcoming NSS programs?
+
+  - intent: nss_benefits
+    examples: |
+      - What are the benefits of participating in NSS?
+      - How does NSS contribute to student development?
+      - Tell me about the impact of NSS on the community
+      - Are there any awards or recognitions for NSS participants?
+      - Can you share success stories of NSS initiatives at NCER?
+
+  - intent: art_cultural_cell
+    examples: |
+      - Tell me about the Art & Cultural Cell at NCER
+      - Describe the activities organized by the Art & Cultural Cell
+      - Who are the participants in recent cultural events?
+      - Inform me about the recent cultural competitions
+
+  - intent: cultural_participants
+    examples: |
+      - Who participated in the recent Shri Chhatrapati Shivaji Maharaj Jayanti Celebration?
+      - Tell me about the participants in the Poster Competition
+      - Who showcased their talents in the recent Dance (Solo) competition?
+      - Inform me about the participants in the recent Song competition
+
+  - intent: cultural_events
+    examples: |
+      - Tell me about the recent cultural events at NCER
+      - What cultural competitions were organized recently?
+      - Describe the highlights of the cultural activities at the college
+      - Inform me about the upcoming cultural events
+
+  - intent: specific_cultural_event
+    examples: |
+      - Tell me more about Shri Chhatrapati Shivaji Maharaj Jayanti Celebration
+      - Describe the highlights of the recent Poster Competition
+      - Inform me about the participants in the recent Dance (Group) competition
+      - What activities were organized for Missmatch Day?
+
+  - intent: sports_cell
+    examples: |
+      - Tell me about the Sports Cell at NCER
+      - Who is the Sports Director at NCER?
+      - Describe the sports facilities at the college
+      - What activities are organized by the Sports Cell?
+
+  - intent: sports_director
+    examples: |
+      - Who is the Sports Director at NCER?
+      - Tell me about Mr. Landge Rajendra Dattatray
+      - Inform me about the qualification of the Sports Director
+      - Describe the role of the Sports Director
+
+  - intent: sports_facilities
+    examples: |
+      - Tell me about the sports facilities at NCER
+      - Describe the gymkhana at the college
+      - What sports facilities are available for students?
+      - Inform me about the facilities in the sports cell
+
+  - intent: sports_activities
+    examples: |
+      - What sports activities are organized by the Sports Cell?
+      - Describe the activities under the Sports Cell
+      - Tell me about the sports events at NCER
+      - Inform me about the events organized by the Sports Director
+
+  - intent: dean_students_affairs
+    examples: |
+      - Who is the Dean of Students Affairs at NCER?
+      - Tell me about Prof. Milind Gautam Ovhal
+      - Inform me about the Dean of Students Affairs
+      - What are the responsibilities of the Dean Students Affairs?
+
+  - intent: dean_message
+    examples: |
+      - What message does the Dean of Students Affairs have for the students?
+      - Tell me about the message from Prof. Milind Gautam Ovhal
+      - What does the Dean Students Affairs say to the students?
+      - Share the message from the Dean
+
+  - intent: dean_programs
+    examples: |
+      - What programs are organized by the Students' Affairs team?
+      - Tell me about the activities organized by the Dean Students Affairs
+      - Describe the events initiated by Prof. Milind Gautam Ovhal
+      - Inform me about the programs at NCER organized by the Dean of Students Affairs
+
+  - intent: students_welfare_committee
+    examples: |
+      - Tell me about the Students Welfare Committee
+      - What is the role of the Students Welfare Committee?
+      - Who is part of the Students Welfare Committee?
+      - Describe the functions of the Students Welfare Committee
+
+  - intent: committee_members
+    examples: |
+      - Who are the members of the Students Welfare Committee?
+      - Tell me about the faculty members in the committee
+      - List the members of the Students Welfare Committee
+      - Inform me about the committee members
+
+  - intent: committee_vision
+    examples: |
+      - What is the vision of the Students Welfare Committee?
+      - Tell me about the vision of the committee
+      - Explain the goals of the Students Welfare Committee
+      - What does the committee aim to achieve?
+
+  - intent: about_college
+    examples: |
+      - Tell me about the college
+      - What can you tell me about Nutan College of Engineering and Research?
+      - Give me information about NCER
+      - About the college
+
+  - intent: campus_facilities
+    examples: |
+      - What facilities does the campus offer?
+      - Tell me about the infrastructure
+      - Describe the campus facilities
+      - What are the facilities at NCER?
+
+  - intent: academic_excellence
+    examples: |
+      - Tell me about academic excellence at NCER
+      - How does the college focus on academic excellence?
+      - What is the educational philosophy of NCER?
+      - Explain the academic approach of NCER
+
+  - intent: executive_director
+    examples: |
+      - Who is the Executive Director of NCER?
+      - Tell me about Dr. Girish Desai
+      - Who leads NCER?
+      - Inform me about the Executive Director

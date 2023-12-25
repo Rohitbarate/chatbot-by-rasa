@@ -8,116 +8,423 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - about_trust
+  - about_ncer
+  - dean_desk
+  - first_year_engineering
+  - computer_science_engineering
+  - cse_ai
+  - naac
+  - iqac
+  - iiqa
+  - ssr
+  - best_practice
+  - institutional_distinctiveness
+  - green_audit
+  - energy_audit
+  - environmental_audit
+  - feedback
+  - ip_understanding
+  - nic
+  - contact_ncer
+  - contact_ncer_details
+  - contact_ncer_numbers
+  - contact_ncer_office_phone
+  - contact_ncer_email
+  - contact_ncer_admission_coordinator
+  - more_info_ncer
+  - specific_grant
+  - grants
+  - copyrights
+  - specific_copyright
+  - patents
+  - specific_patent
+  - publications
+  - specific_publication
+  - research_and_development
+  - iic_and_innovation_policy
+  - research_policies
+  - alumni_benefits
+  - alumni_meet
+  - alumni_feedback
+  - nss
+  - nss_activities
+  - nss_benefits
+  - art_cultural_cell
+  - cultural_participants
+  - cultural_events
+  - specific_cultural_event
+  - sports_cell
+  - sports_director
+  - sports_facilities
+  - sports_activities
+  - dean_students_affairs
+  - dean_message
+  - dean_programs
+  - students_welfare_committee
+  - committee_members
+  - committee_vision
+  - about_college
+  - campus_facilities
+  - academic_excellence
+  - executive_director
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rohit."
+    - text: "I am a bot, powered by Rohit."
 
   utter_about_trust:
-  - text: "Pimpri Chinchwad Education Trust (PCET) is committed to a legacy of providing quality education and holistic development. Established with a vision to empower generations, we are dedicated to academic excellence, character building, and community engagement."
-  - text: "At PCET, we prioritize fostering an inclusive learning environment where students are encouraged to excel academically, nurture critical thinking, and embrace innovation."
-  - text: "Guided by the principles of integrity, innovation, and inclusivity, PCET endeavors to nurture talent and prepare individuals to become global citizens contributing positively to society's growth and development."
+    - text: "Pimpri Chinchwad Education Trust (PCET) is committed to a legacy of providing quality education and holistic development. Established with a vision to empower generations, we are dedicated to academic excellence, character building, and community engagement."
+    - text: "At PCET, we prioritize fostering an inclusive learning environment where students are encouraged to excel academically, nurture critical thinking, and embrace innovation."
+    - text: "Guided by the principles of integrity, innovation, and inclusivity, PCET endeavors to nurture talent and prepare individuals to become global citizens contributing positively to society's growth and development."
 
   utter_about_ncer:
-  - text: "NCER, known as Nutan college of Engineering and research, has a rich history spanning over a century with affiliations to a prestigious educational society in Maharashtra. It is an institute that prides itself on setting long-term goals like NIRF rankings and short-term goals focusing on educational excellence and universal human values."
-  - text: "The institute offers various educational programs, aiming to achieve accreditations and facilitate academic growth. With a strong emphasis on innovation and research, NCER tries to foster partnerships with industry, ensuring students are well-prepared to meet the demands of the workforce."
-  - text: "Guided by its hundred-year-old legacy, NCER is devoted to advancing the economic and educational standards of its community. Establishing a polytechnic and launching a four-year engineering college are among the many steps taken by the institute to empower students with knowledge and skills for their future careers."
+    - text: "NCER, known as Nutan college of Engineering and research, has a rich history spanning over a century with affiliations to a prestigious educational society in Maharashtra. It is an institute that prides itself on setting long-term goals like NIRF rankings and short-term goals focusing on educational excellence and universal human values."
+    - text: "The institute offers various educational programs, aiming to achieve accreditations and facilitate academic growth. With a strong emphasis on innovation and research, NCER tries to foster partnerships with industry, ensuring students are well-prepared to meet the demands of the workforce."
+    - text: "Guided by its hundred-year-old legacy, NCER is devoted to advancing the economic and educational standards of its community. Establishing a polytechnic and launching a four-year engineering college are among the many steps taken by the institute to empower students with knowledge and skills for their future careers."
 
   utter_dean_desk:
-  - text: "Welcome to the Dean's Desk! As the administrative head, the Dean oversees the academic and operational aspects of the college. Our goal is to provide a conducive learning environment and foster academic excellence."
-  - text: "At the Office of the Dean, we are committed to facilitating a vibrant educational experience. The Dean's team works closely with faculty, staff, and students to ensure a well-rounded academic journey."
-  - text: "Message from the Dean: Our mission is to inspire and empower students to excel in their chosen fields. We aim to cultivate innovation, critical thinking, and leadership skills among our students."
+    - text: "Welcome to the Dean's Desk! As the administrative head, the Dean oversees the academic and operational aspects of the college. Our goal is to provide a conducive learning environment and foster academic excellence."
+    - text: "At the Office of the Dean, we are committed to facilitating a vibrant educational experience. The Dean's team works closely with faculty, staff, and students to ensure a well-rounded academic journey."
+    - text: "Message from the Dean: Our mission is to inspire and empower students to excel in their chosen fields. We aim to cultivate innovation, critical thinking, and leadership skills among our students."
 
   utter_first_year_engineering:
-  - text: "Our First Year Engineering program provides a strong foundation in engineering principles. Students explore various disciplines, laying the groundwork for specialized studies in subsequent years."
-  - text: "In the FYE department, students engage in a comprehensive curriculum designed to introduce fundamental concepts in engineering. Practical labs and projects enhance learning and application of theoretical knowledge."
-  - text: "Overview of First Year Engineering: The program focuses on nurturing analytical thinking, problem-solving skills, and fostering a passion for innovation among students."
+    - text: "Our First Year Engineering program provides a strong foundation in engineering principles. Students explore various disciplines, laying the groundwork for specialized studies in subsequent years."
+    - text: "In the FYE department, students engage in a comprehensive curriculum designed to introduce fundamental concepts in engineering. Practical labs and projects enhance learning and application of theoretical knowledge."
+    - text: "Overview of First Year Engineering: The program focuses on nurturing analytical thinking, problem-solving skills, and fostering a passion for innovation among students."
 
   utter_computer_science_engineering:
-  - text: "The Computer Science & Engineering department is at the forefront of technological advancements. Our curriculum covers a wide array of topics including algorithms, software engineering, and database systems."
-  - text: "In CSE, students engage in hands-on learning, exploring the latest technologies and industry trends. Our faculty comprises experienced professionals dedicated to shaping future tech leaders."
-  - text: "Overview of Computer Science & Engineering: We strive to equip students with the knowledge and skills needed to thrive in the ever-evolving field of computer science."
+    - text: "The Computer Science & Engineering department is at the forefront of technological advancements. Our curriculum covers a wide array of topics including algorithms, software engineering, and database systems."
+    - text: "In CSE, students engage in hands-on learning, exploring the latest technologies and industry trends. Our faculty comprises experienced professionals dedicated to shaping future tech leaders."
+    - text: "Overview of Computer Science & Engineering: We strive to equip students with the knowledge and skills needed to thrive in the ever-evolving field of computer science."
 
   utter_cse_ai:
-  - text: "The Computer Science Engineering program with Artificial Intelligence specialization focuses on cutting-edge AI technologies. Students delve into machine learning, neural networks, and natural language processing."
-  - text: "In CSE with AI, students explore advanced AI concepts and their practical applications. Our program prepares individuals for careers in AI research, data analysis, and AI-driven software development."
-  - text: "Overview of Computer Science Engg with AI: We aim to produce AI experts who can leverage technology to address complex challenges across various industries."
+    - text: "The Computer Science Engineering program with Artificial Intelligence specialization focuses on cutting-edge AI technologies. Students delve into machine learning, neural networks, and natural language processing."
+    - text: "In CSE with AI, students explore advanced AI concepts and their practical applications. Our program prepares individuals for careers in AI research, data analysis, and AI-driven software development."
+    - text: "Overview of Computer Science Engg with AI: We aim to produce AI experts who can leverage technology to address complex challenges across various industries."
 
   utter_naac:
-  - text: "NAAC, the National Assessment and Accreditation Council, is an autonomous body that assesses and accredits higher education institutions in India. Its primary goal is to assess and ensure quality in higher education."
-  - text: "The NAAC accreditation process evaluates various aspects of an institution, including teaching-learning practices, infrastructure, research, and overall performance."
-  - text: "NAAC accreditation is crucial as it signifies an institution's commitment to quality education and continuous improvement."
+    - text: "NAAC, the National Assessment and Accreditation Council, is an autonomous body that assesses and accredits higher education institutions in India. Its primary goal is to assess and ensure quality in higher education."
+    - text: "The NAAC accreditation process evaluates various aspects of an institution, including teaching-learning practices, infrastructure, research, and overall performance."
+    - text: "NAAC accreditation is crucial as it signifies an institution's commitment to quality education and continuous improvement."
 
   utter_iqac:
-  - text: "The Internal Quality Assurance Cell (IQAC) is a significant institutional body responsible for developing and maintaining quality benchmarks in education. It focuses on continuous improvement and quality enhancement."
-  - text: "IQAC monitors and suggests measures for institutional functioning, fostering a quality culture and devising mechanisms for feedback collection and analysis."
-  - text: "IQAC plays a pivotal role in ensuring adherence to quality benchmarks set by accrediting bodies like NAAC."
+    - text: "The Internal Quality Assurance Cell (IQAC) is a significant institutional body responsible for developing and maintaining quality benchmarks in education. It focuses on continuous improvement and quality enhancement."
+    - text: "IQAC monitors and suggests measures for institutional functioning, fostering a quality culture and devising mechanisms for feedback collection and analysis."
+    - text: "IQAC plays a pivotal role in ensuring adherence to quality benchmarks set by accrediting bodies like NAAC."
 
   utter_iiqa:
-  - text: "IIQA refers to Institutional Information for Quality Assessment. It involves providing comprehensive data and information to accrediting bodies like NAAC for assessment purposes."
-  - text: "IIQA encompasses various parameters related to an institution's infrastructure, teaching-learning methods, research activities, and student-centric initiatives."
-  - text: "Accurate and detailed IIQA submissions are vital for a thorough assessment of an institution's capabilities and overall performance."
+    - text: "IIQA refers to Institutional Information for Quality Assessment. It involves providing comprehensive data and information to accrediting bodies like NAAC for assessment purposes."
+    - text: "IIQA encompasses various parameters related to an institution's infrastructure, teaching-learning methods, research activities, and student-centric initiatives."
+    - text: "Accurate and detailed IIQA submissions are vital for a thorough assessment of an institution's capabilities and overall performance."
 
   utter_ssr:
-  - text: "The Self Study Report (SSR) is a comprehensive document prepared by institutions undergoing NAAC assessment. It includes an institution's self-assessment, strengths, weaknesses, and plans for improvement."
-  - text: "SSR reflects an institution's evaluation of its performance, highlighting achievements and areas needing enhancement."
-  - text: "Thorough and honest SSRs contribute significantly to the accreditation process by providing insights into an institution's functioning and areas for development."
+    - text: "The Self Study Report (SSR) is a comprehensive document prepared by institutions undergoing NAAC assessment. It includes an institution's self-assessment, strengths, weaknesses, and plans for improvement."
+    - text: "SSR reflects an institution's evaluation of its performance, highlighting achievements and areas needing enhancement."
+    - text: "Thorough and honest SSRs contribute significantly to the accreditation process by providing insights into an institution's functioning and areas for development."
 
   utter_best_practice:
-  - text: "Institutional Best Practices refer to exemplary initiatives or methodologies adopted by an institution that yield significant positive outcomes."
-  - text: "Identifying, documenting, and sharing best practices within an institution contributes to overall improvement and sets benchmarks for others to follow."
-  - text: "Encouraging and implementing best practices fosters an environment of innovation and excellence within an institution."
+    - text: "Institutional Best Practices refer to exemplary initiatives or methodologies adopted by an institution that yield significant positive outcomes."
+    - text: "Identifying, documenting, and sharing best practices within an institution contributes to overall improvement and sets benchmarks for others to follow."
+    - text: "Encouraging and implementing best practices fosters an environment of innovation and excellence within an institution."
 
   utter_institutional_distinctiveness:
-  - text: "Institutional Distinctiveness highlights the unique characteristics and strengths of an educational institution."
-  - text: "It encompasses the special features, strengths, and contributions that set an institution apart from others."
-  - text: "Emphasizing and leveraging institutional distinctiveness contributes to a unique identity and helps in achieving recognition and excellence."
+    - text: "Institutional Distinctiveness highlights the unique characteristics and strengths of an educational institution."
+    - text: "It encompasses the special features, strengths, and contributions that set an institution apart from others."
+    - text: "Emphasizing and leveraging institutional distinctiveness contributes to a unique identity and helps in achieving recognition and excellence."
 
   utter_green_audit:
-  - text: "Green Audit or Environmental Audit evaluates an institution's impact on the environment, focusing on sustainability practices and ecological conservation measures."
-  - text: "It involves assessing energy consumption, waste management, biodiversity preservation, and implementation of eco-friendly initiatives."
-  - text: "Conducting and adhering to green audits promotes environmentally responsible practices within the institution."
+    - text: "Green Audit or Environmental Audit evaluates an institution's impact on the environment, focusing on sustainability practices and ecological conservation measures."
+    - text: "It involves assessing energy consumption, waste management, biodiversity preservation, and implementation of eco-friendly initiatives."
+    - text: "Conducting and adhering to green audits promotes environmentally responsible practices within the institution."
 
   utter_energy_audit:
-  - text: "Energy Audit involves a systematic examination of an institution's energy consumption patterns, identifying areas for optimization and conservation."
-  - text: "The goal is to enhance energy efficiency, reduce wastage, and promote the use of renewable energy sources where feasible."
-  - text: "Implementing recommendations from energy audits contributes to cost savings and environmental sustainability."
+    - text: "Energy Audit involves a systematic examination of an institution's energy consumption patterns, identifying areas for optimization and conservation."
+    - text: "The goal is to enhance energy efficiency, reduce wastage, and promote the use of renewable energy sources where feasible."
+    - text: "Implementing recommendations from energy audits contributes to cost savings and environmental sustainability."
 
   utter_environmental_audit:
-  - text: "Environmental Audit evaluates an institution's compliance with environmental regulations and its impact on the surrounding ecosystem."
-  - text: "It assesses pollution levels, waste management practices, and adherence to environmental laws and policies."
-  - text: "Conducting regular environmental audits ensures regulatory compliance and promotes responsible environmental stewardship."
+    - text: "Environmental Audit evaluates an institution's compliance with environmental regulations and its impact on the surrounding ecosystem."
+    - text: "It assesses pollution levels, waste management practices, and adherence to environmental laws and policies."
+    - text: "Conducting regular environmental audits ensures regulatory compliance and promotes responsible environmental stewardship."
 
   utter_feedback:
-  - text:  "Feedback mechanisms are crucial for continuous improvement. They involve gathering input from stakeholders, especially students, regarding various aspects of the institution."
-  - text: "Analyzing feedback helps identify strengths and areas needing improvement, enabling the institution to take proactive measures."
-  - text: "Implementing an effective feedback mechanism fosters a culture of transparency, accountability, and responsiveness within the institution."
+    - text: "Feedback mechanisms are crucial for continuous improvement. They involve gathering input from stakeholders, especially students, regarding various aspects of the institution."
+    - text: "Analyzing feedback helps identify strengths and areas needing improvement, enabling the institution to take proactive measures."
+    - text: "Implementing an effective feedback mechanism fosters a culture of transparency, accountability, and responsiveness within the institution."
 
   utter_ip_understanding:
-  - text:  "IP Understanding refers to an institution's comprehension and handling of intellectual property rights and their significance."
-  - text: "It involves educating students and faculty about intellectual property, patents, copyrights, and their role in innovation and research."
-  - text: "Promoting IP understanding encourages innovation, protects intellectual creations, and fosters a culture of respect for intellectual property."
+    - text: "IP Understanding refers to an institution's comprehension and handling of intellectual property rights and their significance."
+    - text: "It involves educating students and faculty about intellectual property, patents, copyrights, and their role in innovation and research."
+    - text: "Promoting IP understanding encourages innovation, protects intellectual creations, and fosters a culture of respect for intellectual property."
 
   utter_nic:
-  - text: "The National Innovation Council (NIC) is an initiative aimed at fostering a culture of innovation and entrepreneurship in educational institutions."
-  - text: "NIC encourages creativity, innovation, and the development of solutions to address societal challenges."
-  - text: "Participation in NIC initiatives promotes collaborative innovation, knowledge sharing, and entrepreneurship among students and faculty."
+    - text: "The National Innovation Council (NIC) is an initiative aimed at fostering a culture of innovation and entrepreneurship in educational institutions."
+    - text: "NIC encourages creativity, innovation, and the development of solutions to address societal challenges."
+    - text: "Participation in NIC initiatives promotes collaborative innovation, knowledge sharing, and entrepreneurship among students and faculty."
+
+  utter_contact_ncer:
+    - text: "Sure, you can contact Nutan College Of Engineering and Research using the following details:"
+    - text: "For any queries or information, feel free to reach out to Nutan College Of Engineering and Research using these contact details:"
+    - text: "Contact Nutan College Of Engineering and Research with the provided information:"
+    - text: "Here are the contact details for Nutan College Of Engineering and Research:"
+    - text: "To get in touch with Nutan College Of Engineering and Research, you can use the following contact information:"
+
+  utter_contact_ncer_details:
+    - text: "Nutan College Of Engineering and Research is located at Vishnupuri, Talegaon Dabhade(Station), Tal- Maval, Dist- PUNE, Pin code-410507."
+    - text: "The address for Nutan College Of Engineering and Research is Vishnupuri, Talegaon Dabhade(Station), Tal- Maval, Dist- PUNE, Pin code-410507."
+    - text: "NCER is situated at Vishnupuri, Talegaon Dabhade(Station), Tal- Maval, Dist- PUNE, with the Pin code-410507."
+    - text: "The location of Nutan College Of Engineering and Research is Vishnupuri, Talegaon Dabhade(Station), Tal- Maval, Dist- PUNE, Pin code-410507."
+
+  utter_contact_ncer_numbers:
+    - text: "You can reach NCER at the following mobile numbers: 7424060708, 9371070809."
+    - text: "For contacting Nutan College Of Engineering and Research, you can use these mobile numbers: 7424060708, 9371070809."
+    - text: "The mobile numbers for contacting NCER are 7424060708 and 9371070809."
+    - text: "Feel free to contact Nutan College Of Engineering and Research using these mobile numbers: 7424060708, 9371070809."
+
+  utter_contact_ncer_office_phone:
+    - text: "For official matters, you can contact NCER at the office phone number: 02114 228 175."
+    - text: "The office phone number for Nutan College Of Engineering and Research is 02114 228 175."
+    - text: "Contact NCER for official inquiries using the office phone number: 02114 228 175."
+    - text: "The official phone number for Nutan College Of Engineering and Research is 02114 228 175."
+
+  utter_contact_ncer_email:
+    - text: "You can contact NCER through the following email addresses: contact@ncerpune.in, admin@ncerpune.in, ncerpune@gmail.com."
+    - text: "For email communication, you can reach Nutan College Of Engineering and Research using these addresses: contact@ncerpune.in, admin@ncerpune.in, ncerpune@gmail.com."
+    - text: "Feel free to contact NCER via email using the following addresses: contact@ncerpune.in, admin@ncerpune.in, ncerpune@gmail.com."
+    - text: "The email addresses for contacting Nutan College Of Engineering and Research are: contact@ncerpune.in, admin@ncerpune.in, ncerpune@gmail.com."
+
+  utter_contact_ncer_admission_coordinator:
+    - text: "For the first year (FE), the Admission Coordinator is Prof. Archana Yewale(Bhase). You can reach her at archanabhase@gmail.com or on mobile at 7424060708."
+    - text: "The Admission Coordinator for Direct Second Year (DSE) is Prof. Milind Ovhal. You can contact him via email at neelovhal@gmail.com or on mobile at 8830992988."
+    - text: "For BVoc, the Admission Coordinator is Prof. Dinesh Jadhav. You can connect with him through email at nutanskills@gmail.com or on mobile at 9518386161."
+
+  utter_more_info_ncer:
+    - text: "Certainly! For more information about Nutan College Of Engineering and Research, you can visit their official website at [NCER Official Website](https://www.ncerpune.in/contact-us.php)."
+
+  utter_specific_grant:
+    - text: "Certainly! To access detailed information about the grants received by NCER, you can refer to the PDF document available at this link: [Grants PDF](https://www.ncerpune.in/pdf/Grants-received-from-Government-and-Non-Governmental-Organization.pdf)."
+    - text: "The research funding totaling Rs. 20.35 lakhs is mentioned in the document accessible through this link: [Grants PDF](https://www.ncerpune.in/pdf/Grants-received-from-Government-and-Non-Governmental-Organization.pdf). It provides comprehensive details about the grants received by NCER."
+    - text: "For specific details about the grants, please refer to the PDF document at this link: [Grants PDF](https://www.ncerpune.in/pdf/Grants-received-from-Government-and-Non-Governmental-Organization.pdf). It contains a comprehensive list and information about the research funding received by NCER."
+
+  utter_grants:
+    - text: "Nutan College of Engineering and Research (NCER) has received a total research grant of Rs. 20.35 lakhs from government and non-governmental organizations. Here are some details:"
+    - text: "Certainly! NCER has been successful in securing research grants, with a total of Rs. 20.35 lakhs received from government and non-governmental organizations. Here are details about the grants:"
+    - text: "The grants received by NCER from government and non-governmental organizations reflect its commitment to research and development. Here are details about the research grants:"
+    - text: "NCER has received a commendable research grant of Rs. 20.35 lakhs from government and non-governmental organizations, underscoring its dedication to academic and research excellence. Here are details:"
+    - text: "Absolutely! NCER has demonstrated its research prowess by securing a total grant of Rs. 20.35 lakhs from government and non-governmental organizations. Here are details about specific grants:"
+
+  utter_copyrights:
+    - text: "Nutan College of Engineering and Research (NCER) has a total of 71 copyrights. Here are some examples of copyrighted works:"
+    - text: "Certainly! NCER has acquired 71 copyrights, showcasing its dedication to creative endeavors. Here are details about some of the copyrighted works:"
+    - text: "The list of copyrights at NCER highlights the institution's commitment to intellectual property. Here are details about some copyrighted works:"
+    - text: "NCER proudly holds 71 copyrights, reflecting its emphasis on creativity. Here are details about specific copyrights:"
+    - text: "Absolutely! NCER has a substantial collection of copyrights, totaling 71. Here are details about some notable copyrighted works:"
+
+  utter_specific_copyright:
+    - text: "The copyright with registration number 12345 is related to [provide a brief description]."
+    - text: "The creator of the copyrighted work 'Title of the Work' is [Creator's Name]."
+    - text: "The copyright 'Another Title' was registered on 15/01/2022. It is related to [provide a brief description]."
+
+  utter_patents:
+    - text: "Nutan College of Engineering and Research (NCER) has published a total of 88 patents. Here are some examples of patented technologies:"
+    - text: "Sure, NCER has made remarkable contributions to innovation with a total of 88 patents. Here are details about some of the patented technologies:"
+    - text: "The list of patents at NCER reflects the institution's commitment to technological advancements. Here are details about some patented technologies:"
+    - text: "NCER takes pride in its patented technologies, with a total of 88 patents. Here are details about specific patents:"
+    - text: "Certainly! NCER has a strong portfolio of patents, with a total of 88 patents. Here are details about some notable patented technologies:"
+
+  utter_specific_patent:
+    - text: "The patent with Application No 201821049608 is titled 'A compass attachment for drawing a circle.' It was filed on 28/12/2018 by Prof. Nilima B. Gadge. The initial status is 'Published,' and it is currently 'Abandoned U/s 21(1).'"
+    - text: "The inventor of the patent 'Co-passenger weight sensing automatic opening and closing footrest of the bike' is Prof. Nilima B. Gadge. It was filed on 28/12/2018, the initial status is 'Published,' and the current state is 'Application Refused U/S 15.'"
+    - text: "The patent 'A compass attachment for drawing a circle' was filed on 28/12/2018 by Prof. Nilima B. Gadge. The initial status is 'Published,' and it is currently 'Abandoned U/s 21(1).'"
+
+  utter_publications:
+    - text: "Nutan College of Engineering and Research (NCER) has published a total of 125 papers till 2023. Here are some examples of paper publications:"
+    - text: "Sure, NCER has contributed significantly to research with a total of 125 paper publications till 2023. Here are some details:"
+    - text: "The list of paper publications at NCER showcases the institute's commitment to research. Here are details about some of the published papers:"
+    - text: "NCER takes pride in its research contributions, having published a total of 125 papers till 2023. Here are details about specific paper publications:"
+    - text: "Certainly! NCER has a commendable record of paper publications, with a total of 125 papers till 2023. Here are details about some notable publications:"
+
+  utter_specific_publication:
+    - text: "The paper titled 'Analysis Scheduled Safety Issues in Cloud Computing' was authored by Dr. Lalitkumar Wadhwa, Prasad B. Dhore, Saili H. Sable. It was published in the International Journal for Scientific Research & Development in 2018-19 (ISSN: 2331-0613)."
+    - text: "The paper 'VIDEO-BASED HUMAN SILHOUETTE AND EXPRESSION IDENTIFICATION: A SURVEY' was authored by Sanjeevkumar Angadi and Dr. Suvarna Nandyal. It was published in the INTERNATIONAL JOURNAL OF RESEARCH AND ANALYTICAL REVIEWS in 2018-19 (E-ISSN 2348-1269, P-ISSN 2349-5138)."
+    - text: "The paper on 'Mitigation of Flow Maldistribution in Parallel Microchannel Heat Sink' was authored by Vikas Yadav, Ritunesh Kumar, Amitabh Narain. It was published in IEEE Transactions on Components, Packaging and Manufacturing Technology in 2018-19 (ISSN: 2156 3950)."
+
+  utter_research_and_development:
+    - text: "Nutan College of Engineering and Research (NCER) is dedicated to becoming a renowned name in Research and Development (R&D) activities. The Research Dean, Dr. Ashwini Shinde, leads the institute's R&D initiatives."
+    - text: "Dr. Ashwini Shinde, with a Ph.D. in Electronics and Telecommunication, serves as the Research Dean at NCER. The office supports the research efforts of all faculty members, providing mentoring, fostering industrial collaboration, and identifying research opportunities."
+    - text: "The vision of NCER in terms of Research and Development is to be recognized as a quality institute with prestige and standing in the world. R&D activities are encouraged at both the department and institute levels, with a focus on achieving goals and maintaining high standards."
+    - text: "All departments at NCER are equipped with the necessary infrastructure and facilities to support R&D goals. The institute emphasizes creating an environment conducive to research, innovation, and development."
+    - text: "The Office of the Dean of Research at NCER actively supports faculty members in their research endeavors. It facilitates industrial collaboration, provides mentoring for new faculty, and identifies and disseminates research opportunities and collaborations."
+
+  utter_iic_and_innovation_policy:
+    - text: "The Institute Innovation Cell (IIC) at NCER is part of the Office of the Dean of Research. It is enrolled in the National Innovation and Start-up Policy, and its activities aim to enhance research capacity, productivity, and visibility of researchers."
+    - text: "NCER actively participates in the National Innovation and Start-up Policy to promote innovation and startups. The policy focuses on creating an ecosystem that fosters entrepreneurship and encourages students and faculty to explore innovative ideas."
+    - text: "NCER promotes innovation and startups through various activities organized by the Institute Innovation Cell (IIC). These activities contribute to increasing the representation and visibility of researchers in both international and national research journals and platforms."
+    - text: "The Institute Innovation Cell (IIC) at NCER organizes a variety of activities to enhance the research capacity, productivity, and visibility of researchers. These activities contribute to the overall innovation and startup culture at the institute."
+
+  utter_research_policies:
+    - text: "You can find the research policies of NCER on the official institute website. The Research and Development (R&D) policy document can be accessed through the following link: [NCER R&D Policy](https://www.ncerpune.in/pdf/R&D-Policy.pdf)."
+    - text: "The research policies at NCER are outlined in the Research and Development (R&D) policy document. This document provides detailed information about the institute's approach, objectives, and guidelines for research activities. You can access the R&D policy document on the official institute website."
+    - text: "For detailed information about the research policies at NCER, including guidelines and objectives, you can refer to the Research and Development (R&D) policy document. The document is available for download on the official institute website using the following link: [NCER R&D Policy](https://www.ncerpune.in/pdf/R&D-Policy.pdf)."
+
+  utter_alumni_benefits:
+    - text: "NCER alumni enjoy several benefits, including updates about job openings through the alumni network, information about batchmates, forming groups with like-minded alumni, staying informed about college activities, and interacting with both faculty and juniors."
+    - text: "The alumni network provides a valuable platform for current students at NCER. They can gain exposure to recent trends in technologies, form groups for higher education and placements, receive updates about internships and projects, and access various opportunities."
+    - text: "Faculty and admin staff at NCER benefit from interacting with alumni by getting insights into industry trends, arranging sessions with alumni working in different technologies, identifying alumni for joint research or consultancy projects, and even exploring sabbatical opportunities in the industry."
+    - text: "The strong bond with alumni is a source of inspiration at NCER, and the college actively organizes events like the alumni meet to foster connections and provide a platform for mutual growth and collaboration."
+
+  utter_alumni_meet:
+    - text: "The First Alumni Meet at NCER was organized with the purpose of reconnecting with and celebrating the achievements of the alumni. It aimed to strengthen the bond between the college and its former students."
+    - text: "Approximately 100 students registered for participation, and 243 attended the meet. The event was organized by the Principal, Dr. Aparna Pande, and Prof. Milind G. Ovhal (Student Welfare Dean), with coordination from the team members."
+    - text: "The program included addresses from the Chief Guest, Principal NCER, Heads of the department, and a few staff members. Mrs. Vaibhavi Avchat anchored the event. Alumni expressed their views about NCER and shared nostalgic moments. Fun games were organized, followed by a dinner."
+    - text: "The alumni meet at NCER provided an opportunity for alumni to reconnect, share experiences, and express their feelings of happiness and excitement upon meeting fellow students after many years."
+
+  utter_alumni_feedback:
+    - text: "Alumni provided positive feedback about the meet, expressing their joy and excitement at reconnecting with the college and fellow students. Many shared nostalgic moments and memories from their time at NCER."
+    - text: "During the meet, alumni expressed their views about NCER, appreciating the impact the college had on their lives and careers. Some highlighted the strong bond and the sense of community they experienced at NCER."
+    - text: "The alumni expressed a mix of emotions, including happiness and excitement, at the event. The opportunity to meet old friends and faculty members left a positive impression on the attendees."
+    - text: "Specific memories shared by the alumni included experiences from their college days, achievements, and the role NCER played in shaping their professional journeys. These memories added a sentimental touch to the event."
+    - text: "Key takeaways from the alumni feedback included the importance of maintaining strong connections, the positive influence of NCER on their personal and professional growth, and the desire for more such reunions in the future."
+
+  utter_nss:
+    - text: "NSS (National Service Scheme) plays a crucial role at NCER in fostering a spirit of community service and social responsibility among the students."
+    - text: "The vision of NSS at NCER is to build the youth with the mind and spirit to serve the society and work for the social uplift of the downtrodden masses as a movement."
+    - text: "The mission of NSS is to inspire the youth in the service of the people, following the motto 'NOT ME BUT YOU.' NSS aims at education through community service and community service through education."
+    - text: "The broad objectives of NSS at NCER include understanding the community, self-awareness in relation to the community, identifying and solving community needs and problems, developing social and civic responsibility, utilizing knowledge for practical solutions, fostering competence for group living, gaining skills in mobilizing community participation, acquiring leadership qualities and democratic attitude, developing the capacity to address emergencies and natural disasters, and practicing national integration and social harmony."
+    - text: "Prof. Bhimrao Gaikwad serves as the NSS Programme Officer at NCER, guiding and facilitating the NSS activities in line with its vision and mission."
+
+  utter_nss_activities:
+    - text: "NSS at NCER organizes a variety of activities focused on community service and development. These include awareness campaigns, cleanliness drives, health camps, and other initiatives that contribute to the betterment of society."
+    - text: "Recent NSS events at NCER involved students actively participating in activities such as awareness programs, tree plantation drives, and community health initiatives."
+    - text: "NSS plays a pivotal role in community development by engaging students in activities that address local needs and challenges. This fosters a sense of social responsibility and civic engagement among the student body."
+    - text: "Students can participate in NSS activities by joining the NSS unit at NCER. They can connect with Prof. Bhimrao Gaikwad, the NSS Programme Officer, for information on ongoing and upcoming initiatives."
+    - text: "For information on upcoming NSS programs, students are encouraged to check the college announcements or get in touch with Prof. Bhimrao Gaikwad, who can provide details on upcoming activities and events."
+
+  utter_nss_benefits:
+    - text: "Participating in NSS offers numerous benefits, including personal development, enhanced social and civic awareness, leadership skills, and a sense of fulfillment through contributing to community welfare."
+    - text: "NSS contributes to student development by providing practical learning experiences, fostering a sense of social responsibility, and nurturing leadership qualities that are essential for holistic growth."
+    - text: "NSS initiatives have a positive impact on the community by addressing local needs, promoting health and hygiene, and creating awareness on social issues. This contributes to the overall well-being of the community."
+    - text: "Outstanding NSS participants may receive awards or recognitions for their dedicated service and impactful contributions to community development. The college may acknowledge and appreciate the efforts of NSS volunteers."
+    - text: "Success stories of NSS initiatives at NCER showcase the positive changes brought about by student-led projects. These stories reflect the meaningful impact NSS has on both students and the community."
+
+  utter_art_cultural_cell:
+    - text: "The Art & Cultural Cell at NCER plays a vital role in promoting artistic and cultural activities among students. It provides a platform for students to showcase their talents in various cultural events and competitions."
+    - text: "The Art & Cultural Cell at NCER organizes a diverse range of activities, including celebrations, competitions, and performances. These events contribute to the vibrant cultural atmosphere at the college."
+    - text: "In recent cultural events organized by the Art & Cultural Cell, participants included Rajat Ravi Rode, Ganesh Pandurang Suryawanshi, Sanket Deepak Ghojage, and many more. These students showcased their talents in various cultural competitions."
+    - text: "Recent cultural competitions at NCER included Shri Chhatrapati Shivaji Maharaj Jayanti Celebration, Poster Competition, Marathi Bhasha Divas, Missmatch Day, Group/Gang Day, Bollywood Day, Traditional Day, Mehandi Competition, Dance (Solo & Group), Skit/Drama, Song, and Essay Writing and Speech Competition."
+
+  utter_cultural_participants:
+    - text: "The participants in the recent Shri Chhatrapati Shivaji Maharaj Jayanti Celebration included Rajat Ravi Rode, Ganesh Pandurang Suryawanshi, Sanket Deepak Ghojage, Ashish Gajanan Wagh, and more."
+    - text: "The Poster Competition saw the participation of Vaishnavi Mahadev Hatte, Arya Kailas Chavan, Sanket Rajendra Gore, Asmita Atul Patil, and many other talented individuals."
+    - text: "In the recent Dance (Solo) competition, participants included Rutvik Nitin Dhore, Ashish Null Tembhekar, Mohit Sandip Borase, Sumit Atul Borse, and several other talented performers."
+    - text: "The participants in the recent Song competition included Siddharth Dadasaheb Kote, Nikita Moreshwar Bharambe, Vishakha Khushal Bhagat, Niharika Anil Limbekar, and a host of other talented singers."
+
+  utter_cultural_events:
+    - text: "Recent cultural events at NCER included Shri Chhatrapati Shivaji Maharaj Jayanti Celebration, Poster Competition, Marathi Bhasha Divas, Missmatch Day, Group/Gang Day, Bollywood Day, Traditional Day, Mehandi Competition, Dance (Solo & Group), Skit/Drama, Song, and Essay Writing and Speech Competition."
+    - text: "The college recently organized a variety of cultural competitions, such as Shri Chhatrapati Shivaji Maharaj Jayanti Celebration, Poster Competition, Dance (Solo & Group), Skit/Drama, Song, and many more."
+    - text: "The cultural activities at NCER are vibrant and diverse, covering celebrations, competitions, and performances. These events contribute to the overall cultural development of the students."
+    - text: "For information on upcoming cultural events, it is recommended to check the official college announcements or contact the Art & Cultural Cell for the latest updates."
+
+  utter_specific_cultural_event:
+    - text: "Shri Chhatrapati Shivaji Maharaj Jayanti Celebration was a cultural event that showcased the talents of students, including performances by Rajat Ravi Rode, Ganesh Pandurang Suryawanshi, and more. The celebration aimed to honor the legacy of Chhatrapati Shivaji Maharaj."
+    - text: "The recent Poster Competition featured the creative expressions of participants like Vaishnavi Mahadev Hatte, Arya Kailas Chavan, Sanket Rajendra Gore, Asmita Atul Patil, and many others. The competition highlighted artistic skills and creativity."
+    - text: "In the recent Dance (Group) competition, participants included Sahil Sunil Natak, Kavita Namdev Kadav, Sahil Sandesh Deshmukh, Asmita Atul Patil, and others. The group dance event showcased coordination and artistic flair."
+    - text: "Missmatch Day featured activities involving participants like Jayesh Shivaji Shinde, Dattatray Narayan Karande, Manasi Sadashiv Choudhari, Sanket Raju Sorte, and others. The day included engaging and entertaining mismatched activities."
+
+  utter_sports_cell:
+    - text: "The Sports Cell at NCER is dedicated to promoting sports and physical activities among students. Led by Mr. Landge Rajendra Dattatray, the Sports Director, the cell focuses on providing a platform for students to engage in various sports and activities."
+    - text: "Mr. Landge Rajendra Dattatray serves as the Sports Director at NCER, overseeing the activities of the Sports Cell. His qualifications include B.Com, B.Ed., and M.Ped. (Appeared)."
+    - text: "The college sports facilities at NCER include a well-equipped Gymkhana, Table Tennis Court, Cricket ground, Badminton Court, Holly Ball Court, Chess and Carom Hall. In addition to these, the Sports Cell organizes activities such as Athletics, Fencing, Weight Lifting, and Power Lifting."
+    - text: "The Sports Cell at NCER, under the leadership of Mr. Landge Rajendra Dattatray, provides a variety of sports facilities, including a Gymkhana, Table Tennis Court, Cricket ground, Badminton Court, Holly Ball Court, Chess and Carom Hall. Additionally, the cell organizes activities such as Athletics, Fencing, Weight Lifting, and Power Lifting to encourage student participation and physical fitness."
+
+  utter_sports_director:
+    - text: "Mr. Landge Rajendra Dattatray is the Sports Director at Nutan College of Engineering and Research (NCER). In his role, he is responsible for overseeing and managing the sports activities and facilities provided by the college."
+    - text: "The Sports Director at NCER is Mr. Landge Rajendra Dattatray, who holds qualifications in B.Com, B.Ed., and is currently pursuing M.Ped. He plays a crucial role in promoting sports and physical activities among students."
+    - text: "As the Sports Director, Mr. Landge Rajendra Dattatray brings his expertise to NCER, overseeing the sports activities and facilities. His qualifications include B.Com, B.Ed., and he is in the process of completing his M.Ped."
+    - text: "Mr. Landge Rajendra Dattatray serves as the Sports Director at NCER, guiding and managing the sports-related activities and facilities. His role involves promoting physical fitness and creating opportunities for students to engage in various sports."
+
+  utter_sports_facilities:
+    - text: "The sports facilities at NCER include a Gymkhana, Table Tennis Court, Cricket ground, Badminton Court, Holly Ball Court, Chess and Carom Hall. These facilities are aimed at providing students with a well-rounded sports experience."
+    - text: "NCER offers a variety of sports facilities, such as a well-equipped Gymkhana, Table Tennis Court, Cricket ground, Badminton Court, Holly Ball Court, and a Chess and Carom Hall. These facilities contribute to the overall physical development of the students."
+    - text: "Students at NCER have access to a range of sports facilities, including a Gymkhana, Table Tennis Court, Cricket ground, Badminton Court, Holly Ball Court, and a Chess and Carom Hall. These facilities are designed to encourage sports participation and promote physical well-being."
+    - text: "The sports facilities at NCER are diverse and include a Gymkhana, Table Tennis Court, Cricket ground, Badminton Court, Holly Ball Court, and a Chess and Carom Hall. These facilities cater to the varied interests of students and promote a culture of physical fitness."
+
+  utter_sports_activities:
+    - text: "The Sports Cell at NCER organizes a range of activities, including NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities. These events contribute to the overall development and well-being of the students."
+    - text: "Under the leadership of Mr. Landge Rajendra Dattatray, the Sports Cell at NCER organizes various activities throughout the year. These include NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities."
+    - text: "NCER hosts a variety of sports events organized by the Sports Cell, including NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities. These events provide students with opportunities for active participation and community engagement."
+    - text: "The Sports Director, Mr. Landge Rajendra Dattatray, organizes and oversees events such as NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities. These events play a crucial role in enhancing the student experience at NCER."
+
+  utter_dean_students_affairs:
+    - text: "Prof. Milind Gautam Ovhal is the Dean of Students Affairs at Nutan College of Engineering and Research (NCER). As Dean, he plays a crucial role in fostering versatile and all-round development among the students."
+    - text: "The Dean of Students Affairs at NCER is Prof. Milind Gautam Ovhal, Ph.D. in Mechanical Engineering and M.E. in Manufacturing & Automation. He is dedicated to enhancing the overall development of students and has been actively involved in various aspects of student life."
+    - text: "Prof. Milind Gautam Ovhal serves as the Dean of Students Affairs at NCER. In this role, he focuses on the versatile and all-round development of students, organizing various programs to bring out the best in them."
+    - text: "As the Dean of Students Affairs, Prof. Milind Gautam Ovhal has strived for versatile and all-round development among the students at NCER. He works on different aspects of students' lives, organizing programs such as NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities."
+
+  utter_dean_message:
+    - text: "Prof. Milind Gautam Ovhal, as the Dean of Students Affairs, feels privileged to address all the students at Nutan College of Engineering and Research, Talegaon, Pune. He has always strived for the versatile and all-round development of the students."
+    - text: "In a message to all students, Prof. Milind Gautam Ovhal expresses his privilege as the Dean of Students Affairs at NCER. He emphasizes his commitment to the versatile and all-round development of students."
+    - text: "The Dean Students Affairs, Prof. Milind Gautam Ovhal, feels fortunate to have the opportunity to work on different aspects of students' lives. He appreciates the confidence placed in him by the Principal and shares his pride in organizing various programs to bring out the best in students."
+    - text: "In his message, Prof. Milind Gautam Ovhal, as the Dean of Students Affairs, encourages all students to actively participate in programs organized by the Students' Affairs team. He highlights the focus on not only academic excellence but also the overall development of students at NCER."
+
+  utter_dean_programs:
+    - text: "The Students' Affairs team, led by Prof. Milind Gautam Ovhal, organizes various programs at NCER, including NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities."
+    - text: "Prof. Milind Gautam Ovhal, as the Dean of Students Affairs, takes pride in organizing programs throughout the year to bring out the best from the students. These include NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities."
+    - text: "The Dean Students Affairs, Prof. Milind Gautam Ovhal, initiates and oversees programs such as NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities at NCER. These programs contribute to the overall development of the students."
+    - text: "At NCER, the Students' Affairs team, under the leadership of Prof. Milind Gautam Ovhal, proposes and organizes various programs, including NCC, Sports Activities (IGNITE), Gathering (AGAZZ), Social Awareness, and Environmental Awareness Activities. These programs aim to enhance the student experience and development."
+
+  utter_students_welfare_committee:
+    - text: "The Students Welfare Committee at NCER plays a crucial role in providing a platform for student engagement and opportunities for self-development, community engagement, and various interests in sports and arts."
+    - text: "Our vision is to convert the potential and promise of our students into action, preparing them for global careers and business. The Students Welfare Committee actively works towards creating an environment that fosters student development and well-being."
+    - text: "The mission of the Students Welfare Committee is to consider students' perspectives and needs, offering support, motivation, and recognition. We aim to develop students as global citizens, nurturing their potential for global careers and business."
+    - text: "The committee, consisting of faculty members from different departments, focuses on enhancing student services, student life, and overall development. It ensures that students receive the necessary support, guidance, and opportunities for their holistic development."
+
+  utter_committee_members:
+    - text: "The Students Welfare Committee at NCER comprises dedicated faculty members from various departments. The current members are:\n1. Prof. Milind Ovhal - Dean (Mechanical Department)\n2. Prof. Dinesh Jadhav - Member (B. Voc Department)\n3. Prof. Kiran Manjare - Member (FE Department)\n4. Prof. Kishor Khairnar - Member (FE Department)\n5. Prof. Mukund Kharde - Member (Mechanical Department)\n6. Prof. Monika Patil - Member (CSE Department)\n7. Prof. Malu Dhandi - Member (E&C Department)"
+    - text: "The Students Welfare Committee is composed of dedicated faculty members who actively contribute to student development. The current members include:\n1. Prof. Milind Ovhal (Dean, Mechanical Department)\n2. Prof. Dinesh Jadhav (Member, B. Voc Department)\n3. Prof. Kiran Manjare (Member, FE Department)\n4. Prof. Kishor Khairnar (Member, FE Department)\n5. Prof. Mukund Kharde (Member, Mechanical Department)\n6. Prof. Monika Patil (Member, CSE Department)\n7. Prof. Malu Dhandi (Member, E&C Department)"
+    - text: "The Students Welfare Committee is comprised of faculty members from different departments who work collaboratively for the benefit of students. The current members include:\n1. Prof. Milind Ovhal - Dean (Mechanical Department)\n2. Prof. Dinesh Jadhav - Member (B. Voc Department)\n3. Prof. Kiran Manjare - Member (FE Department)\n4. Prof. Kishor Khairnar - Member (FE Department)\n5. Prof. Mukund Kharde - Member (Mechanical Department)\n6. Prof. Monika Patil - Member (CSE Department)\n7. Prof. Malu Dhandi - Member (E&C Department)"
+
+  utter_committee_vision:
+    - text: "The vision of the Students Welfare Committee is to provide a platform for student engagement, offering opportunities for self-development, community engagement, and fostering various student interests in sports and arts."
+    - text: "Our goal is to convert the potential and promise of our students into action, preparing them for global careers and business. The Students Welfare Committee strives to create an environment that encourages students to excel in various aspects of their lives."
+    - text: "The Students Welfare Committee envisions creating a conducive environment for student development, recognizing their potential, and preparing them as global citizens. Our mission is to provide support, motivation, and opportunities to enhance student services and overall student life and development."
+
+  utter_about_college:
+    - text: "Nutan College of Engineering and Research (NCER) was founded in 2018 by Nutan Maharashtra Vidya Prasarak Mandal (NMVPM) under the administrative support of Pimpri Chinchwad education trust (PCET). It aims to provide quality education to both rural and urban students."
+    - text: "NCER, established in 2018, is a part of Nutan Maharashtra Vidya Prasarak Mandal, dedicated to offering industry-based skills and quality education to students from diverse backgrounds."
+    - text: "Our college, Nutan College of Engineering and Research (NCER), is located at Talegaon Dabhade on the old Pune-Mumbai highway. It was founded with the purpose of providing industry-relevant education to students for overall societal development."
+
+  utter_campus_facilities:
+    - text: "The campus of Nutan College of Engineering and Research (NCER) is spread across 65 acres, surrounded by a picturesque lush green environment. We offer excellent infrastructure, including well-equipped classrooms, libraries, a digital library, high-speed wifi, gymkhana, and hostels."
+    - text: "Our campus provides students with access to a variety of facilities such as hostels, libraries, digital libraries, high-speed wifi, gymkhana, and more. The environment is conducive to both learning and personal growth."
+    - text: "At NCER, we take pride in our excellent infrastructure, highly educated faculties, and various facilities, including hostels, libraries, digital libraries, high-speed wifi, gymkhana, and more. We strive to create an environment that promotes holistic development and lifelong learning."
+
+  utter_academic_excellence:
+    - text: "Nutan College of Engineering and Research (NCER) aims to inculcate academic excellence combined with industry-based skills and research. Our goal is to bridge the gap between academia and industry by providing students with a strong academic foundation and practical skills required in the globalized world."
+    - text: "At NCER, we focus on academic excellence by combining traditional academic rigor with industry-based skills. We believe in preparing students for the challenges of the globalized world and ensuring their readiness for the industry."
+    - text: "The educational philosophy of NCER revolves around achieving academic excellence while also equipping students with industry-based skills. We strive to create well-rounded individuals who can contribute meaningfully to society through technical means."
+
+  utter_executive_director:
+    - text: "Dr. Girish Desai is the Executive Director of Nutan College of Engineering and Research (NCER). He plays a crucial role in steering the institute towards its goals of providing quality education and industry-based skills to students."
+    - text: "The Executive Director of NCER is Dr. Girish Desai. He leads the institute with a vision for the overall development of students, ensuring they are well-equipped with advanced skills for the globalized world."
+    - text: "Dr. Girish Desai serves as the Executive Director of NCER, providing leadership and guidance to achieve the institute's objectives. His commitment to the overall development of students reflects in the institute's academic and skill-oriented approach."
 
 session_config:
   session_expiration_time: 60

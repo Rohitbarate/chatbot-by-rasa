@@ -28,3 +28,114 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: Alumni Feedback Inquiry
+  steps:
+  - intent: alumni_feedback
+  - action: utter_alumni_feedback
+
+- story: NSS Information Inquiry
+  steps:
+  - intent: nss
+  - action: utter_nss
+
+- story: NSS Activities Inquiry
+  steps:
+  - intent: nss_activities
+  - action: utter_nss_activities
+
+- story: NSS Benefits Inquiry
+  steps:
+  - intent: nss_benefits
+  - action: utter_nss_benefits
+
+- story: Art & Cultural Cell Overview
+  steps:
+  - intent: art_cultural_cell
+  - action: utter_art_cultural_cell
+
+- story: Cultural Participants Inquiry
+  steps:
+  - intent: cultural_participants
+  - action: utter_cultural_participants
+
+- story: Recent Cultural Events Inquiry
+  steps:
+  - intent: cultural_events
+  - action: utter_cultural_events
+
+- story: Specific Cultural Event Inquiry
+  steps:
+  - intent: specific_cultural_event
+  - action: utter_specific_cultural_event
+
+- story: Sports Cell Information
+  steps:
+  - intent: sports_cell
+  - action: utter_sports_cell
+
+- story: Sports Director Details Inquiry
+  steps:
+  - intent: sports_director
+  - action: utter_sports_director
+
+- story: Sports Facilities Overview
+  steps:
+  - intent: sports_facilities
+  - action: utter_sports_facilities
+
+- story: Sports Activities Inquiry
+  steps:
+  - intent: sports_activities
+  - action: utter_sports_activities
+
+- story: Dean Students Affairs Information
+  steps:
+  - intent: dean_students_affairs
+  - action: utter_dean_students_affairs
+
+- story: Dean's Message Inquiry
+  steps:
+  - intent: dean_message
+  - action: utter_dean_message
+
+- story: Programs by Students Affairs Team Inquiry
+  steps:
+  - intent: dean_programs
+  - action: utter_dean_programs
+
+- story: Students Welfare Committee Overview
+  steps:
+  - intent: students_welfare_committee
+  - action: utter_students_welfare_committee
+
+- story: Committee Members Inquiry
+  steps:
+  - intent: committee_members
+  - action: utter_committee_members
+
+- story: Committee Vision Overview
+  steps:
+  - intent: committee_vision
+  - action: utter_committee_vision
+
+- story: About the College
+  steps:
+  - intent: about_college
+  - action: utter_about_college
+
+- story: Campus Facilities Inquiry
+  steps:
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+
+- story: Academic Excellence Overview
+  steps:
+  - intent: academic_excellence
+  - action: utter_academic_excellence
+
+- story: Executive Director Information
+  steps:
+  - intent: executive_director
+  - action: utter_executive_director
+

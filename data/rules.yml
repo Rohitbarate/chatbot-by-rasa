@@ -96,3 +96,214 @@ rules:
   steps:
   - intent: nic
   - action: utter_nic
+
+- rule: Say 'contact_ncer' anytime the user asks about contacting NCER
+  steps:
+    - intent: contact_ncer
+    - action: utter_contact_ncer
+
+- rule: Say 'contact_ncer_details' when the user inquires about the address or location of NCER
+  steps:
+    - intent: contact_ncer_details
+    - action: utter_contact_ncer_details
+
+- rule: Say 'contact_ncer_numbers' if the user asks for contact numbers of NCER
+  steps:
+    - intent: contact_ncer_numbers
+    - action: utter_contact_ncer_numbers
+
+- rule: Say 'contact_ncer_office_phone' in response to inquiries about the office phone number of NCER
+  steps:
+    - intent: contact_ncer_office_phone
+    - action: utter_contact_ncer_office_phone
+
+- rule: Say 'contact_ncer_email' when the user requests email contact details for NCER
+  steps:
+    - intent: contact_ncer_email
+    - action: utter_contact_ncer_email
+
+- rule: Give information about Admission Coordinators when the user asks about them
+  steps:
+    - intent: contact_ncer_admission_coordinator
+    - action: utter_contact_ncer_admission_coordinator
+
+- rule: Provide the link to the official website when the user seeks more information about NCER
+  steps:
+    - intent: more_info_ncer
+    - action: utter_more_info_ncer
+
+- rule: Say 'specific grant' anytime the user inquires about specific grants
+  steps:
+    - intent: specific_grant
+    - action: utter_specific_grant
+
+- rule: Say 'grants' anytime the user asks about grants
+  steps:
+    - intent: grants
+    - action: utter_grants
+
+- rule: Say 'copyrights' anytime the user inquires about copyrights
+  steps:
+    - intent: copyrights
+    - action: utter_copyrights
+
+- rule: Say 'specific copyright' anytime the user asks about a specific copyright
+  steps:
+    - intent: specific_copyright
+    - action: utter_specific_copyright
+
+- rule: Say 'patents' anytime the user asks about patents
+  steps:
+    - intent: patents
+    - action: utter_patents
+
+- rule: Say 'specific patent' anytime the user inquires about a specific patent
+  steps:
+    - intent: specific_patent
+    - action: utter_specific_patent
+
+- rule: Say 'publications' anytime the user asks about paper publications
+  steps:
+    - intent: publications
+    - action: utter_publications
+
+- rule: Say 'specific publication' anytime the user inquires about a specific paper publication
+  steps:
+    - intent: specific_publication
+    - action: utter_specific_publication
+
+- rule: Say 'research and development' anytime the user asks about R&D activities
+  steps:
+    - intent: research_and_development
+    - action: utter_research_and_development
+
+- rule: Say 'iic and innovation policy' anytime the user asks about IIC and innovation policy
+  steps:
+    - intent: iic_and_innovation_policy
+    - action: utter_iic_and_innovation_policy
+
+- rule: Say 'research policies' anytime the user asks about R&D policies
+  steps:
+    - intent: research_policies
+    - action: utter_research_policies
+
+- rule: Say 'alumni benefits' anytime the user inquires about benefits for NCER alumni
+  steps:
+    - intent: alumni_benefits
+    - action: utter_alumni_benefits
+
+- rule: Say 'alumni meet' anytime the user asks about an alumni meet at NCER
+  steps:
+    - intent: alumni_meet
+    - action: utter_alumni_meet
+
+- rule: Say 'alumni feedback' anytime the user inquires about feedback from alumni after a meet
+  steps:
+    - intent: alumni_feedback
+    - action: utter_alumni_feedback
+
+- rule: Say 'nss' anytime the user asks about NSS at NCER
+  steps:
+    - intent: nss
+    - action: utter_nss
+
+- rule: Say 'nss activities' anytime the user inquires about NSS activities at NCER
+  steps:
+    - intent: nss_activities
+    - action: utter_nss_activities
+
+- rule: Say 'nss benefits' anytime the user asks about the benefits of participating in NSS
+  steps:
+    - intent: nss_benefits
+    - action: utter_nss_benefits
+
+- rule: Say 'art and cultural cell' anytime the user asks about the Art & Cultural Cell at NCER
+  steps:
+    - intent: art_cultural_cell
+    - action: utter_art_cultural_cell
+
+- rule: Say 'cultural participants' anytime the user inquires about participants in recent cultural events
+  steps:
+    - intent: cultural_participants
+    - action: utter_cultural_participants
+
+- rule: Say 'cultural_events' anytime the user asks about recent cultural events at NCER
+  steps:
+    - intent: cultural_events
+    - action: utter_cultural_events
+
+- rule: Say 'specific_cultural_event' anytime the user inquires about a specific cultural event
+  steps:
+    - intent: specific_cultural_event
+    - action: utter_specific_cultural_event
+
+- rule: Say 'sports_cell' anytime the user asks about the Sports Cell at NCER
+  steps:
+    - intent: sports_cell
+    - action: utter_sports_cell
+
+- rule: Say 'sports_director' anytime the user inquires about the Sports Director at NCER
+  steps:
+    - intent: sports_director
+    - action: utter_sports_director
+
+- rule: Say 'sports_facilities' anytime the user asks about sports facilities at NCER
+  steps:
+    - intent: sports_facilities
+    - action: utter_sports_facilities
+
+- rule: Say 'sports_activities' anytime the user inquires about sports activities at NCER
+  steps:
+    - intent: sports_activities
+    - action: utter_sports_activities
+
+- rule: Say 'dean_students_affairs' anytime the user asks about the Dean of Students Affairs at NCER
+  steps:
+    - intent: dean_students_affairs
+    - action: utter_dean_students_affairs
+
+- rule: Say 'dean_message' anytime the user asks about the Dean of Students Affairs' message
+  steps:
+    - intent: dean_message
+    - action: utter_dean_message
+
+- rule: Say 'dean_programs' anytime the user inquires about programs organized by the Students' Affairs team
+  steps:
+    - intent: dean_programs
+    - action: utter_dean_programs
+
+- rule: Say 'students_welfare_committee' anytime the user asks about the Students Welfare Committee
+  steps:
+    - intent: students_welfare_committee
+    - action: utter_students_welfare_committee
+
+- rule: Say 'committee_members' anytime the user inquires about the members of the Students Welfare Committee
+  steps:
+    - intent: committee_members
+    - action: utter_committee_members
+
+- rule: Say 'committee_vision' anytime the user asks about the vision of the Students Welfare Committee
+  steps:
+    - intent: committee_vision
+    - action: utter_committee_vision
+
+- rule: Say 'about_college' anytime the user asks about Nutan College of Engineering and Research
+  steps:
+    - intent: about_college
+    - action: utter_about_college
+
+- rule: Say 'campus_facilities' anytime the user inquires about the facilities on the campus
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- rule: Say 'academic_excellence' anytime the user asks about academic excellence at NCER
+  steps:
+    - intent: academic_excellence
+    - action: utter_academic_excellence
+
+- rule: Say 'executive_director' anytime the user asks about the Executive Director of NCER
+  steps:
+    - intent: executive_director
+    - action: utter_executive_director
+
