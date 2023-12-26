@@ -256,7 +256,7 @@ responses:
 
   utter_publications:
     - text: "Nutan College of Engineering and Research (NCER) has published a total of 125 papers till 2023. Here are some examples of paper publications:"
-    - text: "Sure, NCER has contributed significantly to research with a total of 125 paper publications till 2023. Here are some details:"
+    - text: "Sure, NCER has contributed significantly to research with a total of 125 paper publications till 2023."
     - text: "The list of paper publications at NCER showcases the institute's commitment to research. Here are details about some of the published papers:"
     - text: "NCER takes pride in its research contributions, having published a total of 125 papers till 2023. Here are details about specific paper publications:"
     - text: "Certainly! NCER has a commendable record of paper publications, with a total of 125 papers till 2023. Here are details about some notable publications:"
