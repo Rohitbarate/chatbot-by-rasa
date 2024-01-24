@@ -579,3 +579,946 @@ nlu:
       - Tell me about Dr. Girish Desai
       - Who leads NCER?
       - Inform me about the Executive Director
+
+- intent: about_ncer_vision
+  examples: |
+    - What is the vision of Nutan College of Engineering and Research (NCER)?
+    - Tell me about the vision of NCER.
+    - Explain the vision of NCER.
+
+- intent: mission_statements
+  examples: |
+    - What are the mission statements of NCER?
+    - Tell me about NCER's mission.
+    - Explain the mission statements of NCER.
+
+- intent: eoms_policy
+  examples: |
+    - What is the EOMS policy of Nutan College of Engineering and Research?
+    - Tell me about the EOMS policy at NCER.
+    - Explain the EOMS policy at NCER.
+
+- intent: short_term_goals
+  examples: |
+    - What are the short-term goals of NCER?
+    - Tell me about NCER's short-term goals.
+    - Explain the short-term goals of NCER.
+
+- intent: continual_improvements
+  examples: |
+    - What is one of the short-term goals related to teaching and learning at NCER?
+    - Tell me about improvements in teaching and learning at NCER.
+    - Explain the short-term goal of continual improvements.
+
+- intent: scientific_and_technical_skills
+  examples: |
+    - How does NCER aim to contribute to the career growth of students in the short term?
+    - Tell me about NCER's focus on scientific and technical skills.
+    - Explain how NCER contributes to the career growth of students.
+
+- intent: staff_competencies
+  examples: |
+    - What is a short-term goal related to staff at NCER?
+    - Tell me about enhancing staff competencies at NCER.
+    - Explain the short-term goal related to staff at NCER.
+
+- intent: compliance_and_social_responsibilities
+  examples: |
+    - What are the short-term goals related to compliance and social responsibilities at NCER?
+    - Tell me about NCER's goals regarding compliance and social responsibilities.
+    - Explain the short-term goals in compliance and social responsibilities at NCER.
+
+- intent: eoms_vision
+  examples: |
+    - What is the vision of the Education Organization Management System (EOMS) at NCER?
+    - Tell me about the EOMS vision at NCER.
+    - Explain the vision of EOMS at NCER.
+
+- intent: eoms_mission
+  examples: |
+    - What is the mission of the Education Organization Management System at NCER?
+    - Tell me about the EOMS mission at NCER.
+    - Explain the mission of EOMS at NCER.
+
+- intent: rti_objective
+  examples: |
+    - What is the basic objective of the Right to Information (RTI) at NCER?
+    - Tell me about the objective of RTI at NCER.
+    - Explain the basic objective of RTI at NCER.
+
+- intent: rti_roles_and_responsibilities
+  examples: |
+    - What are the roles and responsibilities related to the RTI at NCER?
+    - Tell me about the roles and responsibilities of RTI at NCER.
+    - Explain the roles and responsibilities related to RTI at NCER.
+
+- intent: core_values
+  examples: |
+    - What is one of the core values of NCER?
+    - Tell me about the core values of NCER.
+    - What values does NCER uphold?
+    - Core values of NCER?
+
+- intent: environmental_sustainability
+  examples: |
+    - What is one of the core values related to the environment at NCER?
+    - Tell me about NCER's core values for the environment.
+    - Environmental sustainability core value at NCER?
+    - How does NCER emphasize environmental sustainability?
+
+- intent: unity
+  examples: |
+    - What core value promotes togetherness at NCER?
+    - Tell me about NCER's core value promoting unity.
+    - Unity core value at NCER?
+    - How does NCER encourage togetherness?
+
+- intent: responsibility_reliability
+  examples: |
+    - What core values emphasize responsibility and reliability at NCER?
+    - Tell me about NCER's core values for responsibility and reliability.
+    - Responsibility and reliability core values at NCER?
+    - How does NCER promote responsibility and reliability?
+
+- intent: commitment
+  examples: |
+    - What is one of the core values that reflects dedication at NCER?
+    - Tell me about NCER's core value reflecting commitment.
+    - Commitment core value at NCER?
+    - How does NCER inspire dedication?
+
+- intent: competency
+  examples: |
+    - What core value signifies proficiency at NCER?
+    - Tell me about NCER's core value signifying competency.
+    - Competency core value at NCER?
+    - How does NCER encourage proficiency?
+
+- intent: self_esteem_gratitude
+  examples: |
+    - What core values are associated with self-esteem and appreciation at NCER?
+    - Tell me about NCER's core values for self-esteem and gratitude.
+    - Self-esteem and gratitude core values at NCER?
+    - How does NCER promote self-worth and appreciation?
+
+- intent: excellence
+  examples: |
+    - What core value represents a pursuit of high standards at NCER?
+    - Tell me about NCER's core value representing excellence.
+    - Excellence core value at NCER?
+    - How does NCER pursue high standards?
+
+- intent: integrity
+  examples: |
+    - What is one of the core values related to honesty and ethics at NCER?
+    - Tell me about NCER's core value related to integrity.
+    - Integrity core value at NCER?
+    - How does NCER uphold honesty and ethics?
+
+- intent: quality
+  examples: |
+    - What core value reflects a focus on high standards at NCER?
+    - Tell me about NCER's core value reflecting quality.
+    - Quality core value at NCER?
+    - How does NCER focus on high standards?
+
+- intent: gender_equality
+  examples: |
+    - What core value emphasizes equality at NCER?
+    - Tell me about NCER's core value emphasizing gender equality.
+    - Gender Equality core value at NCER?
+    - How does NCER promote equality?
+
+- intent: strategic_plan_monitoring
+  examples: |
+    - How often are academic review meetings conducted at NCER?
+    - Tell me about the monitoring activities in NCER's strategic plan.
+    - Monitoring activities related to the strategic plan at NCER?
+    - How does NCER monitor its strategic plan?
+
+- intent: alumni_meeting_frequency
+  examples: |
+    - How often are alumni meetings held at NCER?
+    - Tell me about the frequency of alumni meetings at NCER.
+    - Alumni meeting frequency at NCER?
+    - How frequently are alumni meetings conducted at NCER?
+
+- intent: governing_body_meeting_frequency
+  examples: |
+    - How frequently are Governing Body meetings conducted at NCER?
+    - Tell me about the frequency of GB meetings at NCER.
+    - Governing Body meeting frequency at NCER?
+    - How often are GB meetings held at NCER?
+
+- intent: semester_audit
+  examples: |
+    - How often are academic and administrative audits conducted at NCER?
+    - Tell me about the frequency of semester audits at NCER.
+    - Semester audit frequency at NCER?
+    - How frequently are academic and administrative audits conducted at NCER?
+
+- intent: weekly_hod_meetings
+  examples: |
+    - How often are weekly meetings held with HODs at NCER?
+    - Tell me about the frequency of weekly HOD meetings at NCER.
+    - Weekly HOD meetings frequency at NCER?
+    - How frequently are weekly meetings conducted with HODs at NCER?
+
+- intent: parent_meeting_frequency
+  examples: |
+    - How often are parent meetings conducted at NCER?
+    - Tell me about the frequency of parent meetings at NCER.
+    - Parent meeting frequency at NCER?
+    - How frequently are parent meetings held at NCER?
+
+- intent: departmental_students_association_meeting
+  examples: |
+    - How often are meetings with departmental students association and students clubs conducted at NCER?
+    - Tell me about the frequency of meetings with departmental students association and students clubs at NCER.
+    - Departmental students association meeting frequency at NCER?
+    - How frequently are meetings with departmental students association and students clubs conducted at NCER?
+
+- intent: purchase_section_meeting
+  examples: |
+    - How often are meetings held with the purchase section at NCER?
+    - Tell me about the frequency of meetings with the purchase section at NCER.
+    - Purchase section meeting frequency at NCER?
+    - How frequently are meetings held with the purchase section at NCER?
+
+- intent: departmental_meetings_frequency
+  examples: |
+    - How often are departmental meetings with staff and faculty conducted at NCER?
+    - Tell me about the frequency of departmental meetings with staff and faculty at NCER.
+    - Departmental meetings frequency at NCER?
+    - How frequently are departmental meetings with staff and faculty conducted at NCER?
+
+- intent: activities_monitoring
+  examples: |
+    - How are activities of the Institute monitored at NCER?
+    - Tell me about the monitoring process of activities at NCER.
+    - Activities monitoring at NCER?
+    - How does NCER monitor its Institute activities?
+
+- intent: long_term_goals
+  examples: |
+    - What is the target accreditation for NCER in the long term?
+    - Tell me about NCER's accreditation goals.
+    - What does NCER aim to achieve in terms of accreditation?
+    - Accreditation goals of NCER?
+
+- intent: academic_growth
+  examples: |
+    - What is one of the long-term goals related to academics at NCER?
+    - Tell me about NCER's academic growth goals.
+    - What does NCER aim to achieve in academics in the long term?
+    - Academic growth goals of NCER?
+
+- intent: ipr_culture
+  examples: |
+    - How does NCER aim to promote an IPR culture among students and faculties?
+    - Tell me about NCER's approach to promoting IPR culture.
+    - What initiatives are in place at NCER to encourage IPR culture?
+    - IPR culture promotion at NCER?
+
+- intent: faculty_research
+  examples: |
+    - What is the goal related to faculty research at NCER in the long term?
+    - Tell me about NCER's goals for faculty research.
+    - What does NCER aim to achieve in terms of faculty research?
+    - Faculty research goals of NCER?
+
+- intent: industry_collaboration
+  examples: |
+    - What is the aim of building strong Industry Institute collaborations at NCER?
+    - Tell me about NCER's goals for Industry Institute collaborations.
+    - How does NCER plan to collaborate with industries?
+    - Industry collaboration goals at NCER?
+
+- intent: entrepreneurship
+  examples: |
+    - What percentage of entrepreneurs does NCER aim to create in the long term?
+    - Tell me about NCER's goals for promoting entrepreneurship.
+    - Entrepreneurship goals at NCER?
+    - Creating entrepreneurs at NCER?
+
+- intent: nirf_ranking
+  examples: |
+    - By what year does NCER aim to be in the list of top 200 institutes in NIRF ranking?
+    - Tell me about NCER's goals for NIRF ranking.
+    - NIRF ranking goals of NCER?
+    - Ranking aspirations of NCER?
+
+- intent: revenue_generation
+  examples: |
+    - How does NCER plan to earn revenue in the long term?
+    - Tell me about NCER's strategies for revenue generation.
+    - Revenue generation plans at NCER?
+    - Earning revenue at NCER?
+
+- intent: innovation_center
+  examples: |
+    - What does NCER plan to establish in the long term related to innovation?
+    - Tell me about NCER's plans for an innovation center.
+    - Innovation center goals at NCER?
+    - Establishing an innovation center at NCER?
+
+- intent: faculty_training
+  examples: |
+    - What skill development goal does NCER have for its faculties in the long term?
+    - Tell me about NCER's goals for faculty training.
+    - Faculty training goals at NCER?
+    - Encouraging faculty training at NCER?
+
+- intent: short_term_goals
+  examples: |
+    - What is the primary short-term goal of NCER related to education?
+    - Tell me about NCER's short-term education goals.
+    - Primary focus of NCER's short-term goals?
+    - Education goals in the short term at NCER?
+
+- intent: placement_percentage
+  examples: |
+    - What is the short-term target for placement percentage at NCER?
+    - Tell me about NCER's goals for short-term placements.
+    - Placement percentage goals at NCER?
+    - Short-term placement targets at NCER?
+
+- intent: phds_per_department
+  examples: |
+    - How many PhDs per department does NCER aim to have in the short term?
+    - Tell me about NCER's goals for short-term PhDs.
+    - PhDs per department goals at NCER?
+    - Short-term PhD targets at NCER?
+
+- intent: research_papers
+  examples: |
+    - What publication goal does NCER have for its faculties in the short term?
+    - Tell me about NCER's publication goals for the short term.
+    - Research paper goals at NCER?
+    - Short-term publication targets at NCER?
+
+- intent: innovation_promotion
+  examples: |
+    - What is one of the short-term goals related to students at NCER?
+    - Tell me about NCER's goals for short-term student initiatives.
+    - Short-term goals for students at NCER?
+    - Promoting innovation in the short term at NCER?
+
+- intent: research_funds
+  examples: |
+    - From where does NCER plan to fetch funds in the short term?
+    - Tell me about NCER's strategies for short-term fund fetching.
+    - Research funds goals at NCER?
+    - Short-term fund fetching plans at NCER?
+
+- intent: centre_for_excellence
+  examples: |
+    - What does NCER plan to create at the program-wide level in the short term?
+    - Tell me about NCER's plans for a short-term program-wide initiative.
+    - Centre for excellence goals at NCER?
+    - Creating a program-wide Centre for excellence at NCER?
+
+- intent: faculty_development
+  examples: |
+    - What type of activities does NCER aim to organize for faculty development in the short term?
+    - Tell me about NCER's goals for faculty development in the short term.
+    - Faculty development activities at NCER?
+    - Short-term faculty development plans at NCER?
+
+utter_factual_question:
+  - text: "Nutan Maharashtra Vidya Prasarak Mandal was founded over 100 years ago."
+
+utter_founder_question:
+  - text: "Lokmanya Bal Gangadhar Tilak was the founder of Nutan Maharashtra Vidya Prasarak Mandal."
+
+utter_founder_role_question:
+  - text: "Lokmanya Bal Gangadhar Tilak was the Chairman of the Governing Body for almost 12 years."
+
+utter_key_figure_question:
+  - text: "The late Hon. Vishnu G. Vijapurkar was the first Secretary of 'Samarth Vidyalaya.'"
+
+utter_education_purpose_question:
+  - text: "The Mandal established good Primary and Secondary Schools in the Maval region with the intention of providing education to the youth of a relatively backward area of Pune District."
+
+utter_polytechnic_college_question:
+  - text: "In 1998, the Mandal established a Polytechnic College."
+
+- intent: basic_information
+  examples: |
+    - Who is the Chairman of the Executive Committee?
+    - Who is the Secretary of the Executive Committee?
+    - Who is the Treasurer of the Executive Committee?
+    - Who are the members of the Executive Committee?
+
+- intent: roles_and_responsibilities
+  examples: |
+    - What does the Chairman do?
+    - What does the Secretary do?
+    - What does the Treasurer do?
+
+- intent: additional_information
+  examples: |
+    - What is the role of the Executive Director?
+    - What are the roles of the Invitee Members?
+
+- intent: basic_questions
+  examples: |
+    - How many members are there on the Executive Committee?
+    - Who is the Chairman of the Executive Committee?
+    - What is the role of the Secretary?
+    - How are the invitee members chosen?
+
+- intent: about_individual_members
+  examples: |
+    - What is the area of expertise of Mr. Chandrakant Shete?
+    - Is Dr. Girish Desai also a member of the Governing Board?
+    - Do any of the invitee members have previous experience in education or engineering?
+
+- intent: understanding_functions
+  examples: |
+    - How does the Executive Committee interact with the college administration?
+    - What are some of the key decisions the Executive Committee might make?
+    - How often does the Executive Committee meet?
+
+- intent: analyzing_relationships
+  examples: |
+    - What roles do the chairman and treasurer play in ensuring financial accountability?
+    - How do the invitee members influence the decision-making process?
+    - Are there any potential conflicts of interest among the committee members?
+
+- intent: evaluating_effectiveness
+  examples: |
+    - How is the performance of the Executive Committee measured?
+    - Are there any mechanisms for stakeholder feedback on the committee's work?
+    - How does the Executive Committee adapt to changing needs and challenges in the education sector?
+
+- intent: Adaptation
+  examples: |
+    - How does the campus adapt placement training for students with diverse academic backgrounds?
+    - In what ways does the training accommodate different career goals?
+
+- intent: Engagement
+  examples: |
+    - What strategies promote high student engagement in placement training?
+    - How does the campus ensure active participation in training activities?
+
+- intent: Community Impact
+  examples: |
+    - How does the campus leverage placement outcomes for community development?
+    - In what ways do placement programs contribute to regional economic prosperity?
+
+- intent: Long-Term Planning
+  examples: |
+    - How does the campus prepare students for long-term career development?
+    - What resources are provided for career planning beyond immediate placements?
+
+- intent: Evaluation
+  examples: |
+    - How does the campus assess the effectiveness of placement training?
+    - What adjustments are made based on feedback from students and recruiters?
+
+- intent: Financial
+  examples: |
+    - Are there costs associated with placement training?
+    - Does the campus provide financial assistance for students facing challenges in meeting these costs?
+
+- intent: Health and Safety
+  examples: |
+    - How does the campus prioritize health and safety during in-person training?
+    - What measures are taken, especially during challenging times like the COVID-19 pandemic?
+
+- intent: Networking
+  examples: |
+    - What networking opportunities and platforms are provided beyond formal placement activities?
+    - How can students connect with potential employers outside of scheduled events?
+
+- intent: Silly
+  examples: |
+    - Can I attend 'Expert Sessions by Industry Professionals' in my pajamas?
+    - Is there a dress code for the expert sessions?
+
+- intent: Advanced
+  examples: |
+    - How does the campus utilize industry experts' mentoring for technical training?
+    - In what ways do industry experts contribute to technical skill development?
+
+- intent: General
+  examples: |
+    - What is the purpose of 'Placement Orientation' in the third year?
+    - What topics are covered in the Placement Orientation program?
+
+- intent: Open-Ended
+  examples: |
+    - How do mock aptitude tests adequately prepare students for actual placement tests?
+    - What specific aspects are covered in the mock aptitude tests?
+
+- intent: Hypothetical
+  examples: |
+    - If a student misses 'Soft Skills Training' in the second year, are alternative opportunities available?
+    - What options are there for students who can't attend scheduled training sessions?
+
+- intent: Controversial
+  examples: |
+    - Are '10-15 Mock Aptitude Tests' truly beneficial, or do they add unnecessary stress to students' workload?
+    - What is the value of having a high number of mock aptitude tests?
+
+- intent: Clarification
+  examples: |
+    - Could you provide more details about the 'Personality Test' conducted in the first year?
+    - What is the purpose of the Personality Test, and how does it benefit students?
+
+- intent: Hypothetical
+  examples: |
+    - If a student has a scheduling conflict during 'Expert Sessions by Industry Professionals,' are alternative arrangements available?
+    - What options are provided for students who can't attend these sessions due to scheduling issues?
+
+- intent: Ethical
+  examples: |
+    - How does the college ensure fairness in the allocation of opportunities for internships and live projects with the industry?
+    - What measures are in place to prevent favoritism in opportunity allocation?
+
+- intent: Technical
+  examples: |
+    - What specific technical domains are covered in the 'Technical Training' in the third year?
+    - Can you provide details about the technical domains addressed in the training program?
+
+- intent: Comparative
+  examples: |
+    - How does the campus placement training at PCET-NUTAN differ from other institutions' training programs?
+    - What sets PCET-NUTAN's training apart from other institutions?
+
+- intent: analytical_question
+  examples: |
+    - How do the '10-15 Mock Aptitude Tests' effectively assess students' preparedness for campus placement?
+    - Can you explain the effectiveness of the '10-15 Mock Aptitude Tests' in evaluating students' readiness for campus placements?
+    - In what ways do the '10-15 Mock Aptitude Tests' play a significant role in gauging students' preparedness for campus placement?
+
+- intent: procedural_question
+  examples: |
+    - What steps does the campus take to organize the 'Expert Sessions by Industry Professionals' throughout the year?
+    - Can you outline the procedures involved in organizing the 'Expert Sessions by Industry Professionals' held throughout the year?
+    - How does the campus go about planning and executing the 'Expert Sessions by Industry Professionals' that occur regularly?
+
+- intent: causal_question
+  examples: |
+    - How does the 'Soft Skills Training' in the second year contribute to students' overall competence for campus interviews?
+    - Can you elaborate on the causal relationship between the 'Soft Skills Training' in the second year and the enhancement of students' overall competence for campus interviews?
+    - In what specific ways does the 'Soft Skills Training' positively impact students' competence for campus interviews?
+
+- intent: predictive_question
+  examples: |
+    - What future opportunities can students expect to gain from participating in internships and live projects with industry partners?
+    - Can you provide insights into the future opportunities that students may gain by participating in internships and live projects with industry partners?
+    - In what ways do internships and live projects with industry partners contribute to students' future prospects?
+
+- intent: evaluation_question
+  examples: |
+    - How does the campus assess the effectiveness of the placement training programs and make adjustments based on the feedback received from students and recruiters?
+    - Can you describe the evaluation process used by the campus to assess the effectiveness of placement training programs and incorporate feedback from students and recruiters?
+    - In what ways does the campus continuously evaluate and refine its placement training programs?
+
+- intent: financial_question
+  examples: |
+    - Are there any costs associated with participating in the placement training, and does the campus provide financial assistance for students who may face challenges in meeting these costs?
+    - Can you provide information about any costs involved in participating in placement training and the financial assistance options available to students facing challenges?
+    - How does the campus address financial considerations for students participating in placement training?
+
+- intent: health_and_safety_question
+  examples: |
+    - How does the campus prioritize the health and safety of students participating in in-person placement training, especially during challenging times such as the COVID-19 pandemic?
+
+- intent: networking_question
+  examples: |
+    - What networking opportunities and platforms does the campus provide to facilitate interactions between students and potential employers outside of formal placement activities?
+
+- intent: adaptation_question
+  examples: |
+    - How does the campus adapt the placement training activities to accommodate students with different academic backgrounds and career goals?
+
+- intent: engagement_question
+  examples: |
+    - What strategies does the campus employ to ensure high student engagement and participation in the placement training activities?
+
+- intent: community_impact_question
+  examples: |
+    - How does the campus leverage the outcomes of the placement training to contribute to the broader community or regional economic development?
+
+- intent: long_term_planning_question
+  examples: |
+    - How does the campus prepare students for long-term career development beyond immediate placement opportunities, such as through alumni networks or ongoing professional development resources?
+
+- intent: resource_allocation_question
+  examples: |
+    - How does the campus allocate resources to support the diverse needs of students participating in the placement training, such as practice materials, coaching, and mentorship?
+
+- intent: international_opportunities_question
+  examples: |
+    - Does the campus offer opportunities for international placements or collaborations with overseas companies as part of the placement training programs?
+
+- intent: evaluation_methodology_question
+  examples: |
+    - What methodologies does the campus use to evaluate the effectiveness of specific components within the placement training programs, such as mock interviews or technical skill development workshops?
+
+- intent: industry_partnerships_question
+  examples: |
+    - What types of partnerships does the campus have with companies and organizations to enhance the placement training programs and opportunities for students?
+
+- intent: alumni_involvement_question
+  examples: |
+    - How does the campus involve alumni in the placement training to provide mentorship, networking, or other forms of support to current students?
+
+- intent: support_for_specialized_fields_question
+  examples: |
+    - Does the campus offer specialized placement training or support for students pursuing fields such as research, entrepreneurship, or creative industries?
+
+- intent: measuring_student_progress_question
+  examples: |
+    - How does the campus track and measure the progress of students throughout the placement training programs to ensure they are achieving their learning and career development objectives?
+
+- intent: mentorship_programs_question
+  examples: |
+    - What mentorship programs or initiatives does the campus offer as part of the placement training to provide students with personalized guidance and support?
+
+- intent: personal_branding_question
+  examples: |
+    - How does the campus help students develop their personal brand and professional identity as part of the placement training?
+
+- intent: recognizing_achievement_question
+  examples: |
+    - How does the campus recognize and celebrate the achievements of students who excel in the placement training and secure desirable job offers?
+
+- intent: student_feedback_incorporation_question
+  examples: |
+    - In what ways does the campus incorporate student feedback and suggestions into the ongoing development and improvement of the placement training programs?
+
+- intent: legal_and_ethical_compliance_question
+  examples: |
+    - How does the campus ensure that the placement training programs adhere to legal and ethical standards, particularly concerning recruitment practices and student rights?
+
+- intent: industry_exposure_question
+  examples: |
+    - How does the campus provide practical exposure to industry practices and challenges as part of the placement training programs?
+
+- intent: peer_learning_question
+  examples: |
+    - What opportunities does the campus provide for peer-to-peer learning and collaboration among students participating in the placement training?
+
+- intent: personalized_career_counseling_question
+  examples: |
+    - How does the campus offer personalized career counseling to help students identify their strengths, interests, and career paths during placement preparation?
+
+- intent: industry_trends_question
+  examples: |
+    - How does the campus keep students updated on the latest industry trends and market demands to support informed decision-making during placement activities?
+
+- intent: alumni_success_stories_question
+  examples: |
+    - Does the campus share success stories of alumni who have excelled in their careers post-placement training to inspire and motivate current students?
+
+- intent: entrepreneurship_support_question
+  examples: |
+    - How does the campus support students interested in entrepreneurial ventures as part of their career aspirations, alongside traditional placements?
+
+- intent: cross_cultural_communication_question
+  examples: |
+    - How does the campus address cross-cultural communication challenges and prepare students for interactions with diverse global employers during placement activities?
+
+- intent: alumni_engagement_question
+  examples: |
+    - How does the campus engage alumni in the placement training process to provide mentorship and networking opportunities for current students?
+
+- intent: industry_relevant_skill_development_question
+  examples: |
+    - How does the campus ensure that the technical and soft skills taught during placement training align with the industry's current requirements and demands?
+
+- intent: customized_track_question
+  examples: |
+    - Does the campus offer customized placement training tracks for students pursuing diverse fields such as engineering, business, or humanities?
+
+- intent: leadership_development_question
+  examples: |
+    - How does the campus cultivate leadership skills among students as part of the placement training, preparing them for managerial roles in their future careers?
+
+- intent: pcet_tnp
+  examples: |
+    - What are the names of the colleges under PCET's Training and Placement Cell?
+    - How many companies have signed MOUs for industrial training with PCET?
+
+- intent: ncer_2022_batch
+  examples: |
+    - What is the highest package offered to NCER 2022 batch students?
+    - How many offers were below the salary of 4 Lacs for the 2022 batch?
+
+- intent: placement_stats
+  examples: |
+    - How many students were placed in companies like Capgemini, Accenture, Wipro, and TCS from NCER?
+    - What is the number of offers above a salary of 7 Lacs for the 2022 batch?
+
+- intent: advanced_placement
+  examples: |
+    - How many students from the Computer branch were eligible with 60% throughout, and how many received single offers?
+    - Which companies offered the highest number of placements for the 2022 batch students?
+
+- intent: pcet_records
+  examples: |
+    - What is the record of PCET in placing students?
+    - How many offers in total were provided for the 2022 batch?
+
+- intent: more_tnp
+  examples: |
+    - How many branches are there in the PCET's Training and Placement Cell?
+    - What is the total number of companies visited for placements?
+
+- intent: mechanical_placement
+  examples: |
+    - How many students are placed in the Mechanical branch?
+    - What is the highest package offered to NCER 2022 batch students?
+
+- intent: medium_placement
+  examples: |
+    - What is the number of offers between a salary of 4 to 7 Lacs for the 2022 batch?
+    - What is the total number of offers for the 2022 batch from NCER?
+
+- intent: entc_ratio
+  examples: |
+    - What is the ratio of eligible students to the total number of students placed in the EnTC branch?
+    - What are the placement highlights for the academic year 2021-2022 (2022 batch) regarding the NCER students?
+
+- intent: silly_placement
+  examples: |
+    - Which branch had the lowest number of eligible students for placements in the 2022 batch?
+    - How many offers were below the salary of 4 Lacs for the 2022 batch?
+
+- intent: entc_eligible
+  examples: |
+    - What is the number of eligible students from the ENTC branch?
+    - How many students were placed in companies like Mahindra & Mahindra, TVS, and Essar Steel from PCET's Training and Placement Cell?
+
+- intent: advanced_computer_science
+  examples: |
+    - How many students from the Computer Science branch received multiple offers?
+    - Can you provide more details about the highest package and the company offering it to the NCER 2022 batch students?
+
+- intent: dean_info
+  examples: |
+    - Who is the Dean of Industry Institute Interaction at NCER?
+    - Can you provide information about the Dean responsible for Industry Institute Interaction at NCER?
+    - Tell me about the individual holding the position of Dean in charge of Industry Institute Interaction at NCER.
+
+- intent: contact_dean
+  examples: |
+    - What are the contact details for Prof. Shitalkumar Rawandale?
+    - Can you share the contact information for Prof. Shitalkumar Rawandale?
+    - How can I reach out to Prof. Shitalkumar Rawandale? 
+
+- intent: tp_department_role
+  examples: |
+    - What is the role of the Training and Placement Department of the institute?
+    - Can you describe the responsibilities of the Training and Placement Department at NCER?
+    - What functions does the Training and Placement Department perform in the institute?
+
+- intent: tpo_info
+  examples: |
+    - Who is the Training and Placement Officer at the institute?
+    - Can you provide details about the Training and Placement Officer at NCER?
+    - Tell me about the person holding the position of Training and Placement Officer at the institute.
+
+- intent: employer_benefit
+  examples: |
+    - How can prospective employers benefit from participating in the recruitment process at the institute?
+    - What advantages do companies gain by participating in the institute's recruitment process?
+    - In what ways can employers benefit from engaging in the recruitment process at NCER?
+
+- intent: ncer_advantages
+  examples: |
+    - What advantages does NCER enjoy in connecting with companies for student placement?
+    - Can you highlight the strengths that NCER possesses in collaborating with companies for student placements?
+    - In what aspects does NCER stand out when it comes to connecting with companies for student placement?
+
+- intent: employability_ensurance
+  examples: |
+    - How does the Training and Placement Department ensure the employability of its students?
+    - Can you elaborate on the measures taken by the Training and Placement Department to ensure students' employability?
+    - What steps are taken to guarantee the employability of students by the Training and Placement Department?
+
+- intent: student_volunteers_role
+  examples: |
+    - What role do student volunteers play in the T&P Cell?
+    - Can you explain the contributions of student volunteers to the T&P Cell?
+    - How are student volunteers involved in the activities of the T&P Cell?
+
+- intent: tp_department_support
+  examples: |
+    - How does the Training and Placement Department support students in their career pursuits?
+    - Can you provide details on the support mechanisms offered by the Training and Placement Department for students' career development?
+    - In what ways does the Training and Placement Department assist students in pursuing their careers?
+
+- intent: tpo_contact_info
+  examples: |
+    - What is the contact information for Prof. Rushikesh Pande, the Training and Placement Officer?
+    - Can you share the contact details for Prof. Rushikesh Pande, the Training and Placement Officer?
+    - How can I get in touch with Prof. Rushikesh Pande, the Training and Placement Officer?
+
+- intent: tp_cell_objective
+  examples: |
+    - What is the primary objective of the T&P Cell at NCER?
+    - Can you describe the main goal or purpose of the T&P Cell at NCER?
+    - What is the T&P Cell aiming to achieve as its primary objective?
+
+- intent: recruitment_drive_success
+  examples: |
+    - How does the institute ensure the success of recruitment drives?
+    - Can you provide insights into the factors contributing to the success of recruitment drives at the institute?
+    - In what ways is the success of recruitment drives ensured at NCER?
+
+- intent: ncer_alumni
+  examples: |
+    - What sets the alumni of NCER apart in the industry?
+    - Can you highlight the distinguishing features of NCER alumni in the industry?
+    - In what aspects do the alumni of NCER excel compared to others in the industry?
+
+- intent: tp_department_commitment
+  examples: |
+    - What is the commitment of the Training and Placement Department to job-seeking students and prospective employers?
+    - Can you describe the level of commitment shown by the Training and Placement Department towards students and employers?
+    - How does the Training and Placement Department exhibit its commitment to job-seeking students and prospective employers?
+
+- intent: industry_demand_fulfillment
+  examples: |
+    - How does the institute cater to the increasing demand for highly skilled technicians in the industry?
+    - Can you provide information on how the institute fulfills the rising demand for skilled technicians in the industry?
+    - In what ways does NCER address the growing demand for highly skilled professionals in the industry?
+
+- intent: tp_cell_skills
+  examples: |
+    - What are the key skills that student volunteers of the T&P Cell develop?
+    - Can you list the skills that student volunteers acquire through their involvement in the T&P Cell?
+    - In what areas do student volunteers of the T&P Cell develop key skills?
+
+- intent: ncer_advantages_placement
+  examples: |
+    - What are the unique advantages that NCER enjoys in the placement process?
+    - Can you elaborate on the specific advantages that NCER has in the placement of its students?
+    - In what aspects does NCER have a competitive edge in the placement process?
+
+- intent: tp_department_engagement
+  examples: |
+    - How does the Training and Placement Department engage with prospective employers?
+    - Can you describe the strategies used by the Training and Placement Department to engage with potential employers?
+    - In what ways does the Training and Placement Department actively engage with companies for placements?
+
+- intent: tpo_primary_role
+  examples: |
+    - What is the primary role of the TPO at the institute?
+    - Can you outline the main responsibilities of the Training and Placement Officer (TPO) at NCER?
+    - What functions does the TPO primarily perform at the institute?
+
+- intent: customized_program_success
+  examples: |
+    - How does the institute ensure the success of its customized training programs?
+    - Can you provide insights into the factors contributing to the success of customized training programs at the institute?
+    - In what ways is the success of customized training programs ensured at NCER?
+
+- intent: tp_cell_impact
+  examples: |
+    - What is the impact of the T&P Cell on the career paths of student volunteers?
+    - How does participation in the T&P Cell influence the career trajectories of student volunteers?
+    - Can you share insights into the impact of the T&P Cell on the career paths chosen by student volunteers?
+    - What role does the T&P Cell play in shaping the career trajectories of students who actively volunteer?
+    - Could you elaborate on the influence of the T&P Cell on the professional journey of students who volunteer?
+    - In what ways does involvement in the T&P Cell contribute to the career development of student volunteers?
+
+- intent: alumni_growth_support
+  examples: |
+    - How does the T&P Department support the professional growth of its alumni?
+    - In what ways does the T&P Department contribute to the professional growth of its alumni?
+    - Can you describe the support mechanisms that the T&P Department provides for the professional development of alumni?
+    - How is the T&P Department involved in fostering the professional growth of its past students?
+    - Could you elaborate on the role of the T&P Department in assisting alumni with their professional advancement?
+    - What initiatives does the T&P Department undertake to support alumni in their ongoing professional journey?
+
+- intent: employer_opportunities
+  examples: |
+    - What opportunities does the institute offer to prospective employers during the recruitment process?
+    - How does the institute provide opportunities for prospective employers in the recruitment process?
+    - Can you describe the avenues through which the institute facilitates engagement with prospective employers during recruitment?
+    - In what ways does the institute create opportunities for employers in the recruitment process?
+    - What initiatives are in place at the institute to enhance the recruitment experience for prospective employers?
+
+- intent: tp_department_adaptation
+  examples: |
+    - How does the T&P Department adapt to the changing demands of the industrial sector?
+    - In what ways does the T&P Department adjust to meet the evolving requirements of the industrial sector?
+    - Can you elaborate on the strategies employed by the T&P Department to align with the dynamic needs of the industrial sector?
+    - How does the T&P Department stay responsive to the changing demands and trends in the industrial landscape?
+    - Could you provide insights into the adaptability measures taken by the T&P Department to cater to the shifting demands of the industrial sector?
+    - What initiatives does the T&P Department undertake to stay abreast of the changing requirements in the industrial sector?
+
+- intent: tp_cell_significance
+  examples: |
+    - What is the significance of the role played by the T&P Cell in the institute's success?
+    - How does the T&P Cell contribute to the overall success of the institute?
+    - Can you elaborate on the role and significance of the T&P Cell in the institute's success?
+    - In what ways has the T&P Cell played a crucial role in contributing to the success of the institute?
+    - What impact does the T&P Cell have on the overall success and achievements of the institute?
+    - Could you provide insights into how the T&P Cell contributes to the institute's success and the students' career development?
+
+- intent: pcet_tnp
+  examples: |
+    - What are the names of the colleges under PCET's Training and Placement Cell?
+    - How many companies have signed MOUs for industrial training with PCET?
+
+- intent: ncer_2022_batch
+  examples: |
+    - What is the highest package offered to NCER 2022 batch students?
+    - How many offers were below the salary of 4 Lacs for the 2022 batch?
+
+- intent: placement_stats
+  examples: |
+    - How many students were placed in companies like Capgemini, Accenture, Wipro, and TCS from NCER?
+    - What is the number of offers above a salary of 7 Lacs for the 2022 batch?
+
+- intent: advanced_placement
+  examples: |
+    - How many students from the Computer branch were eligible with 60% throughout and how many received single offers?
+    - Which companies offered the highest number of placements for the 2022 batch students?
+
+- intent: pcet_records
+  examples: |
+    - What is the record of PCET in placing students?
+    - How many offers in total were provided for the 2022 batch?
+
+- intent: more_tnp
+  examples: |
+    - How many branches are there in the PCET's Training and Placement Cell?
+    - What is the total number of companies visited for placements?
+
+- intent: mechanical_placement
+  examples: |
+    - How many students are placed in the Mechanical branch?
+    - What is the highest package offered to NCER 2022 batch students?
+
+- intent: medium_placement
+  examples: |
+    - What is the number of offers between a salary of 4 to 7 Lacs for the 2022 batch?
+    - What is the total number of offers for the 2022 batch from NCER?
+
+- intent: entc_ratio
+  examples: |
+    - What is the ratio of eligible students to the total number of students placed in the EnTC branch?
+    - What are the placement highlights for the academic year 2021-2022 (2022 batch) regarding the NCER students?
+
+- intent: silly_placement
+  examples: |
+    - Which branch had the lowest number of eligible students for placements in the 2022 batch?
+    - How many offers were below the salary of 4 Lacs for the 2022 batch?
+
+- intent: entc_eligible
+  examples: |
+    - What is the number of eligible students from the ENTC branch?
+    - How many students were placed in companies like Mahindra & Mahindra, TVS, and Essar Steel from PCET's Training and Placement Cell?
+
+- intent: advanced_computer_science
+  examples: |
+    - How many students from the Computer Science branch received multiple offers?
+    - Can you provide more details about the highest package and the company offering it to the NCER 2022 batch students?
